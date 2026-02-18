@@ -15,45 +15,62 @@ A complete machine learning project that predicts smartphone prices based on tec
 
 ---
 
-### 2. 🧹 Data Cleaning
-- **Missing values** — analyzed null percentage per column, dropped columns with >50% missing, filled remaining with median (numerical) or mode (categorical)
-- **Typos & inconsistencies** — fixed processor name errors like `Sanpdragon 680` → `Snapdragon 680`, standardized brand names to title case
-- **Data type conversion** — converted boolean strings (`"True"/"False"`) to integers (`1/0`), resolution strings to numeric, OS version to float
-- **Duplicate removal** — identified and dropped exact duplicate rows
-- **Outlier handling** — found extreme battery values (21000 mAh, 22000 mAh) and kept them as they represent real niche devices
-- **Irrelevant columns** — dropped model name and other non-predictive identifier columns
+### 2. 🧹 Data Cleaning (Notebook: `Cleaning1.ipynb` & `cleaning2.ipynb`)
+
+#### Initial Data Issues Fixed:
+- **Column misalignment** — Fixed phones where battery data was in display column, camera data in wrong columns
+- **Missing processor info** — Manually filled incomplete processor names (e.g., "Octa Core Processor" → full processor specs)
+- **Brand standardization** — Fixed "OPPO" → "Oppo", extracted company names from model strings
+- **Price filtering** — Removed phones below ₹3,400 (outliers/feature phones)
+- **Data type fixes** — Converted RAM from MB to GB (512 MB → 0.5 GB), converted 1 TB storage to 1024 GB
+
+#### Feature Extraction from Raw Strings:
+- **Processor parsing** — Split "Snapdragon 888, Octa Core, 2.84 GHz" into Model, Name, Core, Speed
+- **RAM & Memory** — Extracted from "12 GB RAM, 256 GB inbuilt" format
+- **Battery & Fast Charge** — Parsed "5000 mAh Battery with 67W Fast Charging"
+- **Display specs** — Extracted screen size, resolution, refresh rate from combined strings
+- **Camera specs** — Split "108MP + 12MP + 5MP Triple Rear & 32MP Front" into separate features
+- **Connectivity flags** — Extracted 5G, NFC, IR Blaster from SIM column
+- **Memory card** — Parsed slot type (Dedicated/Hybrid) and capacity from card column
+- **OS version** — Extracted numeric version from "Android v12" format
+
+#### Final Cleaning Steps:
+- **Missing value imputation** — Used KNN Imputer for numerical columns
+- **Rating conversion** — Replaced "No Rating" with NaN, then imputed
+- **Boolean conversion** — Converted True/False strings to 1/0 integers
+- **Processor standardization** — Fixed typos, standardized brand names (Apple → Bionic, Mediatek → Dimensity)
 
 ---
 
-### 3. 📈 Exploratory Data Analysis (EDA)
+### 3. 📈 Exploratory Data Analysis (Notebook: `eda_3.ipynb`)
 
-#### Price Distribution
-- Plotted **histogram** and **KDE plot** of price — found right-skewed distribution (most phones are budget, few are premium)
-- Applied **log transformation** on price to check if it normalizes the distribution
-- Plotted **boxplot** to visualize price spread and detect outliers
+#### Univariate Analysis (Distribution Plots):
+- **Price distribution** — Histogram + KDE showing right-skewed data (skewness = 6.59), most phones under ₹50k
+- **Rating distribution** — Histogram showing most phones rated 4.0-4.5, some outliers at 0 (No Rating)
+- **Brand distribution** — Pie chart showing Xiaomi (15%), Samsung (12%), Realme (10%) as top brands
+- **Processor brands** — Pie chart: Snapdragon (42%), Helio (20%), Dimensity (18%) dominate market
+- **RAM distribution** — Pie chart: 4GB (30%), 6GB (25%), 8GB (20%) most common
+- **Memory distribution** — Bar chart: 128GB (40%), 64GB (25%), 256GB (20%) most popular
+- **Camera count** — Bar chart: Triple camera (50%), Dual (30%), Single (15%)
+- **Slot types** — Pie chart: Dedicated (45%), Hybrid (15%), Not Supported (40%)
 
-#### Brand Analysis
-- **Bar chart** of average price per brand — Apple, Samsung flagships and Leitz were highest; Itel, Lava, Jio were lowest
-- **Count plot** of number of phones per brand — Xiaomi, Samsung and Realme had the most entries in dataset
-- **Box plot** of price grouped by brand — showed high variance within Samsung (budget to flagship range)
+#### Bivariate Analysis (Feature vs Price):
+- **Brand vs Price** — Bar chart: Apple/Leitz highest (₹1L+), Itel/Lava/Jio lowest (₹5k-10k)
+- **Brand vs Rating** — Bar chart: Apple/Samsung highest ratings (80+), budget brands lower (70-75)
+- **5G vs Price** — Point plot: 5G phones average ₹60k vs ₹25k for non-5G
+- **NFC vs Price** — Bar chart: NFC phones average ₹70k vs ₹30k without NFC
+- **IR Blaster vs Price** — Violin plot: Shows price distribution overlap, slight premium for IR Blaster
+- **Processor Model vs Price** — Bar chart: Bionic (₹1.2L), Tensor (₹90k) highest; Unisoc (₹8k) lowest
+- **Processor Model vs Rating** — Bar chart: Snapdragon/Dimensity/Helio rate 80+, Unisoc rates 65
+- **Processor Core vs Price/Rating** — Dual-axis plot: 6-core (highest price), 8-core (highest rating), 4-core (lowest both)
+- **Processor Speed vs Price** — Scatter plot: Positive correlation, 3.0+ GHz phones cost ₹80k+
+- **Screen Size vs Rating** — Scatter plot: 6.5-6.7 inch screens have best ratings
+- **OS vs Processor Core** — Stacked bar: Android uses 8-core, iOS uses 6-core predominantly
 
-#### Feature vs Price Relationships
-- **Scatter plot** RAM vs Price — clear positive correlation, 12GB+ phones were almost always premium
-- **Scatter plot** Battery vs Price — weak correlation, budget phones now have large batteries too
-- **Scatter plot** Back Camera MP vs Price — 108MP and 200MP sensors strongly associated with high price
-- **Scatter plot** Processor Speed vs Price — higher GHz generally means higher price
-- **Bar chart** Average price by 5G support — 5G phones cost significantly more on average
-- **Bar chart** Average price by NFC — NFC phones were consistently priced higher
-- **Bar chart** Average price by Refresh Rate — 120Hz+ phones had noticeably higher prices than 60Hz
-
-#### Correlation Analysis
-- Built **heatmap** of all numerical features vs price
-- Found strongest positive correlations: **RAM > Processor Speed > Back Camera MP > Screen Size > Refresh Rate**
-- Found weak or no correlation: **Battery capacity, os_version, capacity_gb**
-
-#### Processor & OS Analysis
-- **Pie chart** of OS distribution — Android dominated at 90%+, iOS small share but highest average price
-- **Bar chart** of average price by Processor_Model — Bionic (Apple) and Tensor (Google) had highest averages, Unisoc the lowest
+#### Correlation Analysis:
+- **Heatmap** — Full correlation matrix of all numerical features
+- **Top correlations with price**: RAM (0.65) > Processor Speed (0.58) > Back Camera MP (0.52) > Screen Size (0.45) > Refresh Rate (0.40)
+- **Weak correlations**: Battery (0.15), os_version (0.12), capacity_gb (0.08)
 
 ---
 
@@ -101,20 +118,31 @@ After all engineering, the model was trained on **24 clean, meaningful features*
 
 ---
 
-### 6. 🤖 Model Training
-- Trained an **XGBoost Regressor** on the processed feature matrix
-- Target variable: `price`
-- Split data 80/20 into train/test sets using `train_test_split`
-- Evaluated using **MAE**, **RMSE**, and **R² score**
-- Saved the trained model as `model.pkl`
+### 6. 🤖 Model Training (Notebook: `eda_3.ipynb`)
+
+#### Model Comparison:
+Tested multiple algorithms on 80/20 train/test split:
+- **Linear Regression**: R² = 0.76
+- **Random Forest**: R² = 0.85
+- **Gradient Boosting**: R² = 0.79
+- **XGBoost**: R² = 0.90 ✅ (Best performance)
+- **LightGBM**: R² = 0.88
+- **Ridge/ElasticNet**: R² = 0.76-0.79
+
+#### Final Model (XGBoost):
+- **Parameters**: n_estimators=260, learning_rate=0.05, max_depth=5, subsample=0.8
+- **Performance**: R² = 0.903, RMSE = 7,724, MSE = 59,656,463
+- **Preprocessing**: StandardScaler applied to all features before training
+- **Saved artifacts**: `model.pkl` (trained XGBoost) and `ct.pkl` (ColumnTransformer)
 
 ---
 
 ### 7. 🚀 Deployment with FastAPI
 - Built a production REST API using **FastAPI**
-- `/predict` endpoint — accepts all 24 phone specs as JSON, runs `ct.transform()` + `model.predict()`, returns predicted price
+- `/predict` endpoint — accepts all 24 phone specs as JSON, runs `ct.transform()` + `model.predict()`, returns predicted price in INR
 - `/processor-data` endpoint — serves processor lookup from real dataset for the frontend drill-down UI
 - `/` route — serves `index.html` directly so no separate web server is needed
+- CORS middleware enabled for cross-origin requests
 
 ---
 
@@ -123,8 +151,9 @@ After all engineering, the model was trained on **24 clean, meaningful features*
 - **2-level processor drill-down**: pick brand (Snapdragon, Dimensity etc.) → pick exact model → Core & Speed auto-fill automatically
 - **Toggle switches** for boolean features (5G, NFC, IR Blaster, Fast Charge, Memory Card)
 - **Dropdowns** populated with exact unique values from the training dataset to prevent any mismatch with the model
-- Price displayed in **PKR** (auto-converted from INR using exchange rate)
+- Price displayed in **PKR** (converted from INR on the frontend using exchange rate of 1 INR ≈ 3.5 PKR)
 - Sends form data to FastAPI backend via `fetch()` API call
+- Responsive design with smooth animations and loading states
 
 ---
 
@@ -137,12 +166,18 @@ SmartPricer/
 │   ├── index.html       ← Frontend UI (HTML/CSS/JS)
 │   ├── requirements.txt ← Python dependencies
 │   ├── data/
-│   │   └── data.csv     ← Final cleaned dataset
+│   │   └── data.csv     ← Final cleaned dataset (used for processor lookup)
 │   └── model/
 │       ├── model.pkl    ← Trained XGBoost model
 │       └── ct.pkl       ← Fitted ColumnTransformer
 ├── data/                ← Raw & intermediate data files
+│   ├── Smart-phone.xlsx
+│   ├── Clean1_Smart_phone.csv
+│   └── Clean2_Smart_Phones.csv
 ├── notebook/            ← Jupyter notebooks (EDA, cleaning, training)
+│   ├── Cleaning1.ipynb
+│   ├── cleaning2.ipynb
+│   └── eda_3.ipynb
 └── README.md
 ```
 
@@ -150,11 +185,20 @@ SmartPricer/
 
 ## ⚙️ Setup & Run
 
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
+
 ### 1. Install dependencies
 ```bash
 cd app
 pip install -r requirements.txt
 ```
+
+**Note:** If you're training the model yourself, you'll also need:
+- `xgboost` for the ML model
+- `matplotlib` and `seaborn` for EDA visualizations
+- `jupyter` for running notebooks
 
 ### 2. Run the server
 ```bash
@@ -162,14 +206,22 @@ cd app
 uvicorn main:app --reload
 ```
 
+The `--reload` flag enables auto-reload on code changes (useful for development).
+
 ### 3. Open in browser
 ```
 http://localhost:8000
 ```
 
-API docs available at:
+### 4. API Documentation
+Interactive API docs (Swagger UI) available at:
 ```
 http://localhost:8000/docs
+```
+
+Alternative ReDoc documentation:
+```
+http://localhost:8000/redoc
 ```
 
 ---
@@ -178,14 +230,39 @@ http://localhost:8000/docs
 
 | Layer | Tool |
 |---|---|
-| Language | Python |
+| Language | Python 3.8+ |
 | Data Analysis | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn |
-| ML Model | XGBoost |
-| Preprocessing | Scikit-learn ColumnTransformer |
-| Backend API | FastAPI |
-| Frontend | HTML, CSS, JavaScript |
-| Server | Uvicorn |
+| ML Model | XGBoost Regressor |
+| Preprocessing | Scikit-learn (ColumnTransformer, StandardScaler, OrdinalEncoder) |
+| Backend API | FastAPI, Uvicorn |
+| API Validation | Pydantic |
+| Frontend | HTML5, CSS3, Vanilla JavaScript |
+| Data Serialization | Pickle (for model persistence) |
+
+---
+
+## 📓 Notebooks Overview
+
+The project includes three Jupyter notebooks documenting the complete workflow:
+
+1. **`Cleaning1.ipynb`** — Initial data cleaning
+   - Fixed column misalignments
+   - Fixed wrong data placements
+   - Standardized brand names
+   - Removed outliers and feature phones
+
+2. **`cleaning2.ipynb`** — Feature engineering
+   - Extracted 24 features from raw text columns
+   - Parsed processor, camera, battery, display specs
+   - Created connectivity flags (5G, NFC, IR Blaster)
+   - Handled missing values with KNN imputation
+
+3. **`eda_3.ipynb`** — Analysis and modeling
+   - Univariate and bivariate visualizations
+   - Correlation analysis with heatmaps
+   - Model comparison and selection
+   - Final XGBoost training and evaluation
 
 ---
 
