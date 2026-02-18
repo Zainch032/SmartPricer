@@ -1,0 +1,981 @@
+,Brand,Has_5G,Has_NFC,Has_IR_Blaster,Processor_Model,Processor_Name,Processor_Core,Processor_Speed,rating,Ram,Memory,Battery,Screen_size,Resolution,Num_Back_Cam,Back_Camera_MP,Front_CAM_MP,Num_Front_Cam,Refresh_Rate,Fast_Charge,OS_Name,os_version,card_support,slot_type,capacity_gb
+0,Xiaomi,False,True,False,Snapdragon,Snapdragon 855,8.0,2.8,88.0,8.0,256.0,4000.0,6.39,1080 x 2340 ,3.0,48.0,20.0,1.0,60.0,27.0,android,9.0,0.0,Not Slot,0.0
+1,Huawei,False,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,81.0,10.4,512.0,4700.0,6.74,1212 x 2616 ,3.0,50.0,13.0,1.0,120.0,66.0,other,3.0,1.0,Hybird,256.0
+2,Huawei,True,True,True,Kirin,Kirin 990,8.0,2.86,82.2,12.0,512.0,4500.0,6.53,1176 x 2400 ,4.0,40.0,32.0,2.0,60.0,40.0,android,10.0,1.0,Hybird,256.0
+3,Xiaomi,True,False,False,Snapdragon,Snapdragon 855+,8.0,2.96,83.4,12.0,512.0,4050.0,7.92,2088 x 2250 ,3.0,108.0,0.0,0.0,60.0,40.0,android,10.0,0.0,Not Slot,0.0
+4,Apple,True,True,False,Bionic,Bionic A16,6.0,3.148,78.0,6.0,1024.0,4323.0,6.7,1290 x 2796 ,3.0,48.0,12.0,1.0,120.0,27.0,ios,16.0,0.0,Not Slot,0.0
+5,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,86.0,6.0,1024.0,4352.0,6.7,1284 x 2778 ,3.0,12.0,12.0,1.0,120.0,27.0,ios,15.0,0.0,Not Slot,0.0
+6,Apple,True,True,False,Bionic,Bionic A16,6.0,3.196,77.0,6.0,1024.0,3200.0,6.1,1179 x 2556 ,3.0,48.0,12.0,1.0,120.0,25.0,ios,16.0,0.0,Not Slot,0.0
+7,Apple,True,True,False,Bionic,Bionic A16,6.0,3.0940000000000003,78.0,6.0,512.0,4323.0,6.7,1290 x 2796 ,3.0,48.0,12.0,1.0,120.0,27.0,ios,16.0,0.0,Not Slot,0.0
+8,Huawei,True,True,True,Kirin,Kirin 990,8.0,2.86,82.2,8.0,512.0,4500.0,8.0,2200 x 2480 ,4.0,48.0,0.0,0.0,60.0,55.0,android,9.0,1.0,Hybird,256.0
+9,Samsung,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,81.0,12.0,1024.0,4400.0,7.6,1812 x 2176 ,3.0,50.0,10.0,2.0,120.0,25.0,android,12.0,0.0,Not Slot,0.0
+10,Huawei,False,True,True,Snapdragon,Snapdragon 888,8.0,2.84,89.0,8.0,512.0,4600.0,7.8,2200 x 2480 ,3.0,50.0,10.7,1.0,120.0,66.0,android,11.0,1.0,Hybird,256.0
+11,Samsung,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,83.4,12.0,256.0,4400.0,7.6,1812 x 2176 ,3.0,50.0,10.0,2.0,120.0,25.0,android,12.0,0.0,Not Slot,0.0
+12,Royole,True,False,False,Snapdragon,Snapdragon 888,8.0,2.84,87.0,8.0,128.0,3360.0,7.2,1440 x 1920 ,3.0,64.0,32.0,1.0,60.0,20.4,android,12.0,1.0,Dedicated,256.0
+13,Apple,True,True,False,Bionic,Bionic A17,8.0,2.8800000000000003,79.0,8.0,128.0,4700.0,6.73,1290 x 2796 ,3.0,48.0,12.0,1.0,120.0,27.0,ios,17.0,0.0,Not Slot,0.0
+14,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,84.0,6.0,1024.0,3095.0,6.1,1170 x 2532 ,3.0,12.0,12.0,1.0,120.0,23.0,ios,15.0,0.0,Not Slot,0.0
+15,Apple,True,True,False,Bionic,Bionic A16,7.2,3.132,79.0,8.0,256.0,4352.0,6.68,1284 x 2778 ,3.0,50.0,12.0,1.0,120.0,25.0,ios,15.0,0.0,Not Slot,0.0
+16,Apple,True,True,False,Bionic,Bionic A16,6.0,3.0940000000000003,77.0,6.0,256.0,4323.0,6.7,1290 x 2796 ,3.0,48.0,12.0,1.0,120.0,27.0,ios,16.0,0.0,Not Slot,0.0
+17,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,80.0,6.0,512.0,3953.4,6.1,1170 x 2532 ,3.0,12.0,12.0,1.0,60.0,43.4,ios,14.0,0.0,Not Slot,0.0
+18,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,84.0,6.0,256.0,4352.0,6.7,1284 x 2778 ,3.0,12.0,12.0,1.0,120.0,27.0,ios,15.0,0.0,Not Slot,0.0
+19,Sony,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,84.4,12.0,512.0,4500.0,6.5,1644 x 3840 ,3.0,12.0,8.0,1.0,120.0,30.0,android,11.0,1.0,Hybird,1024.0
+20,Oppo,False,False,False,Snapdragon,Snapdragon 865,8.0,2.84,86.0,8.0,256.0,4000.0,7.4,1440 x 3200 ,3.0,64.0,16.0,1.0,60.0,45.0,android,11.0,0.0,Not Slot,0.0
+21,Apple,True,True,False,Bionic,Bionic A16,7.2,2.63,75.0,8.0,128.0,4370.6,6.06,1170 x 2532 ,3.0,50.0,12.0,1.0,120.0,49.8,ios,15.0,0.0,Not Slot,0.0
+22,Apple,True,True,False,Bionic,Bionic A16,6.0,3.1480000000000006,76.0,6.0,256.0,3200.0,6.1,1179 x 2556 ,3.0,48.0,12.0,1.0,120.0,25.0,ios,16.0,0.0,Not Slot,0.0
+23,Apple,True,True,False,Bionic,Bionic A16,6.0,2.7,76.0,6.0,128.0,4323.0,6.7,1290 x 2796 ,3.0,48.0,12.0,1.0,120.0,27.0,ios,16.0,0.0,Not Slot,0.0
+24,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,84.0,6.0,128.0,4352.0,6.7,1284 x 2778 ,3.0,12.0,12.0,1.0,120.0,27.0,ios,15.0,0.0,Not Slot,0.0
+25,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,83.0,6.0,256.0,3095.0,6.1,1170 x 2532 ,3.0,12.0,12.0,1.0,120.0,23.0,ios,15.0,0.0,Not Slot,0.0
+26,Leitz,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,12.0,256.0,5000.0,6.6,1260 x 2730 ,2.0,47.2,12.6,1.0,240.0,30.0,android,12.0,1.0,Dedicated,1024.0
+27,Samsung,True,False,False,Snapdragon,Snapdragon 8+ Gen 2,8.0,2.8280000000000003,85.0,12.0,256.0,5100.0,6.83,1200 x 2860 ,4.0,200.0,60.0,1.0,144.0,45.0,android,13.0,0.0,Not Slot,0.0
+28,Apple,True,True,False,Bionic,Bionic A16,6.0,3.1239999999999997,75.0,6.0,128.0,3200.0,6.1,1179 x 2556 ,3.0,48.0,12.0,1.0,120.0,25.0,ios,16.0,0.0,Not Slot,0.0
+29,Vivo,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,85.4,12.0,256.0,4800.0,8.03,1916 x 2160 ,3.0,50.0,32.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+30,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,83.0,6.0,128.0,3095.0,6.1,1170 x 2532 ,3.0,12.0,12.0,1.0,120.0,23.0,ios,15.0,0.0,Not Slot,0.0
+31,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,80.0,6.0,256.0,3868.8,6.1,1170 x 2532 ,3.0,12.0,12.0,1.0,60.0,31.4,ios,14.0,0.0,Not Slot,0.0
+32,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,85.0,12.0,512.0,5000.0,6.8,1440 x 3080 ,4.0,108.0,40.0,1.0,120.0,45.0,android,12.0,0.0,Not Slot,0.0
+33,Vivo,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,86.4,12.0,512.0,4600.0,8.03,1916 x 2160 ,4.0,50.0,16.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+34,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,86.4,8.0,256.0,5000.0,6.8,1440 x 3088 ,4.0,200.0,12.0,1.0,120.0,45.0,android,13.0,0.0,Not Slot,0.0
+35,Vivo,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,85.8,12.0,256.0,4730.0,8.03,1916 x 2160 ,4.0,50.0,16.0,2.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+36,Samsung,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,89.0,12.0,256.0,4400.0,7.6,1768 x 2208 ,3.0,12.0,10.0,2.0,120.0,25.0,android,11.0,0.0,Not Slot,0.0
+37,Royole,True,False,False,Snapdragon,Snapdragon 865,8.0,2.84,87.0,8.0,128.0,4450.0,7.8,1440 x 1920 ,3.0,64.0,32.0,1.0,60.0,42.8,android,10.0,1.0,Dedicated,256.0
+38,Xiaomi,True,True,True,Snapdragon,Snapdragon 888,8.0,2.84,85.2,12.0,256.0,5020.0,8.01,1860 x 2480 ,3.0,108.0,20.0,1.0,90.0,67.0,android,10.0,0.0,Not Slot,0.0
+39,Apple,False,True,False,Bionic,Bionic A13,6.0,2.65,77.0,4.0,64.0,3500.0,6.5,1242 x 2688 ,3.0,12.0,12.0,1.0,60.0,18.0,ios,13.0,0.0,Not Slot,0.0
+40,Asus,True,True,False,Dimensity,Dimensity 9000,8.0,3.2,85.8,16.0,512.0,6000.0,6.78,1080 x 2448 ,3.0,50.0,12.0,1.0,165.0,65.0,android,12.0,0.0,Not Slot,0.0
+41,Vivo,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,81.2,12.0,256.0,4600.0,8.03,1916 x 2160 ,4.0,50.0,16.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+42,Xiaomi,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.2,12.0,256.0,4500.0,8.02,1914 x 2160 ,3.0,50.0,20.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+43,Samsung,True,True,False,Exynos,Exynos 2100,8.0,2.9,86.2,12.0,256.0,5000.0,6.8,1440 x 3200 ,4.0,108.0,40.0,1.0,120.0,25.0,android,10.0,0.0,Not Slot,0.0
+44,Samsung,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,85.2,12.0,256.0,4500.0,6.71,1440 x 3214 ,3.0,200.0,10.0,1.0,120.0,67.0,android,12.0,1.0,Hybird,1024.0
+45,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,83.0,6.0,512.0,4325.0,6.7,1284 x 2778 ,2.0,12.0,12.0,1.0,60.0,25.0,ios,16.0,0.0,Not Slot,0.0
+46,Samsung,True,True,False,Exynos,Exynos 2100,8.0,2.9,82.2,12.0,128.0,5000.0,6.8,1440 x 3200 ,4.0,108.0,40.0,1.0,120.0,25.0,android,10.0,0.0,Not Slot,0.0
+47,Samsung,True,True,False,Exynos,Exynos 990,8.0,2.73,80.0,12.0,128.0,5000.0,6.9,1440 x 3200 ,4.0,108.0,40.0,1.0,60.0,45.0,android,10.0,1.0,Hybird,1024.0
+48,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,80.6,8.0,128.0,5000.0,6.8,1440 x 3080 ,4.0,108.0,40.0,1.0,120.0,45.0,android,12.0,0.0,Not Slot,0.0
+49,Huawei,True,True,False,Kirin,Kirin 9000E,8.0,3.13,85.0,8.0,256.0,4500.0,6.76,1440 x 3200 ,3.0,64.0,13.0,1.0,120.0,66.0,other,4.0,0.0,Not Slot,0.0
+50,Oppo,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,8.0,256.0,5000.0,7.1,1792 x 1920 ,3.0,64.0,32.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+51,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,82.0,6.0,512.0,3279.0,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,25.0,ios,16.0,0.0,Not Slot,0.0
+52,Oppo,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.2,12.0,256.0,4520.0,7.1,1792 x 1920 ,3.0,50.0,32.0,2.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+53,Honor,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,86.4,12.0,512.0,4600.0,6.76,1344 x 2772 ,4.0,50.0,13.0,2.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+54,Samsung,True,True,True,Exynos,Exynos 9825,8.0,2.7,89.0,12.0,256.0,4300.0,6.8,1440 x 3040 ,4.0,12.0,10.0,1.0,60.0,25.0,android,9.0,1.0,Hybird,512.0
+55,Sony,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,84.2,12.0,512.0,5000.0,6.5,1644 x 3840 ,4.0,12.0,12.0,1.0,120.0,30.0,android,12.0,1.0,Hybird,1024.0
+56,Oppo,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,86.0,8.0,256.0,4500.0,7.1,1792 x 1920 ,3.0,50.0,32.0,1.0,120.0,33.0,android,11.0,0.0,Not Slot,0.0
+57,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,85.6,12.0,256.0,5000.0,6.8,1440 x 3080 ,4.0,108.0,40.0,1.0,120.0,45.0,android,12.0,0.0,Not Slot,0.0
+58,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,80.0,4.0,512.0,3240.0,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,20.0,ios,15.0,0.0,Not Slot,0.0
+59,Asus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,88.0,18.0,512.0,6000.0,6.78,1080 x 2448 ,3.0,50.0,12.0,1.0,165.0,65.0,android,12.0,0.0,Not Slot,0.0
+60,Samsung,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,88.0,8.0,128.0,3700.0,6.7,1080 x 2640 ,2.0,12.0,10.0,1.0,120.0,25.0,android,12.0,0.0,Not Slot,0.0
+61,Oppo,True,True,False,Dimensity,Dimensity 9000,8.0,3.05,88.0,8.0,128.0,4300.0,6.8,1200 x 2400 ,2.0,50.0,32.0,1.0,120.0,44.0,android,12.0,0.0,Not Slot,0.0
+62,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,88.0,8.0,256.0,4500.0,6.6,1080 x 2340 ,3.0,50.0,10.0,1.0,120.0,45.0,android,12.0,0.0,Not Slot,0.0
+63,Samsung,False,True,False,Exynos,Exynos 990,8.0,2.73,87.0,8.0,256.0,4300.0,6.7,1080 x 2400 ,3.0,64.0,10.0,1.0,60.0,25.0,android,10.0,0.0,Not Slot,0.0
+64,Samsung,True,True,False,Exynos,Exynos 990,8.0,2.73,84.2,8.0,128.0,4500.0,6.7,1440 x 3200 ,4.0,64.0,10.0,1.0,60.0,25.0,android,10.0,1.0,Hybird,1024.0
+65,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,83.0,6.0,256.0,4325.0,6.7,1284 x 2778 ,2.0,12.0,12.0,1.0,60.0,25.0,ios,16.0,0.0,Not Slot,0.0
+66,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,8.0,256.0,4700.0,6.6,1080 x 2340 ,3.0,50.0,12.0,1.0,120.0,45.0,android,13.0,0.0,Not Slot,0.0
+67,Apple,True,True,False,Bionic,Bionic A16,6.0,2.96,75.0,8.0,128.0,4532.0,6.71,1284 x 2778 ,2.0,12.0,12.0,1.0,120.0,27.0,ios,16.0,0.0,Not Slot,0.0
+68,Samsung,False,True,False,Exynos,Exynos 990,8.0,2.73,88.0,8.0,128.0,4500.0,6.7,1440 x 3200 ,4.0,64.0,10.0,1.0,120.0,25.0,android,10.0,1.0,Hybird,1024.0
+69,Huawei,True,True,False,Kirin,Kirin 990,8.0,2.86,77.4,8.0,256.0,4200.0,6.58,1200 x 2640 ,4.0,50.0,32.0,2.0,90.0,40.0,android,10.0,1.0,Hybird,256.0
+70,Vivo,True,True,True,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,85.4,12.0,512.0,5000.0,7.0,1440 x 3080 ,4.0,50.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+71,Vivo,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,12.0,256.0,4500.0,6.78,1440 x 3200 ,4.0,50.0,32.0,1.0,120.0,120.0,android,11.0,0.0,Not Slot,0.0
+72,Apple,False,True,False,Bionic,Bionic A16,6.4,3.088,72.0,6.0,128.0,3285.0,6.06,1170 x 2532 ,2.0,50.0,13.0,1.0,60.0,27.0,ios,15.0,0.0,Not Slot,0.0
+73,Sony,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,8.0,256.0,5000.0,6.1,1080 x 2520 ,3.0,12.0,12.0,1.0,120.0,30.0,android,12.0,1.0,Hybird,1024.0
+74,Google,True,True,False,Tensor,Tensor G2,8.0,2.85,79.4,12.0,128.0,5000.0,6.7,1440 x 3120 ,3.0,50.0,10.8,1.0,120.0,30.0,android,13.0,0.0,Not Slot,0.0
+75,Vivo,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,84.6,12.0,256.0,4700.0,6.78,1440 x 3200 ,4.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+76,Lg,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,78.4,8.0,128.0,5000.0,6.8,1080 x 2460 ,3.0,64.0,10.0,1.0,60.0,25.0,android,10.0,1.0,Hybird,2048.0
+77,Oppo,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,87.0,8.0,256.0,5000.0,6.7,1440 x 3216 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+78,Google,True,True,False,Tensor,Tensor,8.0,2.8,84.8,12.0,256.0,5003.0,6.71,1440 x 3120 ,3.0,50.0,11.1,1.0,120.0,30.0,android,12.0,0.0,Not Slot,0.0
+79,Samsung,True,True,False,Exynos,Exynos 9820,8.0,2.7,86.0,8.0,256.0,4500.0,6.7,1440 x 3040 ,3.0,16.0,10.0,1.0,60.0,25.0,android,9.0,1.0,Hybird,512.0
+80,Oppo,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,87.0,12.0,256.0,4700.0,6.78,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+81,Xiaomi,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,83.0,12.0,256.0,4800.0,6.73,1440 x 3200 ,3.0,50.0,20.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+82,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,82.0,6.0,256.0,3279.0,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,25.0,ios,16.0,0.0,Not Slot,0.0
+83,Asus,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,87.0,18.0,256.0,6000.0,6.8,1080 x 2448 ,3.0,64.0,32.0,1.0,165.0,120.0,android,13.0,0.0,Not Slot,0.0
+84,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,82.0,6.0,128.0,4325.0,6.7,1284 x 2778 ,2.0,12.0,12.0,1.0,60.0,25.0,ios,16.0,0.0,Not Slot,0.0
+85,Oneplus,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,85.8,12.0,512.0,5000.0,6.7,1440 x 3216 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.1,0.0,Not Slot,0.0
+86,Samsung,True,True,False,Exynos,Exynos 990,8.0,2.73,89.0,8.0,128.0,4000.0,6.2,1440 x 3200 ,3.0,64.0,10.0,1.0,60.0,25.0,android,10.0,1.0,Hybird,1024.0
+87,Vivo,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,84.6,12.0,256.0,4700.0,6.78,1440 x 3200 ,4.0,50.3,32.0,1.0,120.0,80.0,android,13.0,0.0,Not Slot,0.0
+88,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,79.0,4.0,256.0,3240.0,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,20.0,ios,15.0,0.0,Not Slot,0.0
+89,Asus,True,True,False,Dimensity,Dimensity 9000,8.0,3.2,88.0,16.0,256.0,6000.0,6.78,1080 x 2448 ,3.0,50.0,12.0,1.0,165.0,65.0,android,12.0,0.0,Not Slot,0.0
+90,Apple,False,True,False,Bionic,Bionic A13,6.0,3.0580000000000003,60.0,4.0,64.0,3060.0,6.1,828 x 1792 ,2.0,12.0,7.0,1.0,60.0,18.0,ios,12.3,0.0,Not Slot,0.0
+91,Asus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,12.0,256.0,6000.0,6.78,1080 x 2448 ,3.0,50.0,12.0,1.0,165.0,65.0,android,12.0,0.0,Not Slot,0.0
+92,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,86.0,12.0,256.0,5000.0,6.6,1440 x 3200 ,4.0,108.0,32.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+93,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,88.0,8.0,128.0,3900.0,6.1,1080 x 2340 ,3.0,50.0,12.0,1.0,120.0,25.0,android,13.0,0.0,Not Slot,0.0
+94,Oppo,True,True,False,Dimensity,Dimensity 9000,8.0,3.2,88.0,8.0,256.0,4300.0,6.8,1080 x 2520 ,2.0,50.0,32.0,1.0,120.0,44.0,android,13.0,0.0,Not Slot,0.0
+95,Google,True,True,False,Tensor,Tensor 3,8.0,2.97,80.0,12.0,256.0,5000.0,6.73,1440 x 3120 ,3.0,50.0,12.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+96,Oneplus,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,82.4,8.0,128.0,4500.0,6.7,1440 x 3216 ,3.0,50.0,16.0,1.0,120.0,100.0,android,13.0,0.0,Not Slot,0.0
+97,Tesla,True,True,False,Tesla,Tesla Custom Chip,8.0,3.0,83.0,16.0,512.0,5000.0,6.73,1080 x 2448 ,3.0,50.0,32.0,1.0,165.0,120.0,android,13.0,0.0,Not Slot,0.0
+98,Samsung,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,84.0,8.0,128.0,3300.0,6.7,1080 x 2640 ,2.0,12.0,10.0,1.0,120.0,15.0,android,11.0,0.0,Not Slot,0.0
+99,Oneplus,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,86.6,12.0,256.0,4800.0,6.73,1440 x 3412 ,3.0,108.0,32.0,1.0,144.0,150.0,android,13.0,0.0,Not Slot,0.0
+100,Sony,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,89.0,8.0,256.0,4000.0,6.5,1644 x 3840 ,4.0,12.0,8.0,1.0,60.0,21.0,android,10.0,1.0,Hybird,1024.0
+101,Apple,False,True,False,Bionic,Bionic A16,6.4,2.8600000000000003,70.0,6.0,128.0,3500.0,5.42,1080 x 2340 ,2.0,12.0,12.0,1.0,60.0,25.0,ios,15.0,0.0,Not Slot,0.0
+102,Xiaomi,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,83.0,8.0,256.0,4860.0,6.73,1440 x 3200 ,3.0,50.0,32.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+103,Sony,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,86.0,8.0,128.0,4000.0,6.1,1080 x 2520 ,3.0,12.0,8.0,1.0,120.0,21.0,android,10.0,1.0,Hybird,1024.0
+104,Oppo,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,8.0,256.0,4700.0,6.73,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+105,Huawei,False,True,True,Kirin,Kirin 9000,8.0,3.13,83.4,8.0,128.0,4400.0,6.76,1344 x 2772 ,3.0,50.0,13.0,2.0,90.0,66.0,other,2.0,1.0,Hybird,256.0
+106,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,76.0,4.0,256.0,3868.8,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,31.4,ios,14.0,0.0,Not Slot,0.0
+107,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,81.0,6.0,128.0,3279.0,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,25.0,ios,16.0,0.0,Not Slot,0.0
+108,Oneplus,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,87.0,12.0,256.0,5000.0,6.7,1440 x 3216 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+109,Iqoo,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,16.0,256.0,5000.0,6.78,1440 x 3200 ,3.0,50.0,16.0,1.0,144.0,120.0,android,13.0,0.0,Not Slot,0.0
+110,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,79.0,4.0,128.0,2438.0,5.4,1080 x 2340 ,2.0,12.0,12.0,1.0,60.0,20.0,ios,15.0,0.0,Not Slot,0.0
+111,Oneplus,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,89.0,8.0,128.0,4500.0,6.7,1440 x 3216 ,4.0,48.0,16.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+112,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,87.0,8.0,128.0,4500.0,6.6,1080 x 2340 ,3.0,50.0,10.0,1.0,120.0,45.0,android,12.0,0.0,Not Slot,0.0
+113,Asus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,8.0,128.0,4300.0,5.9,1080 x 2400 ,2.0,50.0,12.0,1.0,120.0,30.0,android,12.0,0.0,Not Slot,0.0
+114,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,79.0,4.0,128.0,3240.0,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,20.0,ios,15.0,0.0,Not Slot,0.0
+115,Zte,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,8.0,128.0,5000.0,6.8,1116 x 2480 ,3.0,64.0,16.0,1.0,120.0,65.0,android,12.0,0.0,Not Slot,0.0
+116,Nubia,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,86.0,12.0,256.0,5000.0,6.8,1116 x 2480 ,3.0,50.0,16.0,1.0,120.0,165.0,android,13.0,0.0,Not Slot,0.0
+117,Oneplus,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,8.0,128.0,5000.0,6.7,1440 x 3216 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+118,Huawei,False,True,True,Snapdragon,Snapdragon 888,8.0,2.84,82.8,8.0,256.0,4360.0,6.6,1288 x 2700 ,4.0,50.0,13.0,1.0,120.0,66.0,other,2.0,1.0,Hybird,256.0
+119,Nubia,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,12.0,256.0,5000.0,6.8,1080 x 2400 ,3.0,64.0,8.0,1.0,120.0,135.0,android,12.0,0.0,Not Slot,0.0
+120,Motorola,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,87.2,12.0,256.0,4610.0,6.67,1080 x 2400 ,3.0,200.0,60.0,1.0,144.0,125.0,android,12.0,0.0,Not Slot,0.0
+121,Lenovo,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,89.0,16.0,512.0,5000.0,6.5,1080 x 2400 ,2.0,64.0,20.0,1.0,144.0,120.0,android,10.0,0.0,Not Slot,0.0
+122,Vivo,True,False,False,Dimensity,Dimensity 9000,8.0,3.05,88.0,12.0,256.0,4500.0,6.78,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+123,Iqoo,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,88.0,8.0,256.0,5000.0,6.78,1440 x 3200 ,3.0,50.0,16.0,1.0,144.0,120.0,android,13.0,0.0,Not Slot,0.0
+124,Motorola,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.2,8.0,128.0,4450.0,6.67,1080 x 2340 ,3.0,200.0,60.0,1.0,144.0,125.0,android,12.0,0.0,Not Slot,0.0
+125,Motorola,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,8.0,128.0,4800.0,6.7,1080 x 2460 ,3.0,50.0,60.0,1.0,165.0,125.0,android,12.0,0.0,Not Slot,0.0
+126,Iqoo,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,88.0,8.0,256.0,4700.0,6.78,1440 x 3200 ,3.0,50.0,16.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+127,Sharp,False,True,False,Snapdragon,Snapdragon 865,8.0,2.84,88.0,12.0,256.0,3730.0,6.5,1440 x 3168 ,3.0,48.0,16.0,1.0,60.0,27.0,android,10.0,1.0,Hybird,1024.0
+128,Xiaomi,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,89.0,8.0,128.0,5000.0,6.67,1220 x 2712 ,3.0,200.0,20.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+129,Samsung,True,True,False,Exynos,Exynos 2100,8.0,2.9,88.0,8.0,128.0,4800.0,6.7,1080 x 2400 ,3.0,64.0,10.0,1.0,120.0,25.0,android,10.0,0.0,Not Slot,0.0
+130,Samsung,False,True,False,Exynos,Exynos 9825,8.0,2.73,89.0,12.0,256.0,4300.0,6.8,1440 x 3040 ,4.0,12.0,10.0,1.0,60.0,45.0,android,9.0,1.0,Hybird,1024.0
+131,Oppo,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,88.0,12.0,256.0,4700.0,6.73,1080 x 2412 ,4.0,64.0,32.0,1.0,120.0,80.0,android,13.0,0.0,Not Slot,0.0
+132,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,84.4,8.0,128.0,4820.0,6.73,1440 x 3200 ,3.0,50.3,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+133,Iqoo,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,8.0,256.0,4700.0,6.78,1440 x 3200 ,3.0,50.0,16.0,1.0,144.0,200.0,android,13.0,0.0,Not Slot,0.0
+134,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,87.0,8.0,256.0,3700.0,6.1,1080 x 2340 ,3.0,50.0,10.0,1.0,120.0,25.0,android,12.0,0.0,Not Slot,0.0
+135,Motorola,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,89.0,12.0,256.0,5000.0,6.7,1080 x 2340 ,3.0,108.0,25.0,1.0,90.0,18.0,android,10.0,0.0,Not Slot,0.0
+136,Vivo,True,True,True,Dimensity,Dimensity 9200,8.0,3.05,86.6,8.0,256.0,4870.0,6.78,1260 x 2800 ,3.0,50.3,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+137,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,75.0,4.0,128.0,3113.4,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,21.6,ios,14.0,0.0,Not Slot,0.0
+138,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,75.0,4.0,256.0,3868.8,5.4,1080 x 2340 ,2.0,12.0,12.0,1.0,60.0,31.4,ios,14.0,0.0,Not Slot,0.0
+139,Oneplus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,87.0,16.0,256.0,4800.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,150.0,android,12.0,0.0,Not Slot,0.0
+140,Oneplus,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,12.0,256.0,5000.0,6.7,1440 x 3216 ,3.0,50.0,16.0,1.0,120.0,100.0,android,13.0,0.0,Not Slot,0.0
+141,Vivo,True,False,False,Dimensity,Dimensity 9000,8.0,3.05,86.0,8.0,128.0,4500.0,6.78,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+142,Samsung,True,True,False,Exynos,Exynos 2200,8.0,2.8,77.0,8.0,128.0,4500.0,6.5,1080 x 2400 ,4.0,64.0,32.0,1.0,60.0,25.0,android,12.0,0.0,Not Slot,0.0
+143,Lg,True,True,False,Snapdragon,Snapdragon 765G,8.0,2.4,89.0,8.0,128.0,4000.0,6.8,1080 x 2460 ,3.0,64.0,32.0,1.0,60.0,25.0,android,10.0,1.0,Hybird,2048.0
+144,Xiaomi,True,True,True,Snapdragon,Snapdragon 865,8.0,2.84,88.0,8.0,256.0,4780.0,6.67,1080 x 2340 ,4.0,108.0,20.0,1.0,90.0,30.0,android,10.0,0.0,Not Slot,0.0
+145,Motorola,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.2,8.0,128.0,4610.0,6.67,1080 x 2400 ,3.0,200.0,60.0,1.0,144.0,125.0,android,12.0,0.0,Not Slot,0.0
+146,Lg,True,True,False,Snapdragon,Snapdragon 765G,8.0,2.4,85.0,6.0,128.0,4300.0,6.8,1080 x 2460 ,3.0,48.0,16.0,1.0,60.0,25.0,android,10.0,1.0,Hybird,2048.0
+147,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,12.0,256.0,5000.0,6.43,1440 x 3200 ,3.0,50.0,32.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+148,Honor,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,85.8,12.0,256.0,4500.0,6.78,1200 x 2652 ,3.0,200.0,50.0,1.0,120.0,100.0,android,12.0,0.0,Not Slot,0.0
+149,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,86.0,8.0,128.0,5000.0,6.73,1440 x 3200 ,3.0,50.0,20.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+150,Google,True,True,False,Tensor,Tensor,8.0,2.8,89.0,12.0,128.0,5003.0,6.71,1440 x 3120 ,3.0,50.0,11.1,1.0,120.0,30.0,android,12.0,0.0,Not Slot,0.0
+151,Google,True,True,False,Tensor,Tensor 3,8.0,3.0300000000000002,75.0,8.0,128.0,4830.0,6.6,1080 x 2400 ,2.0,50.0,10.1,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+152,Google,True,True,False,Tensor,Tensor G2,8.0,2.85,86.0,8.0,128.0,4355.0,6.3,1080 x 2400 ,2.0,50.0,10.8,1.0,90.0,30.0,android,13.0,0.0,Not Slot,0.0
+153,Apple,False,False,False,Bionic,Bionic A,4.0,2.37,69.0,3.0,32.0,2230.0,4.7,750 x 1334 ,1.0,13.0,7.0,1.0,60.0,16.8,ios,10.0,0.0,Not Slot,0.0
+154,Samsung,True,True,False,Exynos,Exynos 2300,8.0,2.4720000000000004,79.0,8.0,128.0,4200.0,6.4,1080 x 2400 ,3.0,12.0,32.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+155,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,74.0,4.0,64.0,2986.2,6.1,1170 x 2532 ,2.0,12.0,12.0,1.0,60.0,18.0,ios,14.0,0.0,Not Slot,0.0
+156,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,81.2,12.0,256.0,4600.0,6.73,1440 x 3200 ,3.0,50.0,32.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+157,Oneplus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,87.0,12.0,256.0,4800.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,150.0,android,12.0,0.0,Not Slot,0.0
+158,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,8.0,256.0,4600.0,6.73,1440 x 3200 ,3.0,50.0,32.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+159,Oppo,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,85.8,12.0,256.0,4500.0,6.7,1440 x 3216 ,4.0,50.0,32.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+160,Samsung,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,86.0,8.0,128.0,3700.0,6.1,1080 x 2340 ,3.0,50.0,10.0,1.0,120.0,25.0,android,12.0,0.0,Not Slot,0.0
+161,Tecno,True,True,False,Dimensity,Dimensity 9000,8.0,3.05,89.0,12.0,256.0,5160.0,6.8,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,45.0,android,12.0,0.0,Not Slot,0.0
+162,Nubia,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,84.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,64.0,16.0,1.0,144.0,80.0,android,12.0,0.0,Not Slot,0.0
+163,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,60.0,4.0,64.0,2926.2,6.1,750 x 1580 ,1.0,12.0,10.8,1.0,60.0,16.4,ios,16.0,0.0,Not Slot,0.0
+164,Nokia,True,False,False,Snapdragon,Snapdragon 870,8.0,3.2,76.6,8.0,128.0,6000.0,6.51,1080 x 2408 ,4.0,200.0,32.0,1.0,144.0,44.0,android,11.0,1.0,Dedicated,256.0
+165,Vivo,True,True,False,Dimensity,Dimensity 9200,8.0,3.03,77.0,12.0,256.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+166,Motorola,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,89.0,8.0,128.0,5000.0,6.6,1080 x 2400 ,3.0,50.0,32.0,2.0,144.0,68.0,android,13.0,0.0,Not Slot,0.0
+167,Realme,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,8.0,128.0,5000.0,6.7,1440 x 3216 ,3.0,50.0,32.0,1.0,120.0,65.0,android,12.0,0.0,Not Slot,0.0
+168,Xiaomi,True,True,True,Dimensity,Dimensity 8100 Ultra,8.0,2.85,87.0,8.0,128.0,5000.0,6.67,1220 x 2712 ,3.0,108.0,20.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+169,Samsung,True,True,False,Exynos,Exynos 2100,8.0,2.9,88.0,8.0,128.0,4000.0,6.2,1080 x 2400 ,3.0,64.0,10.0,1.0,120.0,25.0,android,10.0,0.0,Not Slot,0.0
+170,Samsung,True,False,False,Dimensity,Dimensity 1300,8.0,3.0,80.0,8.0,128.0,5000.0,6.7,1080 x 2400 ,3.0,48.0,16.0,1.0,60.0,25.0,android,12.0,0.0,Not Slot,0.0
+171,Iqoo,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,85.0,8.0,128.0,4700.0,6.78,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+172,Oneplus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,12.0,256.0,4800.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,150.0,android,12.0,0.0,Not Slot,0.0
+173,Realme,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,12.0,256.0,5000.0,6.7,1440 x 3216 ,3.0,50.0,32.0,1.0,120.0,65.0,android,12.0,0.0,Not Slot,0.0
+174,Apple,False,True,False,Bionic,Bionic A13,6.0,2.65,75.0,4.0,128.0,3110.0,6.1,828 x 1792 ,2.0,12.0,12.0,1.0,60.0,21.8,ios,13.0,0.0,Not Slot,0.0
+175,Nokia,True,False,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,76.6,12.0,256.0,6000.0,6.9,1400 x 3200 ,5.0,200.0,32.0,1.0,120.0,65.0,android,12.1,1.0,Dedicated,256.0
+176,Lenovo,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,87.0,12.0,256.0,5600.0,6.92,1080 x 2460 ,2.0,64.0,16.0,1.0,144.0,68.0,android,12.0,0.0,Not Slot,0.0
+177,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,8.0,128.0,4500.0,6.36,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+178,Nubia,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,84.0,8.0,128.0,6000.0,6.8,1116 x 2480 ,3.0,50.0,16.0,1.0,120.0,80.0,android,13.0,0.0,Not Slot,0.0
+179,Doogee,True,False,False,Dimensity,Dimensity 1080,8.0,2.6,88.0,12.0,256.0,22000.0,6.58,1080 x 2408 ,3.0,108.0,32.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,2048.0
+180,Oppo,True,True,False,Dimensity,Dimensity 8100-Max,8.0,2.85,86.0,12.0,256.0,4500.0,6.7,1080 x 2412 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+181,Oppo,True,True,False,Dimensity,Dimensity 8100-Max,8.0,2.85,86.0,12.0,256.0,4500.0,6.7,1080 x 2412 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+182,Oppo,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,16.0,256.0,4700.0,6.7,1080 x 2412 ,3.0,50.0,32.0,1.0,120.0,80.0,android,13.0,0.0,Not Slot,0.0
+183,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,75.0,4.0,128.0,3113.4,5.4,1080 x 2340 ,2.0,12.0,12.0,1.0,60.0,21.6,ios,14.0,0.0,Not Slot,0.0
+184,Oneplus,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,86.0,8.0,128.0,4500.0,6.55,1080 x 2400 ,4.0,108.0,16.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+185,Oneplus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,85.0,8.0,128.0,4800.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,150.0,android,12.0,0.0,Not Slot,0.0
+186,Samsung,True,True,False,Snapdragon,Snapdragon 778G+,8.0,2.19,83.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,4.0,108.0,32.0,1.0,120.0,67.0,android,12.0,1.0,Hybird,1024.0
+187,Nubia,True,True,False,Snapdragon,Snapdragon 888+,8.0,2.9,84.0,8.0,128.0,5050.0,6.8,1080 x 2400 ,3.0,64.0,8.0,1.0,165.0,30.0,android,11.0,0.0,Not Slot,0.0
+188,Oppo,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,87.0,8.0,128.0,4500.0,6.55,1080 x 2400 ,4.0,50.0,32.0,1.0,90.0,65.0,android,11.0,0.0,Not Slot,0.0
+189,Samsung,True,True,False,Exynos,Exynos 2100,8.0,2.9,88.0,8.0,256.0,4500.0,6.4,1080 x 2340 ,3.0,12.0,32.0,1.0,120.0,25.0,android,11.0,0.0,Not Slot,0.0
+190,Vivo,True,False,False,Dimensity,Dimensity 9000,8.0,3.2,87.0,12.0,256.0,5000.0,6.73,1080 x 2400 ,3.0,108.0,32.0,1.0,144.0,120.0,android,13.0,0.0,Not Slot,0.0
+191,Apple,True,True,False,Bionic,Bionic A15,6.0,3.22,63.6,3.6,64.0,2708.2,4.7,750 x 1334 ,1.0,12.0,7.0,1.0,60.0,18.0,ios,15.0,0.0,Not Slot,0.0
+192,Samsung,True,True,False,Snapdragon,Snapdragon 7 Gen1,8.0,2.36,84.2,8.0,128.0,5000.0,6.7,1080 x 2412 ,4.0,108.0,32.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+193,Poco,True,True,True,Dimensity,Dimensity 1300,8.0,3.0,86.0,8.0,128.0,4500.0,6.67,1080 x 2412 ,3.0,64.0,20.0,1.0,120.0,150.0,android,12.0,0.0,Not Slot,0.0
+194,Oneplus,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,85.0,8.0,128.0,4500.0,6.62,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+195,Samsung,False,True,False,Exynos,Exynos 9820,8.0,2.7,81.0,8.0,128.0,4100.0,6.4,1440 x 3040 ,3.0,16.0,10.0,2.0,60.0,15.0,android,9.0,1.0,Hybird,512.0
+196,Oppo,True,True,False,Dimensity,Dimensity 9000,8.0,3.05,86.0,16.0,256.0,5000.0,6.73,1080 x 2412 ,2.0,50.0,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+197,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,87.0,8.0,128.0,4500.0,6.28,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+198,Oppo,True,True,False,Dimensity,Dimensity 8100-Max,8.0,2.85,85.0,8.0,256.0,4500.0,6.7,1080 x 2412 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+199,Motorola,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,87.0,8.0,128.0,4500.0,6.67,1080 x 2400 ,3.0,50.0,32.0,1.0,144.0,68.0,android,13.0,0.0,Not Slot,0.0
+200,Vivo,True,True,False,Dimensity,Dimensity 9000,8.0,3.2,87.0,12.0,256.0,4800.0,6.7,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,100.0,android,13.0,0.0,Not Slot,0.0
+201,Samsung,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.4,84.2,8.0,128.0,5000.0,6.7,1080 x 2400 ,4.0,108.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Hybird,1024.0
+202,Samsung,False,True,False,Exynos,Exynos 990,8.0,2.73,88.0,8.0,128.0,4000.0,6.2,1440 x 3200 ,3.0,64.0,10.0,1.0,120.0,25.0,android,10.0,1.0,Hybird,1024.0
+203,Nokia,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,85.0,6.0,128.0,4200.0,6.43,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+204,Samsung,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.4,86.6,8.0,256.0,5000.0,6.7,1080 x 2400 ,4.0,108.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Hybird,1024.0
+205,Vivo,True,True,True,Dimensity,Dimensity 9200,8.0,3.05,88.0,8.0,128.0,4810.0,6.78,1260 x 2800 ,3.0,50.0,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+206,Motorola,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.2,8.0,128.0,4450.0,6.67,1080 x 2400 ,3.0,200.0,60.0,1.0,144.0,125.0,android,12.0,0.0,Not Slot,0.0
+207,Apple,True,True,False,Bionic,Bionic A14,6.0,3.1,74.0,4.0,64.0,2986.2,5.4,1080 x 2340 ,2.0,12.0,12.0,1.0,60.0,18.0,ios,14.0,0.0,Not Slot,0.0
+208,Realme,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,86.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,100.0,android,12.0,0.0,Not Slot,0.0
+209,Google,True,True,False,Tensor,Tensor,8.0,2.8,84.0,8.0,128.0,4614.0,6.4,1080 x 2400 ,2.0,50.0,8.0,1.0,90.0,30.0,android,12.0,0.0,Not Slot,0.0
+210,Oneplus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,85.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,100.0,android,13.0,0.0,Not Slot,0.0
+211,Vivo,True,False,False,Dimensity,Dimensity 1300,8.0,3.0,86.0,12.0,256.0,4830.0,6.56,1080 x 2376 ,3.0,64.0,32.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+212,Poco,True,True,True,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,86.0,8.0,128.0,4700.0,6.67,1080 x 2400 ,3.0,64.0,20.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+213,Oppo,True,True,False,Dimensity,Dimensity 8100 Max,8.0,2.85,86.0,16.0,256.0,4500.0,6.7,1080 x 2412 ,2.0,50.0,32.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+214,Samsung,False,True,False,Exynos,Exynos 9810,8.0,2.7,83.0,6.0,128.0,4500.0,6.7,1080 x 2400 ,3.0,12.0,32.0,1.0,60.0,25.0,android,10.0,1.0,Hybird,1024.0
+215,Motorola,True,True,False,Snapdragon,Snapdragon 888+,8.0,2.9,88.0,8.0,128.0,4400.0,6.55,1080 x 2400 ,3.0,50.0,32.0,1.0,144.0,68.0,android,12.0,0.0,Not Slot,0.0
+216,Asus,True,True,False,Snapdragon,Snapdragon 888+,8.0,2.9,87.0,8.0,128.0,6000.0,6.78,1080 x 2448 ,3.0,64.0,24.0,1.0,144.0,65.0,android,11.0,0.0,Not Slot,0.0
+217,Motorola,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,89.0,8.0,128.0,4600.0,6.7,1080 x 2400 ,3.0,50.0,60.0,1.0,165.0,125.0,android,13.0,0.0,Not Slot,0.0
+218,Xiaomi,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,85.0,8.0,128.0,5000.0,6.67,1220 x 2712 ,3.0,108.0,20.0,1.0,144.0,120.0,android,12.0,0.0,Not Slot,0.0
+219,Samsung,True,True,False,Exynos,Exynos 2100,8.0,2.9,87.0,8.0,128.0,4500.0,6.4,1080 x 2340 ,3.0,12.0,32.0,1.0,120.0,25.0,android,11.0,0.0,Not Slot,0.0
+220,Tecno,True,True,False,Dimensity,Dimensity 9000,8.0,3.05,85.0,8.0,256.0,5160.0,6.8,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,45.0,android,12.0,0.0,Not Slot,0.0
+221,Iqoo,True,False,False,Snapdragon,Snapdragon 888+,8.0,2.9,85.0,12.0,256.0,4350.0,6.56,1080 x 2376 ,3.0,48.0,16.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+222,Samsung,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,86.0,6.0,128.0,4500.0,6.71,1440 x 3200 ,3.0,64.0,10.0,1.0,120.0,25.0,android,11.0,1.0,Dedicated,1024.0
+223,Samsung,True,True,False,Snapdragon,Snapdragon 855+,8.0,2.96,86.0,6.0,128.0,4500.0,6.71,1440 x 3200 ,3.0,64.0,10.0,1.0,120.0,25.0,android,11.0,1.0,Dedicated,1024.0
+224,Honor,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.5,88.0,12.0,512.0,4800.0,6.67,1080 x 2400 ,3.0,54.0,32.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+225,Nothing,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,88.0,8.0,128.0,4700.0,6.67,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,66.0,android,13.0,0.0,Not Slot,0.0
+226,Iqoo,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,84.0,8.0,128.0,4000.0,6.62,1080 x 2400 ,3.0,48.0,16.0,1.0,120.0,66.0,android,11.0,0.0,Not Slot,0.0
+227,Nokia,True,False,False,Snapdragon,Snapdragon 870,8.0,3.2,87.0,6.0,128.0,6000.0,6.51,1080 x 2400 ,4.0,200.0,16.0,1.0,144.0,33.0,other,2.0,1.0,Dedicated,256.0
+228,Samsung,False,True,False,Snapdragon,Snapdragon 710,8.0,2.2,78.0,6.0,128.0,3400.0,6.4,1080 x 2340 ,3.0,24.0,24.0,1.0,60.0,15.0,android,9.0,1.0,Dedicated,512.0
+229,Apple,False,True,False,Bionic,Bionic A13,6.0,2.65,63.0,3.0,64.0,1821.0,4.7,750 x 1334 ,1.0,12.0,7.0,1.0,60.0,18.0,ios,13.0,0.0,Not Slot,0.0
+230,Xiaomi,True,True,True,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,85.0,8.0,128.0,5000.0,6.67,1440 x 3200 ,3.0,54.0,16.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+231,Xiaomi,True,True,True,Snapdragon,Snapdragon 888,8.0,2.84,88.0,12.0,256.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,120.0,android,11.0,0.0,Not Slot,0.0
+232,Apple,False,True,False,Bionic,Bionic A13,6.0,2.65,73.0,4.0,64.0,3110.0,6.1,828 x 1792 ,2.0,12.0,12.0,1.0,60.0,22.2,ios,13.0,0.0,Not Slot,0.0
+233,Oppo,True,False,False,Dimensity,Dimensity 1000+,8.0,2.6,84.0,8.0,128.0,4350.0,6.53,1080 x 2400 ,4.0,64.0,32.0,1.0,90.0,65.0,android,11.0,0.0,Not Slot,0.0
+234,Infinix,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,89.0,8.0,256.0,4500.0,6.8,1080 x 2400 ,3.0,200.0,32.0,1.0,120.0,180.0,android,12.0,0.0,Not Slot,0.0
+235,Oneplus,True,True,False,Dimensity,Dimensity 8100 Max,8.0,2.85,87.0,12.0,256.0,5000.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+236,Vivo,True,False,False,Dimensity,Dimensity 1200,8.0,3.0,87.0,12.0,256.0,4300.0,6.56,1080 x 2376 ,3.0,108.0,50.0,2.0,90.0,44.0,android,12.0,0.0,Not Slot,0.0
+237,Oppo,True,True,False,Dimensity,Dimensity 1200,8.0,3.0,87.0,12.0,256.0,4500.0,6.55,1080 x 2400 ,4.0,64.0,32.0,1.0,90.0,65.0,android,11.0,0.0,Not Slot,0.0
+238,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,89.0,8.0,256.0,5000.0,6.5,1080 x 2400 ,4.0,64.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+239,Google,True,True,False,Snapdragon,Snapdragon 765G,8.0,2.4,82.0,8.0,128.0,4080.0,6.0,1080 x 2340 ,2.0,16.0,8.0,1.0,90.0,18.0,android,11.0,0.0,Not Slot,0.0
+240,Vivo,True,False,False,Dimensity,Dimensity 1300,8.0,3.0,85.0,8.0,128.0,4830.0,6.56,1080 x 2376 ,3.0,64.0,32.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+241,Nothing,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.5,87.0,12.0,256.0,4500.0,6.55,1080 x 2400 ,2.0,50.0,16.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+242,Iqoo,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,85.0,12.0,256.0,4400.0,6.62,1080 x 2400 ,3.0,48.0,16.0,1.0,120.0,66.0,android,11.0,0.0,Not Slot,0.0
+243,Vivo,True,True,False,Dimensity,Dimensity 8200,8.0,3.1,86.0,8.0,256.0,4600.0,6.78,1080 x 2400 ,3.0,50.0,50.0,1.0,120.0,66.0,android,13.0,0.0,Not Slot,0.0
+244,Samsung,False,True,False,Exynos,Exynos 990,8.0,2.73,86.0,8.0,128.0,4500.0,6.5,1080 x 2400 ,3.0,12.0,32.0,1.0,120.0,25.0,android,10.0,1.0,Hybird,1024.0
+245,Oneplus,True,True,False,Dimensity,Dimensity 8100 Max,8.0,2.85,85.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+246,Nubia,True,True,False,Snapdragon,Snapdragon 8 Gen2,8.0,3.2,82.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,64.0,16.0,1.0,144.0,80.0,android,13.0,0.0,Not Slot,0.0
+247,Samsung,True,False,False,Snapdragon,Snapdragon 888,8.0,2.84,85.0,6.0,128.0,6000.0,6.67,1080 x 2412 ,3.0,64.0,32.0,1.0,90.0,25.0,android,12.0,1.0,Hybird,1024.0
+248,Oneplus,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,84.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,100.0,android,13.0,0.0,Not Slot,0.0
+249,Realme,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,83.0,8.0,128.0,4600.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,240.0,android,13.0,0.0,Not Slot,0.0
+250,Samsung,True,True,False,Exynos,Exynos 1380,8.0,2.24,76.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,25.0,android,13.0,1.0,Dedicated,1024.0
+251,Samsung,False,True,False,Exynos,Exynos 9810,8.0,2.8,78.0,6.0,128.0,3500.0,6.2,1440 x 2960 ,2.0,12.0,8.0,1.0,60.0,15.0,android,8.0,1.0,Hybird,512.0
+252,Oneplus,True,True,False,Dimensity,Dimensity 9200,8.0,3.16,76.0,8.0,128.0,5000.0,6.57,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+253,Motorola,True,True,False,Snapdragon,Snapdragon 7 Gen1,8.0,2.36,86.0,8.0,128.0,4200.0,6.5,1080 x 2412 ,3.0,50.0,32.0,1.0,144.0,67.0,android,12.0,0.0,Not Slot,0.0
+254,Motorola,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,89.0,8.0,128.0,4800.0,6.7,1080 x 2400 ,3.0,50.0,60.0,1.0,144.0,68.0,android,12.0,0.0,Not Slot,0.0
+255,Nokia,True,False,False,Snapdragon,Snapdragon 775,8.0,2.084,76.0,6.0,64.0,6000.0,6.81,1080 x 2400 ,4.0,108.0,32.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,256.0
+256,Iqoo,True,False,False,Snapdragon,Snapdragon 888+,8.0,2.9,84.0,8.0,128.0,4350.0,6.56,1080 x 2376 ,3.0,48.0,16.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+257,Google,True,True,False,Tensor,Tensor,8.0,3.0940000000000003,69.0,6.0,128.0,4410.0,6.1,1080 x 2400 ,2.0,12.2,8.0,1.0,90.0,18.0,android,12.0,0.0,Not Slot,0.0
+258,Poco,True,True,False,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,85.0,8.0,128.0,4700.0,6.7,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+259,Motorola,True,False,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,83.0,8.0,128.0,5000.0,6.67,1080 x 2460 ,3.0,64.0,16.0,1.0,120.0,68.2,android,12.0,0.0,Not Slot,0.0
+260,Xiaomi,True,True,True,Snapdragon,Snapdragon 888,8.0,2.84,86.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,120.0,android,11.0,0.0,Not Slot,0.0
+261,Iqoo,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,85.0,12.0,256.0,4500.0,6.62,1080 x 2400 ,3.0,48.0,16.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+262,Oneplus,True,True,False,Dimensity,Dimensity 1300,8.0,3.0,85.0,12.0,256.0,4500.0,6.43,1080 x 2400 ,3.0,50.0,32.0,1.0,90.0,80.0,android,12.0,0.0,Not Slot,0.0
+263,Iqoo,True,False,True,Snapdragon,Snapdragon 870,8.0,3.2,84.0,12.0,256.0,4700.0,6.62,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+264,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,89.0,8.0,128.0,5000.0,6.5,1080 x 2400 ,4.0,64.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+265,Oppo,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.5,84.0,8.0,256.0,5000.0,6.73,1080 x 2412 ,3.0,50.0,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+266,Xiaomi,True,False,True,Dimensity,Dimensity 1080,8.0,2.6,87.0,12.0,256.0,4980.0,6.67,1080 x 2400 ,3.0,200.0,16.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+267,Oneplus,True,True,False,Dimensity,Dimensity 8100 Max,8.0,2.85,86.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+268,Xiaomi,True,False,True,Snapdragon,Snapdragon 7 Gen1,8.0,2.36,83.0,6.0,128.0,5200.0,6.67,1080 x 2460 ,4.0,108.0,32.0,1.0,120.0,210.0,android,12.0,1.0,Dedicated,512.0
+269,Google,True,True,False,Snapdragon,Snapdragon 765G,8.0,2.4,78.0,6.0,128.0,4620.0,6.34,1080 x 2400 ,2.0,16.0,8.0,1.0,60.0,18.0,android,11.0,0.0,Not Slot,0.0
+270,Poco,True,False,True,Dimensity,Dimensity 1200,8.0,3.0,79.0,6.0,128.0,5065.0,6.67,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,67.0,android,11.0,0.0,Not Slot,0.0
+271,Vivo,True,False,False,Snapdragon,Snapdragon 765G,8.0,2.4,85.0,8.0,128.0,4300.0,6.44,1080 x 2400 ,4.0,64.0,44.0,2.0,60.0,33.0,android,11.0,0.0,Not Slot,0.0
+272,Realme,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,85.0,8.0,128.0,4500.0,6.55,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+273,Oppo,True,True,False,Dimensity,Dimensity 1300,8.0,3.0,84.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,50.0,32.0,1.0,90.0,80.0,android,12.0,0.0,Not Slot,0.0
+274,Xiaomi,True,True,True,Dimensity,Dimensity 8200,8.0,3.1,86.0,8.0,256.0,5000.0,6.7,1080 x 2400 ,3.0,64.0,32.0,2.0,120.0,80.0,android,13.0,0.0,Not Slot,0.0
+275,Honor,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.4,85.0,6.0,128.0,4300.0,6.57,1080 x 2340 ,4.0,108.0,32.0,1.0,120.0,66.0,android,11.0,0.0,Not Slot,0.0
+276,Iqoo,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,84.0,8.0,256.0,5000.0,6.78,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+277,Vivo,True,False,False,Snapdragon,Snapdragon 7 Gen1,8.0,2.4,84.0,8.0,256.0,5000.0,6.67,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,80.0,android,13.0,0.0,Not Slot,0.0
+278,Vivo,True,False,False,Dimensity,Dimensity 900,8.0,2.0,85.0,12.0,256.0,4500.0,6.44,1080 x 2408 ,3.0,64.0,50.0,1.0,90.0,44.0,android,12.0,1.0,Hybird,1024.0
+279,Realme,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,82.0,8.0,128.0,5000.0,6.62,2400 x 1080 ,3.0,64.0,16.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+280,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,87.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,4.0,64.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+281,Realme,True,True,False,Dimensity,Dimensity 8100,8.0,2.85,83.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+282,Vivo,True,False,False,Dimensity,Dimensity 1200,8.0,3.0,85.0,8.0,128.0,4300.0,6.56,1080 x 2376 ,3.0,108.0,50.0,2.0,90.0,44.0,android,12.0,0.0,Not Slot,0.0
+283,Oppo,True,True,False,Dimensity,Dimensity 1200 Max,8.0,3.0,87.0,12.0,256.0,4500.0,6.55,1080 x 2400 ,3.0,50.0,32.0,1.0,90.0,65.0,android,11.0,0.0,Not Slot,0.0
+284,Motorola,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,84.0,8.0,128.0,4020.0,6.28,1080 x 2400 ,2.0,64.0,32.0,1.0,120.0,68.0,android,12.0,0.0,Not Slot,0.0
+285,Vivo,True,False,False,Snapdragon,Snapdragon 782G,8.0,2.7,86.0,8.0,256.0,4700.0,6.67,1080 x 2408 ,3.0,64.0,32.0,1.0,120.0,80.0,android,13.0,1.0,Hybird,1024.0
+286,Samsung,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,88.0,8.0,128.0,4500.0,6.5,1080 x 2400 ,3.0,12.0,32.0,1.0,120.0,25.0,android,10.0,1.0,Hybird,1024.0
+287,Realme,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,85.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+288,Sony,True,True,False,Snapdragon,Snapdragon 690,8.0,2.0,78.0,6.0,64.0,4500.0,6.0,1080 x 2520 ,3.0,12.0,8.0,1.0,60.0,30.0,android,11.0,1.0,Dedicated,1024.0
+289,Xiaomi,True,False,True,Snapdragon,Snapdragon 888,8.0,2.84,85.0,8.0,128.0,4520.0,6.67,1080 x 2400 ,3.0,108.0,20.0,1.0,120.0,33.0,android,11.0,0.0,Not Slot,0.0
+290,Honor,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.5,86.0,8.0,256.0,4800.0,6.67,1080 x 2400 ,3.0,54.0,32.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+291,Iqoo,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,83.0,8.0,128.0,4500.0,6.62,1080 x 2400 ,3.0,48.0,16.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+292,Oppo,True,True,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,87.0,8.0,128.0,5000.0,6.7,1080 x 2412 ,2.0,108.0,16.0,1.0,120.0,67.0,android,12.0,1.0,Dedicated,1024.0
+293,Xiaomi,True,True,True,Snapdragon,Snapdragon 865,8.0,2.84,86.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,20.0,1.0,144.0,33.0,android,10.0,0.0,Not Slot,0.0
+294,Poco,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,84.0,8.0,128.0,5500.0,6.67,1440 x 3200 ,3.0,64.0,16.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+295,Iqoo,True,True,True,Dimensity,Dimensity 8200,8.0,3.1,82.0,8.0,128.0,5000.0,6.78,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+296,Vivo,False,False,False,Snapdragon,Snapdragon 665,8.0,2.0,82.0,8.0,128.0,4500.0,6.38,1080 x 2340 ,4.0,48.0,32.0,1.0,60.0,18.0,android,9.0,1.0,Hybird,256.0
+297,Vivo,True,True,False,Dimensity,Dimensity 800U,8.0,2.4,86.0,8.0,128.0,4000.0,6.44,1080 x 2400 ,3.0,64.0,44.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,1024.0
+298,Poco,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,86.0,12.0,256.0,4500.0,6.67,1080 x 2400 ,3.0,64.0,20.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+299,Oneplus,True,True,False,Snapdragon,Snapdragon 7 Gen1,8.0,2.36,83.0,8.0,128.0,4500.0,6.43,1080 x 2412 ,3.0,50.0,32.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+300,Realme,True,False,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,80.0,8.0,128.0,5000.0,6.73,1080 x 2400 ,3.0,50.0,16.0,1.0,144.0,120.0,android,13.0,0.0,Not Slot,0.0
+301,Xiaomi,True,False,True,Dimensity,Dimensity 1080,8.0,2.6,86.0,8.0,256.0,4980.0,6.67,1080 x 2400 ,3.0,200.0,16.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+302,Xiaomi,True,True,True,Snapdragon,Snapdragon 7 Gen1,8.0,2.4,85.0,8.0,128.0,4500.0,6.55,1080 x 2400 ,3.0,50.0,32.0,2.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+303,Google,True,True,False,Tensor,Tensor,8.0,3.124,71.0,6.0,128.0,4410.0,6.14,1080 x 2400 ,2.0,12.2,8.0,1.0,60.0,18.0,android,12.0,0.0,Not Slot,0.0
+304,Vivo,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,85.0,8.0,128.0,4600.0,6.78,1080 x 2400 ,3.0,64.0,50.0,1.0,120.0,66.0,android,13.0,0.0,Not Slot,0.0
+305,Xiaomi,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.4,82.0,6.0,128.0,4300.0,6.55,1080 x 2400 ,3.0,108.0,32.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+306,Oppo,True,False,False,Snapdragon,Snapdragon 888,8.0,2.84,81.0,8.0,128.0,5000.0,6.62,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+307,Apple,False,True,False,Bionic,Bionic A13,6.0,2.65,61.0,3.0,64.0,2050.0,4.7,750 x 1334 ,1.0,12.0,7.0,1.0,60.0,18.0,ios,13.0,0.0,Not Slot,0.0
+308,Xiaomi,True,True,True,Snapdragon,Snapdragon 8+ Gen1,8.0,3.2,84.0,8.0,128.0,5500.0,6.67,1440 x 3200 ,3.0,64.0,16.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+309,Huawei,False,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,82.0,8.0,128.0,4000.0,6.67,1080 x 2400 ,3.0,50.0,60.0,1.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+310,Oppo,True,False,False,Snapdragon,Snapdragon 765G,8.0,2.4,83.0,8.0,128.0,4300.0,6.43,1080 x 2400 ,4.0,64.0,32.0,1.0,60.0,65.0,android,11.0,0.0,Not Slot,0.0
+311,Oneplus,True,True,False,Dimensity,Dimensity 1300,8.0,3.0,84.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,50.0,32.0,1.0,90.0,80.0,android,12.0,0.0,Not Slot,0.0
+312,Vivo,True,False,False,Dimensity,Dimensity 900,8.0,2.4,82.0,8.0,128.0,5000.0,6.0,1080 x 2400 ,3.0,50.0,50.0,2.0,120.0,66.0,android,12.0,0.0,Not Slot,0.0
+313,Oppo,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,87.0,8.0,256.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,66.0,android,13.0,1.0,Dedicated,1024.0
+314,Poco,True,True,True,Dimensity,Dimensity 9000,8.0,3.2,84.0,8.0,128.0,5000.0,6.7,1080 x 2400 ,3.0,64.0,32.0,1.0,144.0,80.0,android,13.0,0.0,Not Slot,0.0
+315,Huawei,False,True,False,Snapdragon,Snapdragon 778G,8.0,2.4,83.0,8.0,128.0,4300.0,6.57,1080 x 2340 ,4.0,50.0,32.0,1.0,120.0,66.0,other,2.0,0.0,Not Slot,0.0
+316,Vivo,True,False,False,Snapdragon,Snapdragon 778G+,8.0,2.1799999999999997,76.0,8.0,128.0,4500.0,6.44,1080 x 2408 ,3.0,50.0,16.0,1.0,90.0,67.0,android,12.0,1.0,Hybird,1024.0
+317,Oukitel,False,True,False,Helio,Helio G95,8.0,2.0,84.0,8.0,256.0,21000.0,6.78,1080 x 2400 ,3.0,64.0,16.0,1.0,60.0,33.0,android,12.0,0.0,Not Slot,0.0
+318,Oppo,True,True,False,Dimensity,Dimensity 1300,8.0,3.0,83.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,50.0,32.0,1.0,90.0,80.0,android,12.0,0.0,Not Slot,0.0
+319,Xiaomi,True,False,True,Dimensity,Dimensity 8200,8.0,3.1,85.0,8.0,128.0,5080.0,6.67,1080 x 2460 ,3.0,50.0,32.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+320,Iqoo,True,False,True,Snapdragon,Snapdragon 870,8.0,3.2,82.0,8.0,128.0,4700.0,6.62,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+321,Realme,True,False,False,Snapdragon,Snapdragon 8 Gen1,8.0,3.0,82.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,65.0,android,12.0,1.0,Dedicated,256.0
+322,Oneplus,True,True,False,Dimensity,Dimensity 1300,8.0,3.0,84.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,50.0,32.0,1.0,90.0,80.0,android,12.0,0.0,Not Slot,0.0
+323,Realme,True,True,False,Snapdragon,Snapdragon 888,8.0,2.84,84.0,8.0,128.0,5000.0,6.62,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,65.0,android,12.0,0.0,Not Slot,0.0
+324,Poco,True,True,True,Dimensity,Dimensity 8100,8.0,2.85,85.0,8.0,256.0,5080.0,6.6,1080 x 2460 ,3.0,64.0,16.0,1.0,144.0,67.0,android,12.0,0.0,Not Slot,0.0
+325,Oneplus,True,True,False,Dimensity,Dimensity 8100 Max,8.0,2.85,84.0,8.0,128.0,4500.0,6.7,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,150.0,android,12.0,0.0,Not Slot,0.0
+326,Vivo,True,False,False,Snapdragon,Snapdragon 6 Gen 1,8.0,2.2,84.0,8.0,256.0,5000.0,6.7,1080 x 2400 ,3.0,108.0,32.0,1.0,120.0,80.0,android,13.0,1.0,Dedicated,256.0
+327,Oppo,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.4,83.0,8.0,256.0,4500.0,6.7,1080 x 2412 ,2.0,64.0,32.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+328,Realme,True,False,False,Snapdragon,Snapdragon 870,8.0,3.2,82.0,8.0,256.0,5000.0,6.62,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+329,Nokia,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,81.0,6.0,128.0,4500.0,6.58,1080 x 2400 ,3.0,50.0,8.0,1.0,120.0,20.0,android,12.0,1.0,Hybird,512.0
+330,Nothing,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.5,86.0,8.0,256.0,4500.0,6.55,1080 x 2400 ,2.0,50.0,16.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+331,Oneplus,False,True,False,Snapdragon,Snapdragon 845,8.0,2.8,77.0,8.0,128.0,3300.0,6.28,1080 x 2280 ,2.0,20.0,16.0,1.0,60.0,22.4,android,8.1,0.0,Not Slot,0.0
+332,Poco,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,85.0,8.0,128.0,4500.0,6.67,1080 x 2400 ,3.0,64.0,20.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+333,Realme,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.4,84.0,8.0,128.0,4300.0,6.43,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,65.0,android,11.0,0.0,Not Slot,0.0
+334,Iqoo,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,82.0,12.0,256.0,4700.0,6.44,1080 x 2404 ,3.0,64.0,16.0,1.0,90.0,66.0,android,12.0,0.0,Not Slot,0.0
+335,Realme,True,False,False,Dimensity,Dimensity 1080,8.0,2.6,85.0,8.0,256.0,5000.0,6.7,1080 x 2412 ,3.0,108.0,16.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+336,Realme,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,87.0,12.0,256.0,4200.0,6.44,1080 x 2400 ,4.0,64.0,32.0,2.0,90.0,65.0,android,10.0,0.0,Not Slot,0.0
+337,Sony,False,True,False,Snapdragon,Snapdragon 665,8.0,2.0,75.0,4.0,128.0,3600.0,6.0,1080 x 2520 ,3.0,12.0,8.0,1.0,90.0,18.0,android,10.0,1.0,Hybird,1024.0
+338,Honor,True,True,True,Snapdragon,Snapdragon 695,8.0,2.2,81.0,8.0,256.0,5100.0,6.67,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,40.0,android,12.0,0.0,Not Slot,0.0
+339,Oneplus,True,True,False,Dimensity,Dimensity 8200,8.0,3.1,84.0,8.0,128.0,4200.0,6.43,1080 x 2400 ,3.0,50.0,32.0,1.0,90.0,120.0,android,11.0,0.0,Not Slot,0.0
+340,Vivo,True,False,False,Dimensity,Dimensity 900,8.0,2.0,83.0,8.0,128.0,4500.0,6.44,1080 x 2408 ,3.0,64.0,50.0,1.0,90.0,44.0,android,12.0,1.0,Hybird,1024.0
+341,Xiaomi,True,False,True,Dimensity,Dimensity 1080,8.0,2.6,82.0,8.0,256.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+342,Vivo,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,86.0,12.0,256.0,4200.0,6.44,1080 x 2400 ,3.0,64.0,50.0,2.0,90.0,44.0,android,12.0,1.0,Dedicated,1024.0
+343,Vivo,True,False,False,Dimensity,Dimensity 930,8.0,2.2,83.0,8.0,256.0,4700.0,6.56,1080 x 2400 ,3.0,64.0,50.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+344,Oppo,True,False,False,Snapdragon,Snapdragon 7 Gen1,8.0,2.36,83.0,8.0,128.0,4500.0,6.43,1080 x 2460 ,4.0,50.0,16.0,1.0,90.0,65.0,android,12.0,1.0,Dedicated,256.0
+345,Vivo,False,False,False,Snapdragon,Snapdragon 712,8.0,2.3,84.0,8.0,256.0,4500.0,6.44,1080 x 2400 ,4.0,48.0,32.0,2.0,60.0,33.0,android,10.0,1.0,Dedicated,512.0
+346,Xiaomi,True,True,True,Dimensity,Dimensity 8100,8.0,2.85,83.0,8.0,128.0,5500.0,6.67,1440 x 3200 ,3.0,48.0,20.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+347,Oppo,True,False,False,Snapdragon,Snapdragon 6 Gen 1,8.0,2.2,83.0,8.0,128.0,4800.0,6.58,1080 x 2400 ,3.0,64.0,32.0,1.0,120.0,67.0,android,13.0,1.0,Dedicated,1024.0
+348,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,85.0,8.0,128.0,5000.0,6.4,1080 x 2400 ,4.0,48.0,13.0,1.0,90.0,25.0,android,12.0,1.0,Hybird,1024.0
+349,Vivo,True,False,False,Snapdragon,Snapdragon 765G,8.0,2.4,84.0,8.0,128.0,4000.0,6.44,1080 x 2400 ,3.0,64.0,44.0,2.0,60.0,33.0,android,10.0,0.0,Not Slot,0.0
+350,Xiaomi,True,False,True,Dimensity,Dimensity 1080,8.0,2.6,84.0,6.0,128.0,4980.0,6.67,1080 x 2400 ,3.0,200.0,16.0,1.0,120.0,120.0,android,12.0,0.0,Not Slot,0.0
+351,Realme,True,True,False,Dimensity,Dimensity 1200,8.0,3.0,84.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,50.0,android,11.0,0.0,Not Slot,0.0
+352,Xiaomi,True,False,True,Dimensity,Dimensity 1080,8.0,2.6,82.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+353,Xiaomi,True,False,True,Dimensity,Dimensity 920 5G,8.0,2.5,86.0,8.0,128.0,4500.0,6.67,2400 x 1080 ,3.0,108.0,16.0,1.0,120.0,120.0,android,11.0,1.0,Hybird,1024.0
+354,Xiaomi,True,True,True,Dimensity,Dimensity 1080,8.0,2.6,86.0,8.0,256.0,4300.0,6.67,1080 x 2400 ,3.0,200.0,16.0,1.0,120.0,210.0,android,12.0,0.0,Not Slot,0.0
+355,Vivo,False,False,False,Helio,Helio G96,8.0,2.05,82.0,8.0,128.0,4050.0,6.44,1080 x 2400 ,3.0,64.0,50.0,1.0,60.0,44.0,android,11.0,0.0,Not Slot,0.0
+356,Oppo,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,86.0,8.0,256.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+357,Nothing,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.5,85.0,8.0,128.0,4500.0,6.55,1080 x 2400 ,2.0,50.0,16.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+358,Realme,True,False,False,Snapdragon,Snapdragon 870,8.0,3.2,81.0,8.0,128.0,5000.0,6.62,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+359,Oppo,True,True,False,Dimensity,Dimensity 900,8.0,2.0,83.0,8.0,128.0,4300.0,6.43,1080 x 2400 ,3.0,64.0,32.0,1.0,90.0,65.0,android,11.0,0.0,Not Slot,0.0
+360,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,82.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,4.0,48.0,13.0,1.0,90.0,25.0,android,12.0,1.0,Hybird,1024.0
+361,Motorola,True,True,False,Dimensity,Dimensity 930,8.0,2.2,85.0,8.0,256.0,5000.0,6.5,1080 x 2400 ,2.0,50.0,16.0,1.0,120.0,30.0,android,13.0,1.0,Hybird,1024.0
+362,Poco,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,82.0,6.0,128.0,4500.0,6.67,1080 x 2400 ,3.0,64.0,20.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+363,Xiaomi,True,True,True,Dimensity,Dimensity 8200,8.0,3.1,83.0,8.0,128.0,5500.0,6.67,1440 x 3200 ,3.0,48.0,20.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+364,Xiaomi,True,False,True,Dimensity,Dimensity 8100,8.0,2.85,85.0,8.0,256.0,5080.0,6.6,1080 x 2460 ,3.0,64.0,16.0,1.0,144.0,67.0,android,12.0,0.0,Not Slot,0.0
+365,Tecno,False,False,False,Helio,Helio G95,8.0,2.05,84.0,8.0,256.0,4700.0,6.7,1080 x 2340 ,3.0,50.0,48.0,2.0,90.0,33.0,android,11.0,0.0,Not Slot,0.0
+366,Oppo,True,True,False,Dimensity,Dimensity 900,8.0,2.0,85.0,8.0,256.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,32.0,1.0,90.0,65.0,android,11.0,1.0,Dedicated,1024.0
+367,Xiaomi,True,False,True,Snapdragon,Snapdragon 870,8.0,3.2,83.0,8.0,128.0,4520.0,6.67,1080 x 2400 ,3.0,48.0,20.0,1.0,120.0,33.0,android,11.0,0.0,Not Slot,0.0
+368,Oppo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,82.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+369,Realme,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,78.0,6.0,128.0,4500.0,6.4,1080 x 2400 ,3.0,50.0,16.0,1.0,90.0,60.0,android,12.0,0.0,Not Slot,0.0
+370,Oukitel,False,True,False,Helio,Helio,8.0,2.0,72.0,6.0,128.0,8000.0,5.86,720 x 1520 ,3.0,16.0,8.0,1.0,60.0,28.4,android,10.0,1.0,Dedicated,1024.0
+371,Oppo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,82.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,512.0
+372,Oneplus,True,True,False,Snapdragon,Snapdragon 690,8.0,2.0,81.0,6.0,128.0,4300.0,6.49,1080 x 2400 ,4.0,64.0,16.0,1.0,90.0,30.0,android,10.0,1.0,Dedicated,512.0
+373,Samsung,True,False,False,Dimensity,Dimensity 900 5G,8.0,2.4,87.0,8.0,128.0,5000.0,6.7,1080 x 2400 ,4.0,108.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Hybird,1024.0
+374,Vivo,False,False,False,Snapdragon,Snapdragon 425,4.0,1.4,68.6,3.0,16.0,3360.0,6.0,720 x 1440 ,1.0,13.0,5.0,1.0,60.0,21.0,android,8.1,1.0,Dedicated,128.0
+375,Vivo,False,False,False,Snapdragon,Snapdragon 675,8.0,2.0,78.0,8.0,128.0,3700.0,6.39,1080 x 2316 ,3.0,48.0,32.0,1.0,60.0,25.0,android,9.0,1.0,Dedicated,256.0
+376,Iqoo,True,False,False,Snapdragon,Snapdragon 7 Gen1,8.0,2.36,80.0,6.0,128.0,5000.0,6.62,1080 x 2412 ,3.0,50.0,16.0,1.0,144.0,67.0,android,12.0,1.0,Dedicated,1024.0
+377,Vivo,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,84.0,8.0,128.0,4700.0,6.44,1080 x 2404 ,3.0,64.0,16.0,1.0,90.0,66.0,android,12.0,1.0,Hybird,1024.0
+378,Xiaomi,True,True,True,Dimensity,Dimensity 1080,8.0,2.6,89.0,8.0,256.0,4300.0,6.67,1080 x 2400 ,3.0,200.0,16.0,1.0,120.0,120.0,android,12.0,1.0,Dedicated,512.0
+379,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,75.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,4.0,48.0,13.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,1024.0
+380,Vivo,False,False,False,Dimensity,Dimensity 800U,8.0,2.4,83.0,8.0,128.0,4000.0,6.44,1080 x 2400 ,3.0,64.0,44.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,256.0
+381,Realme,True,False,False,Dimensity,Dimensity 1080,8.0,2.6,82.0,6.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,108.0,16.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+382,Realme,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,85.0,8.0,128.0,4200.0,6.44,1080 x 2400 ,4.0,64.0,32.0,2.0,90.0,65.0,android,10.0,0.0,Not Slot,0.0
+383,Oneplus,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,85.0,8.0,256.0,5000.0,6.59,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+384,Samsung,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,81.0,8.0,128.0,5000.0,6.6,1080 x 2408 ,4.0,50.0,8.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+385,Realme,True,False,False,Dimensity,Dimensity 930,8.0,2.2,78.0,6.0,128.0,4200.0,6.4,1080 x 2400 ,3.0,50.0,16.0,1.0,90.0,66.0,android,12.0,0.0,Not Slot,0.0
+386,Motorola,True,True,False,Snapdragon,Snapdragon 778G+,8.0,2.5,85.0,8.0,128.0,4020.0,6.5,1080 x 2400 ,3.0,50.0,32.0,1.0,144.0,33.0,android,12.0,0.0,Not Slot,0.0
+387,Realme,True,False,False,Snapdragon,Snapdragon 870,8.0,3.2,79.0,6.0,128.0,5000.0,6.62,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+388,Oneplus,False,False,False,Snapdragon,Snapdragon 765G,8.0,2.4,79.0,8.0,128.0,4300.0,6.55,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,30.0,android,10.0,0.0,Not Slot,0.0
+389,Vivo,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,83.0,8.0,128.0,4200.0,6.44,1080 x 2400 ,3.0,64.0,50.0,2.0,90.0,44.0,android,12.0,0.0,Not Slot,0.0
+390,Poco,True,True,True,Dimensity,Dimensity 8100,8.0,2.85,84.0,8.0,128.0,5080.0,6.6,1080 x 2460 ,3.0,64.0,16.0,1.0,144.0,67.0,android,12.0,0.0,Not Slot,0.0
+391,Honor,True,False,False,Dimensity,Dimensity 900,8.0,2.0,75.0,8.0,128.0,4300.0,6.67,1080 x 2340 ,3.0,64.0,16.0,1.0,120.0,66.0,android,11.0,0.0,Not Slot,0.0
+392,Samsung,False,False,False,Snapdragon,Snapdragon 720G,8.0,2.3,83.0,6.0,128.0,4500.0,6.5,1080 x 2400 ,4.0,64.0,32.0,1.0,90.0,25.0,android,11.0,1.0,Dedicated,1024.0
+393,Nothing,True,True,False,Snapdragon,Snapdragon 778G,8.0,2.5,80.0,6.0,128.0,5000.0,6.55,1080 x 2400 ,2.0,50.0,16.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+394,Iqoo,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,83.0,8.0,128.0,4400.0,6.62,1080 x 2400 ,3.0,48.0,16.0,1.0,120.0,66.0,android,11.0,0.0,Not Slot,0.0
+395,Vivo,True,False,False,Snapdragon,Snapdragon 870,8.0,3.2,85.0,8.0,128.0,4700.0,6.62,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,80.0,android,12.0,1.0,Hybird,1024.0
+396,Samsung,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,74.0,8.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,64.0,32.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+397,Vivo,True,False,False,Dimensity,Dimensity 1300,8.0,3.0,77.0,8.0,128.0,4500.0,6.58,1080 x 2400 ,3.0,50.0,16.0,1.0,90.0,44.0,android,12.0,0.0,Not Slot,0.0
+398,Samsung,True,False,False,Snapdragon,Snapdragon 730G,8.0,2.2,72.0,6.0,128.0,6000.0,6.7,1080 x 2400 ,3.0,64.0,32.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+399,Xiaomi,True,False,True,Dimensity,Dimensity 920 5G,8.0,2.5,83.0,8.0,128.0,5160.0,6.67,2400 x 1080 ,3.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+400,Iqoo,True,True,False,Dimensity,Dimensity 8200,8.0,3.1,83.0,8.0,128.0,5000.0,6.78,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,120.0,android,13.0,0.0,Not Slot,0.0
+401,Xiaomi,True,False,True,Dimensity,Dimensity 920 5G,8.0,2.5,83.0,6.0,128.0,4500.0,6.67,2400 x 1080 ,3.0,108.0,16.0,1.0,120.0,120.0,android,11.0,1.0,Hybird,1024.0
+402,Xiaomi,True,False,True,Dimensity,Dimensity 1080,8.0,2.6,79.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+403,Samsung,True,True,False,Dimensity,Dimensity 720,8.0,2.0,79.0,6.0,128.0,5000.0,6.5,720 x 1600 ,4.0,48.0,13.0,1.0,90.0,15.0,android,11.0,1.0,Hybird,1024.0
+404,Realme,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,82.0,8.0,256.0,4500.0,6.4,1080 x 2400 ,3.0,50.0,16.0,1.0,90.0,60.0,android,12.0,0.0,Not Slot,0.0
+405,Huawei,False,True,False,Snapdragon,Sanpdragon 680,8.0,2.4,84.0,8.0,256.0,4500.0,6.67,1080 x 2160 ,3.0,108.0,16.0,1.0,90.0,66.0,android,12.0,0.0,Not Slot,0.0
+406,Samsung,False,True,False,Exynos,Exynos 9825,8.0,2.73,83.0,6.0,128.0,7000.0,6.71,1080 x 2400 ,4.0,64.0,32.0,1.0,60.0,25.0,android,11.0,1.0,Dedicated,1024.0
+407,Vivo,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,81.0,6.0,128.0,4700.0,6.44,1080 x 2404 ,3.0,64.0,16.0,1.0,90.0,66.0,android,12.0,1.0,Hybird,1024.0
+408,Vivo,True,False,False,Dimensity,Dimensity 800U,8.0,2.4,85.0,8.0,128.0,4000.0,6.44,1080 x 2400 ,3.0,64.0,44.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,256.0
+409,Oppo,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,79.0,12.0,256.0,5000.0,6.56,1080 x 2400 ,2.0,48.0,8.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+410,Motorola,True,False,False,Snapdragon,Snapdragon 888+,8.0,2.9,85.0,6.0,128.0,5000.0,6.8,1080 x 2460 ,3.0,108.0,16.0,1.0,144.0,33.0,android,11.0,0.0,Not Slot,0.0
+411,Motorola,True,False,False,Snapdragon,Snapdragon 888+,8.0,2.9,83.0,8.0,128.0,4400.0,6.55,1080 x 2460 ,3.0,50.0,32.0,1.0,144.0,68.0,android,12.0,0.0,Not Slot,0.0
+412,Xiaomi,True,False,True,Snapdragon,Snapdragon 870,8.0,3.2,80.0,6.0,128.0,4520.0,6.67,1080 x 2400 ,3.0,48.0,20.0,1.0,120.0,33.0,android,11.0,0.0,Not Slot,0.0
+413,Samsung,True,False,False,Dimensity,Dimensity 900 5G,8.0,2.4,85.0,6.0,128.0,5000.0,6.7,1080 x 2400 ,4.0,108.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Hybird,1024.0
+414,Xiaomi,True,True,False,Snapdragon,Snapdragon 865,8.0,2.84,80.0,6.0,128.0,5000.0,6.67,2400 x 1080 ,3.0,64.0,20.0,1.0,144.0,33.0,android,10.0,0.0,Not Slot,0.0
+415,Xiaomi,True,False,True,Dimensity,Dimensity 920 5G,8.0,2.5,81.0,6.0,128.0,5160.0,6.67,2400 x 1080 ,3.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+416,Iqoo,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,80.0,8.0,128.0,4700.0,6.44,1080 x 2404 ,3.0,64.0,16.0,1.0,90.0,66.0,android,12.0,0.0,Not Slot,0.0
+417,Vivo,False,False,False,Snapdragon,Snapdragon 720G,8.0,2.3,85.0,8.0,128.0,4000.0,6.44,1080 x 2400 ,3.0,64.0,44.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,1024.0
+418,Tecno,False,False,False,Helio,Helio G95,8.0,2.05,84.0,8.0,256.0,5000.0,6.7,1080 x 2400 ,4.0,50.0,48.0,2.0,120.0,44.0,android,11.0,0.0,Not Slot,0.0
+419,Xiaomi,True,False,True,Dimensity,Dimensity 8100,8.0,2.85,82.0,6.0,128.0,5080.0,6.6,1080 x 2460 ,3.0,64.0,16.0,1.0,144.0,67.0,android,12.0,0.0,Not Slot,0.0
+420,Oneplus,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,83.0,8.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+421,Realme,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,83.0,8.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,1024.0
+422,Xiaomi,True,True,True,Snapdragon,Snapdragon 778G,8.0,2.4,86.0,8.0,128.0,4250.0,6.55,1080 x 2400 ,3.0,64.0,20.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+423,Xiaomi,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,87.0,8.0,256.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+424,Motorola,True,True,False,Snapdragon,Snapdragon 778G+,8.0,2.5,83.0,6.0,128.0,4020.0,6.5,1080 x 2400 ,3.0,50.0,32.0,1.0,144.0,33.0,android,12.0,0.0,Not Slot,0.0
+425,Samsung,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,82.0,8.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,64.0,8.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+426,Samsung,False,True,False,Exynos,Exynos 1380,8.0,2.4,74.0,8.0,128.0,6000.0,6.5,1080 x 2400 ,3.0,64.0,32.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+427,Samsung,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,79.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,4.0,50.0,8.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+428,Realme,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,82.0,8.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,48.0,16.0,1.0,144.0,30.0,android,11.0,1.0,Dedicated,1024.0
+429,Realme,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,81.0,8.0,128.0,4500.0,6.4,1080 x 2400 ,3.0,50.0,16.0,1.0,90.0,60.0,android,12.0,0.0,Not Slot,0.0
+430,Oppo,True,False,False,Snapdragon,Snapdragon 765G,8.0,2.4,80.0,6.0,128.0,4000.0,6.5,1080 x 2400 ,4.0,64.0,16.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+431,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,83.0,8.0,128.0,5000.0,6.44,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,44.0,android,12.0,1.0,Hybird,1024.0
+432,Huawei,False,True,False,Snapdragon,Snapdragon 680,8.0,2.4,82.0,8.0,128.0,5000.0,6.7,1080 x 2388 ,4.0,50.0,8.0,1.0,90.0,40.0,other,12.0,0.0,Not Slot,0.0
+433,Oneplus,True,True,False,Dimensity,Dimensity 8100 Max,8.0,2.85,83.0,8.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,65.0,android,12.0,0.0,Not Slot,0.0
+434,Oukitel,False,False,False,Helio,Helio G99,8.0,2.2,82.0,12.0,256.0,9800.0,6.78,1080 x 2400 ,3.0,64.0,20.0,1.0,120.0,66.0,android,12.0,1.0,Hybird,256.0
+435,Oppo,True,True,False,Snapdragon,Snapdragon 6 Gen 1,8.0,2.2,84.0,8.0,128.0,4800.0,6.58,1080 x 2400 ,3.0,50.0,32.0,1.0,120.0,33.0,android,13.0,1.0,Dedicated,256.0
+436,Oppo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,82.0,8.0,256.0,4500.0,6.43,1080 x 2400 ,2.0,48.0,16.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,1024.0
+437,Iqoo,True,False,False,Snapdragon,Snapdragon 870,8.0,3.2,83.0,8.0,128.0,4700.0,6.62,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,80.0,android,12.0,0.0,Not Slot,0.0
+438,Xiaomi,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,86.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+439,Samsung,False,False,False,Snapdragon,Snapdragon 720G,8.0,2.3,86.0,8.0,128.0,4500.0,6.5,1080 x 2400 ,4.0,64.0,32.0,1.0,90.0,25.0,android,11.0,1.0,Dedicated,1024.0
+440,Samsung,False,False,False,Snapdragon,Snapdragon 730,8.0,2.2,86.0,8.0,128.0,4500.0,6.7,1080 x 2400 ,4.0,64.0,32.0,1.0,60.0,25.0,android,10.0,1.0,Dedicated,1024.0
+441,Motorola,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,87.0,6.0,128.0,5000.0,6.7,1080 x 2520 ,4.0,64.0,16.0,2.0,90.0,20.0,android,11.0,1.0,Dedicated,1024.0
+442,Samsung,True,True,False,Dimensity,Dimensity 900,8.0,2.0,84.0,6.0,128.0,7000.0,6.7,1080 x 2400 ,4.0,64.0,32.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+443,Tecno,True,True,False,Dimensity,Dimensity 810 5G,8.0,2.4,82.0,8.0,128.0,5000.0,6.8,1080 x 2460 ,3.0,64.0,16.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+444,Motorola,True,True,False,Snapdragon,Snapdragon 480+,8.0,2.2,79.0,4.0,128.0,5000.0,6.5,720 x 1600 ,2.0,50.0,16.0,1.0,120.0,10.0,android,13.0,1.0,Hybird,1024.0
+445,Vivo,True,True,False,Dimensity,Dimensity 700 5G,8.0,2.2,78.0,4.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,8.0,1.0,60.0,18.0,android,12.0,0.0,Not Slot,0.0
+446,Oneplus,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,83.0,6.0,128.0,5000.0,6.7,1080 x 2412 ,3.0,108.0,16.0,1.0,120.0,67.0,android,12.0,1.0,Dedicated,1024.0
+447,Realme,False,False,False,Snapdragon,Snapdragon 720G,8.0,2.3,85.0,8.0,128.0,4500.0,6.4,1080 x 2400 ,4.0,64.0,32.0,1.0,60.0,65.0,android,10.0,1.0,Dedicated,256.0
+448,Oneplus,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,84.0,8.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+449,Vivo,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,84.0,8.0,128.0,4050.0,6.44,1080 x 2400 ,3.0,50.0,44.0,1.0,60.0,44.0,android,12.0,1.0,Hybird,1024.0
+450,Oppo,True,False,False,Snapdragon,Snapdragon 810,8.0,2.4,76.0,6.0,128.0,5000.0,6.56,720 x 1600 ,2.0,48.0,8.0,1.0,90.0,33.0,android,12.0,0.0,Not Slot,0.0
+451,Infinix,True,False,False,Helio,Helio G95,8.0,2.05,85.0,8.0,128.0,4500.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,45.0,android,11.0,1.0,Dedicated,512.0
+452,Vivo,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,82.0,8.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,60.0,18.0,android,12.0,1.0,Hybird,1024.0
+453,Huawei,False,False,False,Kirin,Kirin 810,8.0,2.2,81.0,8.0,128.0,4200.0,6.4,1080 x 2340 ,4.0,48.0,16.0,1.0,60.0,40.0,android,10.0,1.0,Hybird,256.0
+454,Huawei,False,False,False,Kirin,Kirin 710,8.0,2.2,63.0,4.0,64.0,5000.0,6.52,720 x 1600 ,3.0,50.0,5.0,1.0,60.0,22.5,other,12.0,1.0,Hybird,512.0
+455,Oppo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,82.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,32.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,512.0
+456,Xiaomi,True,True,True,Snapdragon,Snapdragon 778G,8.0,2.4,83.0,6.0,128.0,4250.0,6.55,1080 x 2400 ,3.0,64.0,20.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+457,Iqoo,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,78.0,6.0,128.0,4700.0,6.44,1080 x 2404 ,3.0,64.0,16.0,1.0,90.0,66.0,android,12.0,0.0,Not Slot,0.0
+458,Samsung,False,False,False,Exynos,Exynos 7885,8.0,2.2,70.0,4.0,64.0,3300.0,6.0,2220 x 1080 ,3.0,24.0,24.0,1.0,60.0,16.0,android,8.0,1.0,Dedicated,512.0
+459,Tecno,True,True,False,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,6.0,128.0,5000.0,6.83,1080 x 2460 ,3.0,50.0,16.0,1.0,120.0,33.0,android,13.0,0.0,Not Slot,0.0
+460,Poco,True,True,True,Snapdragon,Snapdragon 778G,8.0,2.4,81.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+461,Samsung,True,False,False,Exynos,Exynos 1330,8.0,2.4,82.0,8.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,13.0,1.0,90.0,15.0,android,13.0,1.0,Dedicated,1024.0
+462,Oppo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,82.0,8.0,128.0,4500.0,6.5,1080 x 2400 ,3.0,64.0,32.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,256.0
+463,Realme,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,82.0,8.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Dedicated,256.0
+464,Oppo,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,84.0,8.0,128.0,4800.0,6.7,1080 x 2412 ,2.0,108.0,16.0,1.0,120.0,67.0,android,13.0,1.0,Dedicated,1024.0
+465,Oneplus,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,81.0,6.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,60.0,33.0,android,11.0,0.0,Not Slot,0.0
+466,Vivo,True,True,False,Dimensity,Dimensity 700 5G,8.0,2.2,77.0,4.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,512.0
+467,Vivo,False,False,False,Helio,Helio,8.0,2.0,70.0,4.0,128.0,3315.0,6.3,1080 x 2280 ,2.0,16.0,25.0,1.0,60.0,20.4,android,8.1,1.0,Dedicated,256.0
+468,Xiaomi,True,False,True,Snapdragon,Snapdragon 7 Gen1,8.0,2.36,83.0,6.0,128.0,5200.0,6.67,1080 x 2460 ,4.0,108.0,32.0,1.0,120.0,67.0,android,12.0,1.0,Dedicated,512.0
+469,Motorola,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,86.0,8.0,128.0,5000.0,6.6,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,30.0,android,12.0,1.0,Dedicated,1024.0
+470,Realme,True,False,False,Dimensity,Dimensity 920 5G,8.0,2.5,81.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,256.0
+471,Google,False,True,False,Snapdragon,Snapdragon 855,8.0,2.8,78.0,6.0,64.0,2800.0,5.7,1080 x 2280 ,2.0,16.0,8.0,2.0,60.0,18.0,android,10.0,0.0,Not Slot,0.0
+472,Vivo,False,False,False,Helio,Helio,8.0,2.0,73.0,4.0,128.0,5000.0,6.53,1080 x 2340 ,3.0,16.0,16.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,256.0
+473,Samsung,False,False,False,Exynos,Exynos 9611,8.0,2.3,82.0,6.0,128.0,6000.0,6.4,1080 x 2340 ,3.0,64.0,32.0,1.0,60.0,15.0,android,10.0,1.0,Dedicated,512.0
+474,Xiaomi,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,83.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+475,Oneplus,False,False,False,Snapdragon,Snapdragon 690,8.0,2.0,77.0,8.0,128.0,4300.0,6.55,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,30.0,android,10.0,0.0,Not Slot,0.0
+476,Xiaomi,True,True,True,Snapdragon,Snapdragon 778G,8.0,2.4,81.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+477,Infinix,True,False,False,Dimensity,Dimensity 810,8.0,2.4,78.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,2.0,50.0,8.0,1.0,120.0,18.0,android,12.0,1.0,Dedicated,1024.0
+478,Zte,True,True,False,Snapdragon,Snapdragon 870,8.0,3.2,82.0,6.0,128.0,4200.0,6.9,1080 x 2460 ,4.0,50.0,16.0,1.0,120.0,55.0,android,12.0,1.0,Hybird,1024.0
+479,Realme,True,False,False,Dimensity,Dimensity 800U,8.0,2.4,83.0,8.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,120.0,30.0,android,10.0,1.0,Hybird,256.0
+480,Infinix,False,False,False,Helio,Helio G96,8.0,2.05,84.0,8.0,128.0,4500.0,6.7,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,120.0,android,12.0,1.0,Dedicated,256.0
+481,Motorola,False,True,False,Helio,Helio G85,8.0,2.0,77.0,4.0,128.0,5000.0,6.5,720 x 1600 ,3.0,50.0,16.0,1.0,90.0,30.0,android,13.0,1.0,Dedicated,512.0
+482,Poco,True,False,False,Snapdragon,Snapdragon 778G+,8.0,2.3200000000000003,72.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,4.0,64.0,32.0,1.0,120.0,67.0,android,12.0,1.0,Dedicated,1024.0
+483,Xiaomi,True,False,True,Snapdragon,Snapdragon 778G,8.0,2.4,83.0,6.0,128.0,5200.0,6.67,1080 x 2400 ,4.0,108.0,32.0,1.0,120.0,33.0,android,11.0,1.0,Dedicated,512.0
+484,Redmi,True,True,True,Snapdragon,Snapdragon 778G,8.0,2.4,81.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,67.0,android,13.0,0.0,Not Slot,0.0
+485,Oppo,False,True,False,Helio,Helio G99,8.0,2.2,83.0,8.0,256.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,66.0,android,13.0,1.0,Dedicated,1024.0
+486,Xiaomi,False,False,True,Snapdragon,Snapdragon 732G,8.0,2.3,81.0,6.0,64.0,5020.0,6.67,1080 x 2400 ,4.0,108.0,16.0,1.0,120.0,33.0,android,11.0,1.0,Dedicated,512.0
+487,Oneplus,False,False,False,Snapdragon,Snapdragon 665,8.0,2.0,73.0,4.0,64.0,4500.0,6.3,1080 x 2400 ,4.0,48.0,13.0,1.0,60.0,65.0,android,10.0,1.0,Dedicated,256.0
+488,Realme,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,84.0,8.0,128.0,5000.0,6.72,1080 x 2400 ,2.0,108.0,16.0,1.0,120.0,33.0,android,13.0,1.0,Dedicated,1024.0
+489,Vivo,False,False,False,Helio,Helio G95,8.0,2.05,80.0,8.0,128.0,4000.0,6.44,1080 x 2400 ,3.0,64.0,16.0,1.0,60.0,33.0,android,11.0,0.0,Not Slot,0.0
+490,Motorola,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,81.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+491,Motorola,True,True,False,Snapdragon,Snapdragon 750G,8.0,2.2,82.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,48.0,16.0,1.0,60.0,20.0,android,10.0,1.0,Hybird,1024.0
+492,Vivo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,83.0,8.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+493,Xiaomi,True,True,True,Dimensity,Dimensity 8100,8.0,2.85,82.0,6.0,128.0,5080.0,6.6,1080 x 2460 ,3.0,64.0,16.0,1.0,144.0,67.0,android,12.0,1.0,Hybird,1024.0
+494,Oppo,True,False,False,Dimensity,Dimensity 800U,8.0,2.4,82.0,8.0,128.0,4310.0,6.43,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,50.0,android,11.0,1.0,Dedicated,256.0
+495,Poco,True,False,True,Dimensity,Dimensity 920 5G,8.0,2.5,84.0,8.0,128.0,5100.0,6.73,1080 x 2400 ,3.0,108.0,32.0,1.0,120.0,120.0,android,13.0,1.0,Hybird,1024.0
+496,Vivo,False,False,False,Helio,Helio G99,8.0,2.2,84.0,8.0,256.0,4500.0,6.44,1080 x 2400 ,3.0,64.0,32.0,1.0,90.0,44.0,android,12.0,1.0,Hybird,1024.0
+497,Samsung,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,82.0,8.0,128.0,5000.0,6.6,1080 x 2408 ,4.0,50.0,8.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+498,Oppo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,82.0,8.0,128.0,4500.0,6.5,1080 x 2400 ,3.0,64.0,32.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,256.0
+499,Oppo,False,False,False,Snapdragon,Snapdragon 730G,8.0,2.2,82.0,8.0,128.0,4000.0,6.4,1080 x 2340 ,4.0,64.0,32.0,1.0,60.0,30.0,android,9.0,1.0,Dedicated,256.0
+500,Sony,False,True,False,Snapdragon,Snapdragon 4 Gen 1,8.0,2.0,80.0,8.0,128.0,5000.0,6.5,1080 x 2400 ,2.0,50.0,16.0,1.0,120.0,33.0,android,13.0,1.0,Hybird,1024.0
+501,Iqoo,True,False,False,Snapdragon,Snapdragon 7 Gen2,8.0,2.32,76.0,8.0,128.0,5000.0,6.67,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,45.0,android,13.0,1.0,Hybird,1024.0
+502,Huawei,False,True,False,Snapdragon,Snapdragon 680,8.0,2.4,84.0,8.0,128.0,4000.0,6.78,1080 x 2388 ,4.0,108.0,16.0,1.0,90.0,66.0,android,11.0,0.0,Not Slot,0.0
+503,Motorola,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,80.0,6.0,128.0,5000.0,6.8,1080 x 2400 ,3.0,108.0,32.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+504,Vivo,False,False,False,Helio,Helio G96,8.0,2.05,82.0,8.0,128.0,4050.0,6.44,1080 x 2400 ,3.0,50.0,44.0,1.0,60.0,44.0,android,12.0,1.0,Hybird,1024.0
+505,Vivo,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,8.0,128.0,6000.0,6.58,1080 x 2408 ,2.0,50.0,8.0,1.0,60.0,18.0,android,11.0,0.0,Not Slot,0.0
+506,Oneplus,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,81.0,6.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+507,Xiaomi,True,False,True,Snapdragon,Snapdragon 4 Gen 1,8.0,2.0,79.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,48.0,13.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+508,Xiaomi,False,False,True,Snapdragon,Snapdragon 732G,8.0,2.3,82.0,6.0,128.0,5020.0,6.67,1080 x 2400 ,4.0,108.0,16.0,1.0,120.0,33.0,android,11.0,1.0,Dedicated,512.0
+509,Poco,False,False,True,Snapdragon,Snapdragon 860,8.0,2.96,82.0,6.0,128.0,5160.0,6.67,1080 x 2400 ,4.0,48.0,20.0,1.0,120.0,33.0,android,11.0,1.0,Hybird,1024.0
+510,Infinix,True,False,False,Dimensity,Dimensity 1080,8.0,2.6,85.0,8.0,256.0,5000.0,6.78,1080 x 2460 ,3.0,50.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Dedicated,256.0
+511,Motorola,False,False,False,Snapdragon,Snapdragon 730G,8.0,2.2,80.0,6.0,128.0,5000.0,6.5,1080 x 2340 ,4.0,64.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Hybird,1024.0
+512,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,84.0,8.0,128.0,6000.0,6.6,1080 x 2400 ,4.0,50.0,8.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+513,Vivo,False,False,False,Snapdragon,Snapdragon 665,8.0,2.0,82.0,8.0,128.0,4100.0,6.44,1080 x 2400 ,3.0,48.0,32.0,1.0,60.0,33.0,android,10.0,1.0,Dedicated,1024.0
+514,Realme,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,82.0,6.0,128.0,5000.0,6.72,1080 x 2400 ,2.0,108.0,16.0,1.0,120.0,33.0,android,13.0,1.0,Dedicated,1024.0
+515,Oppo,True,True,False,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,8.0,128.0,5000.0,6.56,720 x 1612 ,2.0,50.0,8.0,1.0,90.0,33.0,android,12.0,0.0,Not Slot,0.0
+516,Infinix,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,84.0,8.0,128.0,5000.0,6.7,1080 x 2400 ,3.0,108.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,2048.0
+517,Oneplus,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,81.0,6.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+518,Redmi,False,False,True,Snapdragon,Snapdragon 712,8.0,2.3,81.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,4.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+519,Samsung,True,False,False,Exynos,Exynos 1330,8.0,2.4,79.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,13.0,1.0,90.0,15.0,android,13.0,1.0,Dedicated,1024.0
+520,Motorola,True,True,False,Dimensity,Dimensity 800U,8.0,2.4,87.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,32.0,1.0,90.0,30.0,android,11.0,1.0,Hybird,1024.0
+521,Motorola,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,83.0,6.0,128.0,5000.0,6.6,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,30.0,android,12.0,1.0,Dedicated,1024.0
+522,Realme,True,False,False,Snapdragon,Snapdragon 778G,8.0,2.4,80.0,6.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,48.0,16.0,1.0,144.0,30.0,android,11.0,1.0,Dedicated,1024.0
+523,Realme,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,80.0,6.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Dedicated,256.0
+524,Oppo,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,76.0,6.0,128.0,5000.0,6.56,720 x 1612 ,2.0,50.0,8.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+525,Vivo,True,False,False,Dimensity,Dimensity 1300,8.0,3.0,80.0,8.0,128.0,6000.0,6.58,1080 x 2408 ,2.0,50.0,16.0,1.0,120.0,44.0,android,12.0,0.0,Not Slot,0.0
+526,Oneplus,True,True,False,Dimensity,Dimensity 810 5G,8.0,2.4,75.0,4.0,64.0,5000.0,6.56,720 x 1612 ,2.0,48.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+527,Oppo,False,False,False,Helio,Helio,8.0,2.2,83.0,8.0,128.0,4015.0,6.43,1080 x 2400 ,4.0,48.0,16.0,2.0,60.0,30.0,android,10.0,1.0,Dedicated,256.0
+528,Xiaomi,False,False,True,Snapdragon,Snapdragon 732G,8.0,2.3,82.0,8.0,128.0,4250.0,6.55,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,512.0
+529,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,76.0,6.0,128.0,5000.0,6.4,720 x 1600 ,4.0,48.0,13.0,1.0,60.0,15.0,android,11.0,1.0,Dedicated,1024.0
+530,Realme,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,80.0,8.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+531,Xiaomi,True,False,True,Dimensity,Dimensity 810 5G,8.0,2.4,83.0,8.0,128.0,5000.0,6.6,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+532,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,80.0,8.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,90.0,44.0,android,12.0,1.0,Dedicated,1024.0
+533,Samsung,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,79.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,4.0,50.0,8.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+534,Iqoo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,82.0,8.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+535,Vivo,False,False,False,Helio,Helio,8.0,2.0,62.0,4.0,32.0,4030.0,6.2,1520 x 720 ,2.0,13.0,8.0,1.0,60.0,26.2,android,8.1,1.0,Dedicated,256.0
+536,Infinix,True,False,False,Dimensity,Dimensity 810,8.0,2.4,75.0,4.0,64.0,5000.0,6.6,1080 x 2408 ,2.0,50.0,8.0,1.0,120.0,18.0,android,12.0,1.0,Dedicated,1024.0
+537,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,82.0,8.0,128.0,5000.0,6.44,1080 x 2408 ,3.0,50.0,16.0,1.0,60.0,44.0,android,12.0,1.0,Hybird,1024.0
+538,Oppo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,76.0,8.0,128.0,5000.0,6.56,720 x 1600 ,2.0,50.0,8.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+539,Tecno,False,True,False,Helio,Helio G96,8.0,2.05,84.0,8.0,128.0,5000.0,6.8,1080 x 2460 ,3.0,64.0,32.0,1.0,120.0,33.0,android,12.0,1.0,Dedicated,512.0
+540,Infinix,False,True,False,Helio,Helio G99,8.0,2.2,87.0,8.0,128.0,4500.0,6.7,1080 x 2400 ,3.0,108.0,60.0,1.0,90.0,45.0,android,12.0,1.0,Dedicated,2048.0
+541,Poco,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,84.0,8.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+542,Xiaomi,False,False,True,Helio,Helio G96,8.0,2.05,81.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,4.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+543,Realme,False,False,False,Helio,Helio G95,8.0,2.0,83.0,8.0,128.0,5000.0,6.4,1080 x 2400 ,4.0,64.0,16.0,1.0,60.0,30.0,android,11.0,1.0,Dedicated,256.0
+544,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,80.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+545,Iqoo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,80.0,8.0,128.0,4200.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,55.0,android,12.0,0.0,Not Slot,0.0
+546,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,79.0,6.0,128.0,5000.0,6.6,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+547,Samsung,False,False,False,Exynos,Exynos 7904,8.0,1.8,77.0,6.0,64.0,4000.0,6.4,1080 x 2408 ,3.0,48.0,16.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+548,Oppo,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,84.0,8.0,128.0,4500.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,1024.0
+549,Oppo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,80.0,8.0,128.0,5000.0,6.59,1080 x 2412 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+550,Xiaomi,False,False,True,Snapdragon,Snapdragon 732G,8.0,2.3,81.0,6.0,128.0,5020.0,6.67,1080 x 2400 ,4.0,64.0,16.0,1.0,120.0,33.0,android,11.0,1.0,Dedicated,512.0
+551,Oppo,False,False,False,Helio,Helio,8.0,2.2,80.0,8.0,128.0,4310.0,6.43,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,30.0,android,11.0,1.0,Dedicated,256.0
+552,Xiaomi,True,True,True,Dimensity,Dimensity 720,8.0,2.0,78.0,6.0,128.0,5000.0,6.67,1080 x 2460 ,3.0,108.0,16.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+553,Oppo,True,False,False,Dimensity,Dimensity 700,8.0,2.2,74.0,6.0,128.0,5000.0,6.5,720 x 1600 ,3.0,13.0,8.0,1.0,60.0,21.0,android,11.0,1.0,Dedicated,256.0
+554,Vivo,True,False,False,Dimensity,Dimensity 930,8.0,2.2,76.0,6.0,128.0,4500.0,6.64,1080 x 2388 ,2.0,50.0,8.0,1.0,120.0,80.0,android,12.0,1.0,Dedicated,1024.0
+555,Xiaomi,True,False,True,Snapdragon,Snapdragon 4 Gen 1,8.0,2.0,79.0,6.0,128.0,5100.0,6.73,1080 x 2408 ,2.0,64.0,16.0,1.0,120.0,18.0,android,13.0,1.0,Dedicated,1024.0
+556,Lava,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,84.0,8.0,128.0,5000.0,6.78,1080 x 2460 ,4.0,64.0,16.0,1.0,90.0,30.0,android,11.0,1.0,Hybird,1024.0
+557,Nokia,True,True,False,Snapdragon,Snapdragon 480,8.0,2.0,82.0,6.0,128.0,4470.0,6.67,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1000.0
+558,Samsung,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,48.0,8.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+559,Xiaomi,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,81.0,6.0,64.0,5000.0,6.67,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+560,Tecno,False,False,False,Helio,Helio G96,8.0,2.05,81.0,8.0,128.0,5000.0,6.8,1080 x 2460 ,3.0,64.0,32.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+561,Oppo,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,73.0,6.0,128.0,5000.0,6.5,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,15.5,android,11.0,1.0,Dedicated,1024.0
+562,Samsung,False,False,False,Exynos,Exynos Exynos 7885,8.0,2.2,69.0,4.0,64.0,3100.0,5.9,1080 x 2340 ,2.0,16.0,25.0,1.0,60.0,15.0,android,9.0,1.0,Dedicated,512.0
+563,Samsung,True,True,False,Dimensity,Dimensity 700 5G,8.0,2.2,73.0,4.0,64.0,5000.0,6.5,720 x 1600 ,3.0,50.0,5.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+564,Xiaomi,True,False,True,Snapdragon,Snapdragon 4 Gen 1,8.0,2.0,76.0,4.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,48.0,13.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+565,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,82.0,8.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+566,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,75.0,6.0,128.0,5000.0,6.5,720 x 1600 ,4.0,48.0,13.0,1.0,60.0,30.0,android,10.0,1.0,Dedicated,512.0
+567,Samsung,True,True,False,Exynos,Exynos 1280,8.0,2.4,81.0,6.0,128.0,6000.0,6.6,1080 x 2400 ,4.0,50.0,8.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+568,Xiaomi,True,True,True,Dimensity,Dimensity 1100 5G,8.0,2.6,83.0,6.0,128.0,5000.0,6.6,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Dedicated,1024.0
+569,Xiaomi,False,False,True,Helio,Helio G90T,8.0,2.05,78.0,6.0,64.0,4500.0,6.53,1080 x 2340 ,4.0,64.0,20.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,512.0
+570,Samsung,True,True,False,Snapdragon,Snapdragon 750G,8.0,2.2,80.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+571,Realme,False,False,False,Helio,Helio G99,8.0,2.2,79.0,8.0,128.0,5000.0,6.4,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+572,Realme,True,True,False,Dimensity,Dimensity 700 5G,8.0,2.2,80.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+573,Xiaomi,True,False,True,Dimensity,Dimensity 810 5G,8.0,2.4,79.0,6.0,64.0,5000.0,6.6,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+574,Honor,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,76.0,6.0,128.0,4000.0,6.7,1080 x 2388 ,4.0,64.0,16.0,1.0,90.0,22.5,android,11.0,0.0,Not Slot,0.0
+575,Honor,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,80.0,8.0,128.0,4800.0,6.81,1080 x 2388 ,3.0,48.0,16.0,1.0,60.0,66.0,android,11.0,0.0,Not Slot,0.0
+576,Motorola,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,76.0,4.0,64.0,5000.0,6.6,2460 x 1080 ,3.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,512.0
+577,Motorola,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,80.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,50.0,16.0,1.0,60.0,33.0,android,11.0,0.0,Not Slot,0.0
+578,Infinix,False,False,False,Helio,Helio G99,8.0,2.2,80.0,6.0,128.0,5000.0,6.91,1080 x 2460 ,4.0,108.0,16.0,1.0,60.0,120.0,android,12.0,1.0,Dedicated,256.0
+579,Oppo,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,79.0,8.0,128.0,5000.0,6.56,720 x 1612 ,2.0,48.0,8.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+580,Xiaomi,True,False,True,Dimensity,Dimensity 810 5G,8.0,2.4,81.0,6.0,128.0,5000.0,6.6,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+581,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,78.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,1024.0
+582,Infinix,False,False,False,Helio,Helio G96,8.0,2.05,79.0,8.0,128.0,5000.0,6.7,1080 x 2400 ,3.0,50.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+583,Samsung,True,True,False,Exynos,Exynos 1200,8.0,2.4,84.0,6.0,128.0,6000.0,6.5,1080 x 2400 ,4.0,64.0,32.0,1.0,120.0,25.0,android,12.0,1.0,Hybird,1024.0
+584,Vivo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,80.0,6.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+585,Vivo,True,False,False,Dimensity,Dimensity 700,8.0,2.0,77.0,8.0,128.0,6000.0,6.58,1080 x 2408 ,2.0,50.0,8.0,1.0,60.0,44.0,android,11.0,0.0,Not Slot,0.0
+586,Oneplus,True,True,False,Snapdragon,Snapdragon 480,8.0,2.0,75.0,4.0,64.0,5000.0,6.49,1080 x 2400 ,3.0,13.0,16.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+587,Oppo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,78.0,6.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,64.0,16.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+588,Oneplus,False,False,False,Snapdragon,Snapdragon 460,8.0,1.8,68.0,4.0,64.0,5000.0,6.52,720 x 1600 ,3.0,13.0,8.0,1.0,90.0,18.0,android,10.0,1.0,Dedicated,256.0
+589,Oppo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,80.0,8.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+590,Iqoo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,80.0,6.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+591,Infinix,False,False,False,Helio,Helio G99,8.0,2.2,83.0,8.0,256.0,5000.0,6.7,1080 x 2400 ,3.0,108.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,2048.0
+592,Vivo,False,False,False,Helio,Helio G80,8.0,2.0,80.0,8.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+593,Vivo,False,False,False,Helio,Helio G70,8.0,2.0,75.0,6.0,128.0,5000.0,6.55,720 x 1612 ,2.0,50.0,8.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,1024.0
+594,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,78.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,4.0,50.0,8.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+595,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,82.0,8.0,128.0,5000.0,6.4,1080 x 2400 ,4.0,64.0,20.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+596,Realme,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,75.0,4.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+597,Xiaomi,False,False,True,Snapdragon,Snapdragon 678,8.0,2.2,78.0,6.0,128.0,5000.0,6.43,1080 x 2400 ,4.0,48.0,13.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+598,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,80.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,4.0,64.0,20.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+599,Motorola,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,84.0,8.0,128.0,5000.0,6.55,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,15.0,android,12.0,1.0,Hybird,1024.0
+600,Samsung,True,False,False,Exynos,Exynos 1330,8.0,2.4,75.0,4.0,64.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,13.0,1.0,90.0,15.0,android,13.0,1.0,Dedicated,1024.0
+601,Poco,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,82.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+602,Oppo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,73.0,6.0,128.0,5000.0,6.56,720 x 1612 ,2.0,13.0,8.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,256.0
+603,Xiaomi,False,False,True,Snapdragon,Snapdragon 720G,8.0,2.3,80.0,6.0,64.0,5020.0,6.67,1080 x 2400 ,4.0,64.0,32.0,1.0,60.0,33.0,android,10.0,1.0,Dedicated,512.0
+604,Poco,True,False,True,Dimensity,Dimensity 810 5G,8.0,2.4,82.0,8.0,128.0,5000.0,6.6,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+605,Realme,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,84.0,8.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,108.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,256.0
+606,Poco,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,75.0,4.0,64.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Hybird,1024.0
+607,Infinix,False,False,False,Helio,Helio G96,8.0,2.05,79.0,8.0,128.0,5000.0,6.95,1080 x 2460 ,3.0,50.0,16.0,1.0,120.0,33.0,android,11.0,1.0,Dedicated,2048.0
+608,Motorola,False,True,False,Helio,Helio G85,8.0,2.0,75.0,4.0,128.0,5000.0,6.5,720 x 1600 ,3.0,50.0,8.0,1.0,90.0,10.0,android,13.0,1.0,Hybird,512.0
+609,Tecno,False,False,False,Helio,Helio G99,8.0,2.2,74.0,8.0,256.0,6000.0,6.66,720 x 1600 ,2.0,50.0,8.0,1.0,90.0,45.0,android,12.0,1.0,Dedicated,1024.0
+610,Iqoo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,80.0,6.0,128.0,5000.0,6.44,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,44.0,android,12.0,1.0,Hybird,1024.0
+611,Motorola,False,True,False,Snapdragon,Snapdragon 732G,8.0,2.3,84.0,6.0,128.0,6000.0,6.78,1080 x 2460 ,3.0,108.0,32.0,1.0,120.0,20.0,android,11.0,1.0,Hybird,1024.0
+612,Google,False,True,False,Snapdragon,Snapdragon 670,8.0,2.0,67.0,4.0,64.0,3700.0,6.0,1080 x 2160 ,1.0,12.2,8.0,1.0,60.0,18.0,android,9.0,0.0,Not Slot,0.0
+613,Infinix,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,78.0,6.0,64.0,5000.0,6.7,1080 x 2400 ,3.0,50.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,2048.0
+614,Realme,False,False,False,Helio,Helio G95,8.0,2.0,78.0,4.0,128.0,5000.0,6.4,1080 x 2400 ,4.0,64.0,16.0,1.0,60.0,30.0,android,11.0,1.0,Dedicated,256.0
+615,Motorola,False,True,False,Helio,Helio G99,8.0,2.2,83.0,6.0,128.0,5000.0,6.55,1080 x 2400 ,3.0,108.0,16.0,1.0,120.0,33.0,android,12.0,1.0,Hybird,1024.0
+616,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,79.0,6.0,128.0,5000.0,6.44,1080 x 2408 ,3.0,50.0,16.0,1.0,60.0,44.0,android,12.0,1.0,Hybird,1024.0
+617,Xiaomi,True,False,True,Dimensity,Dimensity 720,8.0,2.0,78.0,6.0,64.0,5000.0,6.52,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,512.0
+618,Samsung,True,True,False,Snapdragon,Snapdragon 750G,8.0,2.2,78.0,4.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+619,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,71.0,4.0,128.0,5000.0,6.56,720 x 1600 ,2.0,50.0,8.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+620,Oppo,False,False,False,Helio,Helio,8.0,2.5,62.0,3.0,32.0,3200.0,6.0,1080 x 2160 ,1.0,13.0,16.0,1.0,60.0,18.0,android,7.1,1.0,Dedicated,1024.0
+621,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,81.0,8.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,1024.0
+622,Vivo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,78.0,4.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+623,Sony,False,True,False,Helio,Helio,8.0,2.3,73.0,4.0,64.0,4000.0,6.2,720 x 1680 ,3.0,13.0,8.0,1.0,60.0,15.0,android,12.0,1.0,Hybird,512.0
+624,Samsung,False,True,False,Exynos,Exynos 9611,8.0,2.3,80.0,4.0,128.0,4000.0,6.4,1080 x 2340 ,3.0,48.0,32.0,1.0,60.0,15.0,android,9.0,1.0,Dedicated,512.0
+625,Samsung,False,False,False,Helio,Helio G99,8.0,2.2,63.0,6.0,64.0,5000.0,6.5,720 x 1600 ,3.0,48.0,8.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,1024.0
+626,Xiaomi,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,77.0,6.0,128.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,5.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+627,Google,False,True,False,Snapdragon,Snapdragon 835,8.0,2.35,69.0,4.0,128.0,3520.0,6.0,1440 x 2880 ,1.0,12.2,8.0,1.0,60.0,18.0,android,8.0,0.0,Not Slot,0.0
+628,Oppo,False,False,False,Snapdragon,Snapdragon 662,8.0,2.0,79.0,6.0,128.0,5000.0,6.43,1080 x 2400 ,3.0,48.0,16.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,256.0
+629,Xiaomi,False,False,True,Helio,Helio G96,8.0,2.05,84.0,8.0,128.0,5000.0,6.43,1080 x 2400 ,4.0,108.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,512.0
+630,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,79.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+631,Iqoo,True,False,False,Snapdragon,Snapdragon 4 Gen 1,8.0,2.0,79.0,6.0,128.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,8.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+632,Tecno,False,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,71.0,4.0,128.0,6000.0,6.8,1080 x 2400 ,2.0,50.0,8.0,1.0,120.0,18.0,android,12.0,1.0,Dedicated,1024.0
+633,Xiaomi,False,False,True,Helio,Helio G96,8.0,2.05,81.0,6.0,128.0,5000.0,6.43,1080 x 2400 ,4.0,108.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,512.0
+634,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,70.0,4.0,64.0,5000.0,6.56,720 x 1600 ,2.0,50.0,8.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,256.0
+635,Iqoo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,78.0,4.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,50.0,16.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+636,Realme,False,False,False,Helio,Helio G96,8.0,2.0,77.0,6.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,33.0,android,11.0,1.0,Dedicated,256.0
+637,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,74.0,4.0,128.0,5000.0,6.51,1600 x 720 ,3.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+638,Tecno,True,False,False,Dimensity,Dimensity 900,8.0,2.4,78.0,8.0,128.0,6000.0,6.9,1080 x 2460 ,3.0,50.0,16.0,1.0,120.0,18.0,android,11.0,1.0,Dedicated,512.0
+639,Vivo,False,False,False,Helio,Helio G80,8.0,2.0,79.0,8.0,128.0,5000.0,6.58,1080 x 2408 ,3.0,64.0,16.0,1.0,60.0,19.0,android,11.0,1.0,Dedicated,1024.0
+640,Oppo,True,False,False,Snapdragon,Snapdragon 480,8.0,2.0,77.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+641,Samsung,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,80.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,64.0,8.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+642,Vivo,False,False,False,Snapdragon,Snapdragon 439,8.0,1.95,65.0,4.0,64.0,4030.0,6.22,1520 x 720 ,2.0,13.0,20.0,1.0,60.0,26.2,android,8.1,1.0,Dedicated,256.0
+643,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,75.0,4.0,128.0,5000.0,6.6,1080 x 2408 ,4.0,50.0,8.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+644,Oppo,False,False,False,Helio,Helio,8.0,2.3,74.0,6.0,128.0,5000.0,6.51,1600 x 720 ,3.0,13.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,256.0
+645,Poco,True,False,True,Dimensity,Dimensity 810 5G,8.0,2.4,81.0,6.0,128.0,5000.0,6.6,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+646,Iqoo,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,78.0,4.0,128.0,5000.0,6.58,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+647,Doogee,False,True,False,Helio,Helio G96,8.0,2.05,84.0,8.0,128.0,6000.0,6.3,1080 x 2340 ,3.0,108.0,32.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+648,Realme,True,False,False,Snapdragon,Snapdragon 750G,8.0,2.2,80.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,120.0,30.0,android,11.0,1.0,Dedicated,1024.0
+649,Realme,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,78.0,6.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+650,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,77.0,6.0,128.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,1024.0
+651,Samsung,True,True,False,Snapdragon,Snapdragon 695,8.0,2.2,78.0,4.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,120.0,25.0,android,12.0,1.0,Dedicated,1024.0
+652,Xiaomi,False,True,True,Snapdragon,Snapdragon 732G,8.0,2.3,77.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,67.0,android,12.0,0.0,Not Slot,0.0
+653,Samsung,False,False,False,Exynos,Exynos 1330,8.0,2.22,60.0,4.0,64.0,6000.0,6.5,720 x 1600 ,3.0,48.0,8.0,1.0,60.0,17.4,android,13.0,1.0,Dedicated,512.0
+654,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,76.0,4.0,128.0,5000.0,6.6,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+655,Tecno,False,True,False,Helio,Helio G85,8.0,2.0,77.0,6.0,128.0,5000.0,6.8,1080 x 2400 ,3.0,48.0,32.0,1.0,90.0,18.0,android,12.0,0.0,Not Slot,0.0
+656,Cat,False,False,False,Snapdragon,Snapdragon 215,4.0,1.3,68.8,2.0,16.0,2000.0,4.0,480 x 640 ,1.0,5.0,2.0,1.0,60.0,16.8,android,11.0,1.0,Dedicated,128.0
+657,Motorola,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,81.0,6.0,128.0,5000.0,6.55,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,15.0,android,12.0,1.0,Hybird,1024.0
+658,Oneplus,False,False,False,Snapdragon,Snapdragon 460,8.0,1.8,69.0,4.0,64.0,6000.0,6.52,720 x 1560 ,3.0,13.0,8.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,1024.0
+659,Poco,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,80.0,6.0,64.0,5000.0,6.67,1080 x 2400 ,3.0,64.0,16.0,1.0,120.0,67.0,android,11.0,1.0,Hybird,1024.0
+660,Realme,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,81.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,108.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,256.0
+661,Cola,False,False,False,Helio,Helio G99,8.0,2.2,74.0,4.0,64.0,5000.0,6.4,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+662,Poco,True,False,True,Snapdragon,Snapdragon 695,8.0,2.2,74.0,4.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,48.0,8.0,1.0,120.0,33.0,android,12.0,0.0,Not Slot,0.0
+663,Infinix,False,False,False,Helio,Helio G96,8.0,2.0,79.0,8.0,128.0,5000.0,6.7,2400 x 1080 ,3.0,50.0,16.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,512.0
+664,Vivo,False,False,False,Helio,Helio G80,8.0,2.0,74.0,4.0,128.0,5000.0,6.51,720 x 1600 ,3.0,50.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+665,Honor,True,False,False,Snapdragon,Snapdragon 480+,8.0,2.2,75.0,6.0,128.0,5000.0,6.5,720 x 1600 ,3.0,48.0,8.0,1.0,60.0,22.5,android,11.0,1.0,Dedicated,1024.0
+666,Poco,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,6.0,128.0,5000.0,6.67,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,67.0,android,12.0,1.0,Dedicated,1024.0
+667,Xiaomi,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,73.0,4.0,128.0,6000.0,6.7,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,512.0
+668,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,77.0,8.0,128.0,5000.0,6.55,1612 x 720 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,1024.0
+669,Samsung,False,True,False,Exynos,Exynos 1330,8.0,2.4,67.0,4.0,64.0,5000.0,6.62,2408 x 1080 ,3.0,50.0,16.0,1.0,60.0,25.0,android,13.0,1.0,Dedicated,1024.0
+670,Realme,True,False,False,Snapdragon,Snapdragon 695,8.0,2.2,78.0,6.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,60.0,android,12.0,1.0,Hybird,256.0
+671,Xiaomi,True,False,True,Dimensity,Dimensity 810 5G,8.0,2.4,77.0,4.0,128.0,5000.0,6.6,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,512.0
+672,Blu,True,True,False,Dimensity,Dimensity 810 5G,8.0,2.4,85.0,8.0,128.0,5000.0,6.8,1080 x 2460 ,4.0,48.0,16.0,1.0,60.0,18.0,android,11.0,0.0,Not Slot,0.0
+673,Oppo,False,False,False,Snapdragon,Snapdragon 662,8.0,2.0,78.0,6.0,128.0,5000.0,6.4,1080 x 2400 ,3.0,48.0,16.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,256.0
+674,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,75.0,4.0,64.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,1024.0
+675,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,79.0,6.0,128.0,6000.0,6.4,1080 x 2400 ,4.0,64.0,20.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+676,Poco,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Hybird,1024.0
+677,Tecno,False,True,False,Helio,Helio G85,8.0,2.0,79.0,6.0,128.0,5000.0,6.8,1080 x 2460 ,3.0,64.0,16.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,512.0
+678,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,76.0,6.0,128.0,5000.0,6.51,720 x 1600 ,3.0,50.0,16.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+679,Xiaomi,False,False,True,Helio,Helio G96,8.0,2.05,80.0,6.0,64.0,5000.0,6.43,1080 x 2400 ,4.0,108.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,512.0
+680,Realme,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,8.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+681,Poco,False,False,True,Helio,Helio G99,8.0,2.2,77.0,6.0,128.0,5000.0,6.58,1080 x 2400 ,3.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+682,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,72.0,4.0,128.0,5000.0,6.5,720 x 1600 ,3.0,50.0,5.0,1.0,90.0,15.0,android,12.0,1.0,Dedicated,1024.0
+683,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,77.0,4.0,128.0,5000.0,6.44,1080 x 2408 ,3.0,50.0,16.0,1.0,60.0,44.0,android,12.0,1.0,Hybird,1024.0
+684,Motorola,False,False,False,Snapdragon,Snapdragon 732G,8.0,2.3,77.0,4.0,64.0,6000.0,6.78,1080 x 2460 ,3.0,64.0,16.0,1.0,120.0,20.0,android,11.0,1.0,Hybird,256.0
+685,Vivo,False,False,False,Helio,Helio G70,8.0,2.0,72.0,4.0,64.0,5000.0,6.55,720 x 1612 ,2.0,50.0,8.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,1024.0
+686,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,80.0,6.0,128.0,6000.0,6.4,1080 x 2400 ,4.0,64.0,20.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+687,Realme,False,False,False,Snapdragon,Snapdragon 720G,8.0,2.3,80.0,6.0,64.0,4300.0,6.6,1080 x 2400 ,4.0,64.0,16.0,2.0,90.0,30.0,android,10.0,1.0,Dedicated,256.0
+688,Iqoo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,77.0,4.0,128.0,5000.0,6.44,1080 x 2400 ,3.0,50.0,16.0,1.0,120.0,44.0,android,12.0,1.0,Hybird,1024.0
+689,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,75.0,4.0,64.0,5000.0,6.6,1080 x 2408 ,4.0,50.0,8.0,1.0,60.0,25.0,android,12.0,1.0,Dedicated,1024.0
+690,Xiaomi,False,False,True,Snapdragon,Snapdragon 720G,8.0,2.3,77.0,4.0,128.0,5020.0,6.67,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+691,Xiaomi,False,False,True,Snapdragon,Snapdragon 680,8.0,2.4,80.0,6.0,128.0,5000.0,6.43,1080 x 2400 ,4.0,50.0,13.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,512.0
+692,Honor,False,False,False,Helio,Helio G25,8.0,2.0,71.0,4.0,64.0,5000.0,6.5,720 x 1600 ,3.0,50.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Hybird,128.0
+693,Vivo,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,70.0,4.0,128.0,5000.0,6.51,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,15.0,android,13.0,1.0,Dedicated,1024.0
+694,Realme,False,False,False,Unisoc,Unisoc T616,8.0,1.8,74.0,6.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+695,Realme,False,False,False,Helio,Helio G99,8.0,2.2,74.0,4.0,64.0,5000.0,6.4,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+696,Xiaomi,False,False,True,Helio,Helio G99,8.0,2.2,75.0,4.0,64.0,5000.0,6.67,1080 x 2400 ,3.0,48.0,13.0,1.0,120.0,33.0,android,13.0,1.0,Hybird,1024.0
+697,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,75.0,4.0,64.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+698,Xiaomi,True,False,True,Dimensity,Dimensity 700,8.0,2.2,79.0,6.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+699,Poco,False,False,True,Helio,Helio G96,8.0,2.05,81.0,8.0,128.0,5000.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+700,Realme,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,75.0,4.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+701,Samsung,True,False,False,Dimensity,Dimensity 700,8.0,2.2,75.0,6.0,128.0,5000.0,6.5,720 x 1600 ,2.0,50.0,5.0,1.0,90.0,15.0,android,12.0,1.0,Dedicated,1024.0
+702,Honor,False,False,False,Helio,Helio G37,8.0,2.3,75.0,6.0,128.0,5000.0,6.75,720 x 1600 ,4.0,50.0,8.0,1.0,90.0,22.5,android,12.0,1.0,Dedicated,1024.0
+703,Xiaomi,False,False,True,Helio,Helio G95,8.0,2.05,82.0,8.0,128.0,5000.0,6.43,1080 x 2400 ,4.0,64.0,13.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+704,Xiaomi,False,False,True,Snapdragon,Snapdragon 720G,8.0,2.3,75.0,4.0,64.0,5020.0,6.67,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+705,Samsung,False,False,False,Helio,Helio,8.0,2.3,75.0,6.0,128.0,5000.0,6.5,720 x 1560 ,4.0,48.0,8.0,1.0,60.0,15.0,android,10.0,1.0,Dedicated,1024.0
+706,Realme,False,False,False,Helio,Helio G96,8.0,2.05,77.0,6.0,128.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,18.0,android,11.0,1.0,Dedicated,256.0
+707,Xiaomi,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,71.0,4.0,64.0,6000.0,6.7,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,512.0
+708,Oppo,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,72.0,6.0,128.0,5000.0,6.56,720 x 1612 ,2.0,13.0,8.0,1.0,90.0,10.0,android,12.0,1.0,Dedicated,1024.0
+709,Vivo,False,False,False,Helio,Helio G80,8.0,2.0,69.0,4.0,64.0,5000.0,6.51,720 x 1600 ,3.0,13.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+710,Xiaomi,False,False,True,Snapdragon,Snapdragon 678,8.0,2.2,75.0,4.0,64.0,5000.0,6.43,1080 x 2400 ,4.0,48.0,13.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+711,Xiaomi,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,69.0,4.0,128.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,5.0,1.0,90.0,18.0,android,11.0,0.0,Not Slot,0.0
+712,Xiaomi,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,69.0,4.0,128.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,5.0,1.0,90.0,18.0,android,11.0,0.0,Not Slot,0.0
+713,Oppo,False,False,False,Snapdragon,Snapdragon 460,8.0,1.8,70.0,6.0,128.0,5000.0,6.5,1600 x 720 ,3.0,13.0,16.0,1.0,90.0,18.0,android,10.0,1.0,Dedicated,256.0
+714,Tecno,False,False,False,Helio,Helio G85,8.0,2.0,67.0,6.0,128.0,7000.0,6.82,720 x 1600 ,2.0,16.0,8.0,1.0,90.0,28.4,android,12.0,1.0,Dedicated,512.0
+715,Iqoo,True,False,False,Snapdragon,Snapdragon 4 Gen 1,8.0,2.0,75.0,4.0,64.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,8.0,1.0,120.0,18.0,android,12.0,1.0,Hybird,1024.0
+716,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,69.0,4.0,64.0,5000.0,6.56,720 x 1612 ,2.0,13.0,8.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+717,Tecno,False,False,False,Helio,Helio G88,8.0,2.0,77.0,6.0,128.0,7000.0,6.9,1080 x 2460 ,3.0,50.0,8.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,256.0
+718,Xiaomi,False,False,True,Helio,Helio G99,8.0,2.2,76.0,6.0,128.0,5000.0,6.58,1080 x 2400 ,3.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+719,Poco,False,False,True,Snapdragon,Snapdragon 732G,8.0,2.3,80.0,6.0,64.0,6000.0,6.67,1080 x 2400 ,4.0,64.0,20.0,1.0,120.0,33.0,android,10.0,1.0,Hybird,512.0
+720,Nokia,False,False,False,Unisoc,Unisoc T606,8.0,1.6,75.0,6.0,128.0,5050.0,6.5,720 x 1600 ,3.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,512.0
+721,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,76.0,6.0,128.0,6000.0,6.4,720 x 1600 ,4.0,48.0,13.0,1.0,90.0,17.0,android,11.0,1.0,Dedicated,1024.0
+722,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,75.0,4.0,64.0,5000.0,6.6,1080 x 2400 ,3.0,48.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+723,Poco,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,79.0,6.0,128.0,5000.0,6.58,1080 x 2400 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+724,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,73.0,4.0,64.0,5000.0,6.51,720 x 1600 ,3.0,50.0,16.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+725,Vivo,False,False,False,Snapdragon,Snapdragon 425,4.0,1.2,65.4,3.0,16.0,2730.0,5.2,720 x 1280 ,1.0,13.0,5.0,1.0,60.0,14.6,android,6.0,1.0,Dedicated,1024.0
+726,Oppo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,78.0,6.0,128.0,5000.0,6.59,1080 x 2412 ,3.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+727,Vivo,False,False,False,Helio,Helio,8.0,2.3,69.0,4.0,64.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+728,Xiaomi,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,74.0,4.0,64.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,5.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+729,Realme,False,False,False,Snapdragon,Snapdragon 712,8.0,2.3,75.0,4.0,64.0,4000.0,6.4,1080 x 2340 ,4.0,64.0,16.0,1.0,60.0,20.0,android,9.0,1.0,Dedicated,256.0
+730,Motorola,False,True,False,Snapdragon,Snapdragon 680,8.0,2.4,79.0,6.0,128.0,5000.0,6.6,2460 x 1080 ,3.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,1024.0
+731,Poco,True,False,True,Dimensity,Dimensity 810 5G,8.0,2.4,76.0,4.0,64.0,5000.0,6.6,1080 x 2400 ,2.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Hybird,1024.0
+732,Samsung,False,False,False,Helio,Helio,8.0,2.3,72.0,4.0,128.0,5000.0,6.5,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+733,Motorola,True,True,False,Snapdragon,Snapdragon 480+,8.0,2.2,77.0,4.0,64.0,5000.0,6.8,1080 x 2400 ,3.0,50.0,13.0,1.0,120.0,27.0,android,11.0,1.0,Hybird,512.0
+734,Xiaomi,False,False,False,Snapdragon,Snapdragon 845,8.0,2.8,78.0,6.0,128.0,4000.0,6.18,1080 x 2246 ,2.0,12.0,20.0,1.0,60.0,33.0,android,8.1,1.0,Hybird,256.0
+735,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,75.0,6.0,128.0,6000.0,6.6,1080 x 2400 ,3.0,50.0,8.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+736,Infinix,False,False,False,Helio,Helio G96,8.0,2.05,77.0,8.0,128.0,5000.0,6.78,1080 x 2460 ,2.0,50.0,8.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,1024.0
+737,Infinix,False,False,False,Helio,Helio G88,8.0,2.0,77.0,6.0,128.0,5000.0,6.7,2400 x 1080 ,3.0,50.0,16.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+738,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,75.0,4.0,128.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+739,Xiaomi,True,False,True,Dimensity,Dimensity 700,8.0,2.2,75.0,4.0,64.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+740,Oppo,True,False,False,Dimensity,Dimensity 810,8.0,2.4,75.0,8.0,128.0,5000.0,6.56,720 x 1612 ,2.0,13.0,8.0,1.0,60.0,15.5,android,12.0,1.0,Dedicated,1024.0
+741,Xiaomi,False,False,True,Helio,Helio G88,8.0,2.0,77.0,6.0,128.0,6000.0,6.5,1080 x 2400 ,4.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,512.0
+742,Realme,True,False,False,Dimensity,Dimensity 810 5G,8.0,2.4,80.0,8.0,128.0,5000.0,6.6,1080 x 2408 ,2.0,50.0,8.0,1.0,90.0,33.0,android,12.0,1.0,Dedicated,1024.0
+743,Poco,False,False,True,Helio,Helio G96,8.0,2.05,79.0,6.0,128.0,5000.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+744,Vivo,False,False,False,Helio,Helio,8.0,2.3,71.0,4.0,128.0,5000.0,6.35,720 x 1544 ,3.0,13.0,16.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,256.0
+745,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,71.0,4.0,64.0,5000.0,6.5,720 x 1600 ,3.0,50.0,5.0,1.0,90.0,15.0,android,12.0,1.0,Dedicated,1024.0
+746,Samsung,False,False,False,Helio,Helio G85,8.0,2.0,63.0,4.0,64.0,5000.0,6.5,720 x 1560 ,2.0,48.0,5.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,1024.0
+747,Xiaomi,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,73.0,4.0,128.0,5000.0,6.58,1080 x 2400 ,2.0,13.0,5.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+748,Realme,False,False,False,Helio,Helio G90T,8.0,2.05,77.0,6.0,64.0,4300.0,6.5,1080 x 2400 ,4.0,64.0,16.0,1.0,90.0,30.0,android,10.0,1.0,Dedicated,256.0
+749,Samsung,True,False,False,Dimensity,Dimensity 700,8.0,2.2,71.0,4.0,64.0,5000.0,6.5,720 x 1600 ,2.0,50.0,5.0,1.0,90.0,15.0,android,12.0,1.0,Dedicated,1024.0
+750,Poco,False,False,True,Snapdragon,Snapdragon 720G,8.0,2.3,76.0,4.0,64.0,5000.0,6.67,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,33.0,android,10.0,1.0,Dedicated,512.0
+751,Infinix,False,False,False,Helio,Helio G88,8.0,2.0,77.0,6.0,128.0,5000.0,6.7,1080 x 2400 ,3.0,50.0,16.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,256.0
+752,Realme,False,False,False,Unisoc,Unisoc T616,8.0,1.8,71.0,4.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,1024.0
+753,Vivo,False,False,False,Helio,Helio,8.0,2.0,71.0,4.0,64.0,5000.0,6.35,720 x 1544 ,3.0,13.0,16.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,256.0
+754,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,69.0,3.0,64.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,1024.0
+755,Realme,False,False,False,Helio,Helio G96,8.0,2.05,74.0,4.0,64.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,18.0,android,11.0,1.0,Dedicated,256.0
+756,Xiaomi,False,False,True,Snapdragon,Snapdragon 720G,8.0,2.3,77.0,4.0,128.0,5020.0,6.67,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+757,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,72.0,4.0,64.0,5000.0,6.56,720 x 1612 ,2.0,50.0,5.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,1024.0
+758,Realme,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,75.0,4.0,64.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+759,Oppo,False,False,False,Helio,Helio,8.0,2.3,72.0,6.0,128.0,4230.0,6.5,720 x 1600 ,3.0,12.0,8.0,1.0,60.0,36.0,android,9.0,1.0,Dedicated,256.0
+760,Xiaomi,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,76.0,4.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,512.0
+761,Vivo,False,False,False,Helio,Helio,8.0,2.3,63.0,4.0,128.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,20.8,android,11.0,0.0,Not Slot,0.0
+762,Vivo,False,False,False,Helio,Helio,8.0,2.3,68.0,4.0,64.0,5000.0,6.51,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,2048.0
+763,Xiaomi,False,False,True,Helio,Helio G88,8.0,2.0,74.0,4.0,64.0,6000.0,6.5,1080 x 2400 ,4.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,512.0
+764,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,76.0,4.0,64.0,6000.0,6.4,1080 x 2400 ,4.0,64.0,20.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+765,Infinix,False,False,False,Unisoc,Unisoc T616,8.0,2.0,76.0,8.0,128.0,5000.0,6.6,720 x 1612 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,256.0
+766,Oppo,False,False,False,Helio,Helio,8.0,2.3,70.0,4.0,64.0,5000.0,6.51,1600 x 720 ,3.0,13.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,256.0
+767,Xiaomi,False,False,True,Snapdragon,Snapdragon 680,8.0,2.4,79.0,6.0,64.0,5000.0,6.43,1080 x 2400 ,4.0,50.0,13.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,512.0
+768,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,75.0,4.0,64.0,6000.0,6.4,1080 x 2400 ,4.0,64.0,20.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+769,Xiaomi,False,False,False,Snapdragon,Snapdragon 845,8.0,2.8,77.0,6.0,64.0,4000.0,6.18,1080 x 2246 ,2.0,12.0,20.0,1.0,60.0,18.0,android,8.1,1.0,Hybird,256.0
+770,Samsung,False,False,False,Helio,Helio,8.0,2.3,71.0,4.0,64.0,5000.0,6.5,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+771,Xiaomi,False,False,True,Snapdragon,Snapdragon 680,8.0,2.4,77.0,8.0,128.0,6000.0,6.7,720 x 1650 ,2.0,50.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+772,Motorola,False,False,False,Helio,Helio G85,8.0,2.0,78.0,6.0,128.0,5000.0,6.47,1080 x 2400 ,3.0,50.0,13.0,1.0,60.0,20.0,android,11.0,1.0,Hybird,1024.0
+773,Samsung,False,False,False,Helio,Helio,8.0,2.3,71.0,4.0,64.0,5000.0,6.5,720 x 1560 ,4.0,48.0,8.0,1.0,60.0,15.0,android,10.0,1.0,Dedicated,512.0
+774,Xiaomi,False,False,True,Helio,Helio G95,8.0,2.05,80.0,6.0,64.0,5000.0,6.43,1080 x 2400 ,4.0,64.0,13.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+775,Vivo,True,False,False,Dimensity,Dimensity 700,8.0,2.0,67.0,4.0,128.0,6000.0,6.51,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,15.0,android,13.0,0.0,Not Slot,0.0
+776,Motorola,False,True,False,Snapdragon,Snapdragon 680,8.0,2.4,75.0,4.0,64.0,5000.0,6.6,2460 x 1080 ,3.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,1024.0
+777,Poco,False,False,True,Helio,Helio G96,8.0,2.05,77.0,6.0,64.0,5000.0,6.43,1080 x 2400 ,3.0,64.0,16.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,1024.0
+778,Tecno,False,False,False,Helio,Helio G99,8.0,2.2,73.0,8.0,128.0,6000.0,6.82,720 x 1600 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+779,Xiaomi,False,False,True,Helio,Helio G95,8.0,2.05,79.0,6.0,128.0,5000.0,6.43,1080 x 2400 ,4.0,64.0,13.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+780,Xiaomi,False,False,True,Snapdragon,Snapdragon 720G,8.0,2.3,80.0,6.0,128.0,5020.0,6.67,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+781,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,69.0,4.0,64.0,5000.0,6.52,720 x 1600 ,3.0,13.0,8.0,1.0,60.0,23.4,android,11.0,1.0,Dedicated,1024.0
+782,Samsung,False,True,False,Exynos,Exynos 850,8.0,2.0,75.0,4.0,128.0,6000.0,6.6,2408 x 1080 ,3.0,50.0,8.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+783,Xiaomi,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,75.0,6.0,128.0,6000.0,6.7,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,512.0
+784,Vivo,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,74.0,4.0,64.0,5000.0,6.58,1080 x 2408 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,256.0
+785,Nokia,False,False,False,Unisoc,Unisoc T606,8.0,1.6,71.0,4.0,64.0,5050.0,6.5,720 x 1600 ,3.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,512.0
+786,Jio,True,False,False,Snapdragon,Snapdragon 480+,8.0,2.2,64.0,4.0,32.0,5000.0,6.5,720 x 1600 ,1.0,13.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+787,Vivo,False,False,False,Snapdragon,Snapdragon 439,8.0,2.0,68.0,3.0,64.0,5000.0,6.51,720 x 1600 ,3.0,13.0,8.0,1.0,60.0,23.4,android,11.0,1.0,Dedicated,1024.0
+788,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,67.0,3.0,64.0,5000.0,6.56,720 x 1612 ,2.0,13.0,8.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,1024.0
+789,Oppo,False,False,False,Helio,Helio,8.0,2.3,71.0,4.0,128.0,5000.0,6.51,1600 x 720 ,3.0,13.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,256.0
+790,Vivo,False,False,False,Snapdragon,Snapdragon 675,8.0,2.0,74.0,6.0,64.0,5000.0,6.53,1080 x 2340 ,3.0,16.0,16.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,256.0
+791,Xiaomi,False,False,True,Helio,Helio G85,8.0,2.0,75.0,4.0,64.0,5020.0,6.53,1080 x 2340 ,4.0,48.0,13.0,1.0,60.0,22.5,android,10.0,1.0,Dedicated,512.0
+792,Xiaomi,False,False,True,Snapdragon,Snapdragon 680,8.0,2.4,76.0,4.0,64.0,5000.0,6.43,1080 x 2400 ,4.0,50.0,13.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,512.0
+793,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,74.0,4.0,128.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+794,Realme,False,False,False,Unisoc,Unisoc T616,8.0,1.8,70.0,4.0,64.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+795,Samsung,False,False,False,Exynos,Exynos 9611,8.0,2.3,76.0,4.0,64.0,6000.0,6.4,1080 x 2340 ,3.0,48.0,20.0,1.0,60.0,15.0,android,11.0,1.0,Dedicated,512.0
+796,Infinix,False,False,False,Helio,Helio G88,8.0,2.0,74.0,4.0,64.0,5000.0,6.7,2400 x 1080 ,3.0,50.0,16.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+797,Xiaomi,False,False,True,Helio,Helio G99,8.0,2.2,74.0,4.0,64.0,5000.0,6.58,1080 x 2400 ,3.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+798,Poco,False,False,True,Snapdragon,Snapdragon 662,8.0,2.0,75.0,6.0,64.0,6000.0,6.53,1080 x 2340 ,3.0,48.0,8.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+799,Samsung,False,False,False,Helio,Helio G80,8.0,2.0,73.0,4.0,64.0,6000.0,6.4,720 x 1600 ,4.0,48.0,13.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+800,Samsung,False,False,False,Helio,Helio,8.0,2.3,69.0,4.0,128.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,15.5,android,12.0,1.0,Dedicated,1024.0
+801,Tecno,False,True,False,Helio,Helio G88,8.0,2.0,75.0,4.0,128.0,5000.0,6.8,1080 x 2460 ,3.0,48.0,16.0,1.0,90.0,18.0,android,11.0,0.0,Not Slot,0.0
+802,Poco,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,75.0,4.0,64.0,5000.0,6.58,1080 x 2400 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+803,Samsung,False,False,False,Unisoc,Unisoc T606,8.0,1.6,69.0,4.0,64.0,5000.0,6.5,720 x 1560 ,2.0,48.0,5.0,1.0,60.0,15.0,android,11.0,1.0,Dedicated,1024.0
+804,Realme,False,False,False,Helio,Helio G85,8.0,2.0,71.0,4.0,64.0,6000.0,6.5,720 x 1600 ,3.0,50.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+805,Xiaomi,False,False,True,Snapdragon,Snapdragon 662,8.0,2.0,74.0,4.0,64.0,6000.0,6.53,1080 x 2340 ,4.0,48.0,8.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+806,Oppo,False,False,False,Helio,Helio,8.0,2.3,72.0,4.0,128.0,4230.0,6.52,720 x 1600 ,3.0,13.0,8.0,1.0,60.0,36.0,android,10.0,1.0,Dedicated,256.0
+807,Motorola,False,False,False,Helio,Helio,8.0,2.0,68.0,4.0,64.0,4000.0,6.2,720 x 1520 ,3.0,13.0,8.0,1.0,60.0,10.0,android,9.0,1.0,Hybird,512.0
+808,Xiaomi,False,False,True,Snapdragon,Snapdragon 439,8.0,2.0,66.0,4.0,64.0,5000.0,6.22,720 x 1520 ,2.0,12.0,8.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,512.0
+809,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,73.0,4.0,64.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+810,Vivo,False,False,False,Helio,Helio,8.0,2.0,68.0,3.0,64.0,5000.0,6.35,720 x 1544 ,3.0,13.0,8.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,256.0
+811,Leeco,False,False,False,Unisoc,Unisoc T7150,4.0,1.8,65.0,8.0,128.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,10.0,android,11.0,0.0,Not Slot,0.0
+812,Realme,False,False,False,Helio,Helio G96,8.0,2.0,74.0,4.0,64.0,5000.0,6.6,1080 x 2412 ,3.0,50.0,16.0,1.0,120.0,33.0,android,11.0,1.0,Dedicated,256.0
+813,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,72.0,4.0,64.0,6000.0,6.5,720 x 1600 ,4.0,48.0,8.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,1024.0
+814,Tecno,False,False,False,Helio,Helio G85,8.0,2.0,74.0,4.0,64.0,7000.0,6.95,1080 x 2460 ,4.0,48.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+815,Samsung,False,True,False,Exynos,Exynos 850,8.0,2.0,74.0,4.0,64.0,6000.0,6.6,2408 x 1080 ,3.0,50.0,8.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+816,Lava,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,73.0,4.0,128.0,5000.0,6.5,1600 x 720 ,3.0,50.0,8.0,1.0,90.0,18.3,android,12.0,1.0,Dedicated,1024.0
+817,Motorola,False,True,False,Snapdragon,Snapdragon 680,8.0,2.4,78.0,4.0,64.0,5000.0,6.47,1080 x 2400 ,3.0,50.0,16.0,1.0,60.0,20.0,android,12.0,1.0,Dedicated,1024.0
+818,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,66.0,4.0,64.0,4230.0,6.52,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,36.0,android,11.0,1.0,Dedicated,256.0
+819,Xiaomi,False,False,True,Helio,Helio G95,8.0,2.05,78.0,6.0,64.0,5000.0,6.43,1080 x 2400 ,4.0,64.0,13.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,512.0
+820,Realme,True,False,False,Dimensity,Dimensity 700 5G,8.0,2.2,76.0,4.0,128.0,5000.0,6.5,1080 x 2400 ,3.0,48.0,16.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,1024.0
+821,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,69.0,6.0,128.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,22.4,android,10.0,1.0,Dedicated,512.0
+822,Xiaomi,True,False,True,Dimensity,Dimensity 700 5G,8.0,2.2,77.0,4.0,128.0,5000.0,6.43,1080 x 2340 ,4.0,48.0,13.0,1.0,90.0,18.0,android,10.0,1.0,Dedicated,1024.0
+823,Huawei,False,False,False,Kirin,Kirin 659,8.0,2.36,66.0,4.0,64.0,3000.0,5.84,1080 x 2280 ,2.0,13.0,16.0,1.0,60.0,16.8,android,8.0,1.0,Hybird,256.0
+824,Poco,False,False,True,Helio,Helio G80,8.0,2.0,74.0,6.0,64.0,5000.0,6.53,1080 x 2340 ,4.0,13.0,8.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+825,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,70.0,6.0,128.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,22.4,android,11.0,1.0,Dedicated,512.0
+826,Infinix,False,False,False,Unisoc,Unisoc T616,8.0,2.0,74.0,6.0,64.0,5000.0,6.6,720 x 1612 ,2.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,256.0
+827,Poco,False,False,True,Helio,Helio G99,8.0,2.2,74.0,4.0,64.0,5000.0,6.58,1080 x 2400 ,3.0,50.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+828,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,71.0,4.0,64.0,6000.0,6.6,1080 x 2400 ,3.0,50.0,8.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+829,Nokia,False,False,False,Unisoc,Unisoc T606,8.0,1.6,70.0,4.0,64.0,5000.0,6.52,720 x 1600 ,2.0,50.0,8.0,1.0,90.0,10.0,android,12.0,1.0,Dedicated,512.0
+830,Samsung,False,False,False,Exynos,Exynos 850,8.0,2.0,73.0,4.0,64.0,6000.0,6.5,720 x 1600 ,4.0,48.0,8.0,1.0,90.0,15.0,android,11.0,1.0,Dedicated,512.0
+831,Motorola,False,False,False,Unisoc,Unisoc T606,8.0,2.0,65.0,2.0,64.0,5000.0,6.5,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,10.0,android,13.0,1.0,Hybird,1024.0
+832,Vivo,False,False,False,Helio,Helio,8.0,2.3,66.0,3.0,64.0,5000.0,6.51,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,1024.0
+833,Xiaomi,False,False,False,Helio,Helio G35,8.0,2.3,72.0,6.0,128.0,5000.0,6.53,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,22.4,android,11.0,1.0,Dedicated,512.0
+834,Realme,False,False,False,Helio,Helio G85,8.0,2.0,72.0,4.0,64.0,6000.0,6.5,720 x 1600 ,3.0,48.0,8.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,256.0
+835,Motorola,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,75.0,4.0,64.0,5000.0,6.55,1080 x 2400 ,3.0,50.0,16.0,1.0,90.0,33.0,android,12.0,1.0,Hybird,1024.0
+836,Vivo,False,False,False,Helio,Helio,8.0,2.3,67.0,3.0,64.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,22.4,android,12.0,1.0,Dedicated,1024.0
+837,Xiaomi,False,False,False,Snapdragon,Snapdragon 625,8.0,2.0,65.0,4.0,64.0,4100.0,5.5,1080 x 1920 ,1.0,13.0,5.0,1.0,60.0,21.6,android,6.0,1.0,Hybird,128.0
+838,Infinix,False,False,False,Helio,Helio G37,8.0,2.3,72.0,4.0,64.0,6000.0,6.82,720 x 1640 ,3.0,50.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,512.0
+839,Infinix,False,False,False,Helio,Helio G85,8.0,2.0,73.0,4.0,64.0,5000.0,6.7,1080 x 2400 ,3.0,50.0,8.0,1.0,60.0,33.0,android,12.0,1.0,Dedicated,512.0
+840,Honor,True,False,False,Snapdragon,Snapdragon 480+,8.0,2.2,68.0,4.0,128.0,5000.0,6.5,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,22.4,android,11.0,1.0,Hybird,512.0
+841,Realme,True,False,False,Dimensity,Dimensity 720,8.0,2.0,69.0,4.0,128.0,5000.0,6.5,720 x 1600 ,3.0,13.0,8.0,1.0,60.0,18.0,android,10.0,0.0,Not Slot,0.0
+842,Motorola,False,False,False,Helio,Helio G85,8.0,2.0,75.0,4.0,64.0,5000.0,6.47,1080 x 2400 ,3.0,50.0,13.0,1.0,60.0,20.0,android,11.0,1.0,Hybird,1024.0
+843,Xiaomi,False,False,True,Helio,Helio G25,8.0,2.0,69.0,6.0,128.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,22.4,android,11.0,1.0,Dedicated,512.0
+844,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.8,67.0,4.0,64.0,5000.0,6.5,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,16.8,android,12.0,1.0,Dedicated,1024.0
+845,Vivo,False,False,False,Snapdragon,Snapdragon 439,8.0,2.0,65.0,3.0,32.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,10.0,android,11.0,1.0,Dedicated,512.0
+846,Tecno,False,False,False,Helio,Helio G88,8.0,2.0,74.0,4.0,64.0,7000.0,6.95,1080 x 2460 ,3.0,50.0,8.0,1.0,90.0,33.0,android,11.0,1.0,Dedicated,256.0
+847,Oppo,False,False,False,Helio,Helio,8.0,2.3,66.0,3.0,32.0,4230.0,6.52,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,36.0,android,10.0,1.0,Dedicated,256.0
+848,Tecno,False,False,False,Helio,Helio G85,8.0,2.0,74.0,4.0,64.0,5000.0,6.6,1080 x 2460 ,3.0,48.0,32.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,1024.0
+849,Xiaomi,False,False,True,Snapdragon,Snapdragon 720G,8.0,2.3,76.0,4.0,64.0,5020.0,6.67,1080 x 2400 ,4.0,48.0,16.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,512.0
+850,Infinix,False,False,False,Helio,Helio G25,8.0,2.0,64.0,3.0,64.0,5000.0,6.6,720 x 1612 ,2.0,13.0,8.0,1.0,60.0,14.8,android,12.0,1.0,Dedicated,512.0
+851,Vivo,False,False,False,Helio,Helio,8.0,2.3,65.0,3.0,32.0,5000.0,6.51,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,512.0
+852,Vivo,False,False,False,Snapdragon,Snapdragon 450,8.0,1.8,65.0,4.0,64.0,5000.0,6.5,720 x 1544 ,2.0,13.0,13.0,1.0,60.0,18.0,android,10.0,1.0,Dedicated,256.0
+853,Oppo,False,False,False,Helio,Helio,8.0,1.8,64.0,3.0,32.0,4230.0,6.22,1520 x 720 ,2.0,13.0,5.0,1.0,60.0,36.0,android,9.0,1.0,Dedicated,256.0
+854,Vivo,False,False,False,Snapdragon,Snapdragon 675,8.0,2.0,72.0,4.0,64.0,5000.0,6.53,1080 x 2340 ,3.0,16.0,16.0,1.0,60.0,18.0,android,9.0,1.0,Dedicated,256.0
+855,Duoqin,False,False,False,Helio,Helio G85,8.0,2.0,66.6,4.0,64.0,2150.0,3.54,640 x 960 ,1.0,8.0,2.0,1.0,60.0,16.2,android,12.0,1.0,Dedicated,1024.0
+856,Xiaomi,False,False,True,Helio,Helio G85,8.0,2.0,75.0,4.0,64.0,4000.0,6.3,1080 x 2340 ,4.0,48.0,13.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,128.0
+857,Samsung,False,False,False,Snapdragon,Snapdragon 450,8.0,1.8,63.0,2.0,32.0,4000.0,6.4,720 x 1560 ,3.0,13.0,8.0,1.0,60.0,15.0,android,10.0,1.0,Dedicated,512.0
+858,Samsung,False,False,False,Helio,Helio,8.0,2.3,66.0,3.0,64.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,16.6,android,12.0,1.0,Dedicated,1024.0
+859,Infinix,False,False,False,Helio,Helio G88,8.0,2.0,71.0,4.0,64.0,5000.0,6.78,1080 x 2480 ,3.0,50.0,8.0,1.0,90.0,21.0,android,11.0,1.0,Dedicated,256.0
+860,Xiaomi,False,False,False,Snapdragon,Snapdragon 680,8.0,2.4,71.0,4.0,64.0,6000.0,6.7,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,512.0
+861,Nokia,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,62.0,3.0,32.0,5050.0,6.74,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,256.0
+862,Motorola,False,False,False,Helio,Helio G37,8.0,2.3,75.0,4.0,64.0,5000.0,6.53,720 x 1600 ,4.0,50.0,16.0,1.0,90.0,20.0,android,12.0,1.0,Dedicated,1024.0
+863,Samsung,False,False,False,Helio,Helio,8.0,2.3,68.0,4.0,128.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+864,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,65.0,4.0,64.0,5000.0,6.52,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,16.6,android,12.0,1.0,Dedicated,1024.0
+865,Oppo,False,False,False,Helio,Helio G35,8.0,2.3,62.0,3.0,64.0,5000.0,6.56,720 x 1612 ,1.0,8.0,5.0,1.0,60.0,11.0,android,12.0,1.0,Dedicated,1024.0
+866,Vivo,False,False,False,Snapdragon,Snapdragon 439,8.0,2.0,64.0,3.0,32.0,5000.0,6.35,720 x 1544 ,2.0,13.0,8.0,1.0,60.0,14.8,android,9.0,1.0,Dedicated,256.0
+867,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,67.0,4.0,128.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,10.0,android,10.0,1.0,Dedicated,512.0
+868,Samsung,False,False,False,Helio,Helio,8.0,2.3,65.0,3.0,32.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,11.0,android,12.0,1.0,Dedicated,1024.0
+869,Motorola,False,False,False,Helio,Helio G37,8.0,2.3,70.0,4.0,64.0,5000.0,6.5,720 x 1600 ,2.0,16.0,8.0,1.0,90.0,10.0,android,12.0,1.0,Dedicated,512.0
+870,Vivo,False,False,False,Helio,Helio,8.0,1.8719999999999999,61.8,3.0,32.0,5000.0,6.51,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,1024.0
+871,Realme,False,False,False,Unisoc,Unisoc T610,8.0,1.8,69.0,4.0,64.0,5000.0,6.5,1600 x 720 ,3.0,50.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+872,Lava,False,False,False,Helio,Helio G37,8.0,2.3,66.0,4.0,64.0,5000.0,6.5,720 x 1600 ,3.0,13.0,8.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,256.0
+873,Tecno,False,False,False,Helio,Helio G37,8.0,2.3,69.0,6.0,128.0,5000.0,6.6,720 x 1600 ,2.0,13.0,8.0,1.0,90.0,21.0,android,12.0,1.0,Dedicated,256.0
+874,Nokia,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,64.0,4.0,64.0,5050.0,6.52,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,16.6,android,11.0,1.0,Dedicated,1024.0
+875,Infinix,False,False,False,Helio,Helio G37,8.0,2.3,67.0,4.0,64.0,6000.0,6.82,720 x 1640 ,2.0,13.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,256.0
+876,Realme,False,False,False,Helio,Helio,8.0,2.1,69.2,2.0,16.0,4000.0,6.2,720 x 1520 ,2.0,13.0,8.0,1.0,60.0,26.2,android,8.1,1.0,Dedicated,256.0
+877,Oppo,False,False,False,Helio,Helio,8.0,2.0,65.0,3.0,32.0,4230.0,6.52,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,37.4,android,11.0,1.0,Hybird,1024.0
+878,Motorola,False,False,False,Helio,Helio G37,8.0,2.3,71.0,4.0,64.0,5000.0,6.5,720 x 1600 ,2.0,50.0,8.0,1.0,90.0,10.0,android,12.0,1.0,Dedicated,1024.0
+879,Tecno,False,False,False,Helio,Helio A25,8.0,1.8,64.0,4.0,64.0,5000.0,6.52,720 x 1600 ,2.0,16.0,8.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+880,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,65.0,4.0,64.0,5000.0,6.52,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,16.6,android,11.0,1.0,Dedicated,1024.0
+881,Xiaomi,False,False,False,Helio,Helio G35,8.0,2.3,68.0,4.0,64.0,5000.0,6.53,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,14.8,android,10.0,1.0,Dedicated,512.0
+882,Oppo,False,False,False,Helio,Helio,8.0,2.0,68.0,4.0,64.0,4230.0,6.52,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,37.4,android,11.0,1.0,Hybird,1024.0
+883,Realme,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,62.0,4.0,64.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+884,Vivo,False,False,False,Helio,Helio,8.0,2.3,61.0,3.0,32.0,5000.0,6.51,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,256.0
+885,Blackview,True,True,False,Helio,Helio G35,8.0,2.3,67.0,4.0,64.0,5180.0,6.1,720 x 1560 ,2.0,13.0,8.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,1024.0
+886,Vivo,True,False,False,Snapdragon,Snapdragon 480,8.0,2.0,71.0,6.0,64.0,5000.0,6.58,1080 x 2408 ,2.0,13.0,8.0,1.0,90.0,18.0,android,11.0,0.0,Not Slot,0.0
+887,Tcl,False,False,False,Helio,Helio G25,8.0,2.0,60.0,3.0,32.0,3000.0,6.0,720 x 1440 ,1.0,13.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Hybird,256.0
+888,Realme,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,62.0,4.0,64.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,1024.0
+889,Tecno,False,False,False,Helio,Helio G35,8.0,2.3,72.0,4.0,64.0,5000.0,6.6,1080 x 2408 ,3.0,50.0,8.0,1.0,60.0,18.0,android,12.0,1.0,Dedicated,256.0
+890,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.8,64.0,3.0,32.0,5000.0,6.5,720 x 1600 ,2.0,50.0,5.0,1.0,60.0,16.8,android,12.0,1.0,Dedicated,1024.0
+891,Infinix,False,False,False,Unisoc,Unisoc T610,8.0,1.82,66.0,4.0,64.0,6000.0,6.82,1640 x 720 ,2.0,13.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,256.0
+892,Tecno,False,False,False,Unisoc,Unisoc T606,8.0,2.0,63.0,4.0,64.0,5000.0,6.6,720 x 1612 ,2.0,13.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,256.0
+893,Motorola,False,False,False,Helio,Helio G37,8.0,1.8,67.0,4.0,64.0,5000.0,6.5,720 x 1600 ,3.0,16.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,512.0
+894,Tecno,False,False,False,Helio,Helio G85,8.0,2.0,72.0,4.0,64.0,5000.0,6.8,1080 x 2460 ,3.0,48.0,8.0,1.0,60.0,33.0,android,11.0,1.0,Dedicated,1024.0
+895,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,64.0,4.0,64.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,11.0,1.0,Dedicated,1024.0
+896,Samsung,False,False,False,Helio,Helio,8.0,2.3,67.0,3.0,32.0,5000.0,6.5,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,15.0,android,11.0,1.0,Dedicated,1024.0
+897,Vivo,False,False,False,Helio,Helio,8.0,2.3,66.0,3.0,32.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,11.0,android,12.0,1.0,Dedicated,1024.0
+898,Samsung,False,False,False,Helio,Helio,8.0,2.3,68.0,4.0,64.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+899,Samsung,False,False,False,Helio,Helio,8.0,2.3,66.0,4.0,64.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,15.0,android,12.0,1.0,Dedicated,1024.0
+900,Vivo,False,False,False,Helio,Helio,8.0,2.3,66.0,3.0,32.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,11.0,android,11.0,1.0,Dedicated,1024.0
+901,Xiaomi,False,False,False,Helio,Helio A22,4.0,2.0,61.0,3.0,32.0,5000.0,6.52,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,512.0
+902,Tecno,False,False,False,Helio,Helio G37,8.0,2.3,63.0,3.0,64.0,5000.0,6.6,720 x 1600 ,2.0,13.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,256.0
+903,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,66.0,4.0,64.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,14.8,android,11.0,1.0,Dedicated,512.0
+904,Infinix,False,False,False,Helio,Helio G25,8.0,2.0,63.0,3.0,64.0,5000.0,6.82,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,14.8,android,12.0,1.0,Dedicated,512.0
+905,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,62.0,3.0,32.0,5000.0,6.52,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,11.0,android,11.0,1.0,Dedicated,1024.0
+906,Vivo,False,False,False,Helio,Helio,8.0,2.0,69.2,2.0,32.0,4030.0,6.22,720 x 1520 ,1.0,13.0,5.0,1.0,60.0,26.2,android,8.1,1.0,Dedicated,256.0
+907,Ikall,False,False,False,Unisoc,Unisoc T107,8.0,1.6,60.0,4.0,64.0,5000.0,6.5,720 x 1600 ,1.0,13.0,8.0,1.0,60.0,16.4,android,11.0,1.0,Hybird,128.0
+908,Ikall,False,False,False,Unisoc,Unisoc Generic,4.0,1.6,61.0,4.0,32.0,5000.0,6.5,720 x 1600 ,1.0,20.0,13.0,1.0,60.0,13.2,android,11.0,1.0,Hybird,128.0
+909,Tecno,False,False,False,Helio,Helio G37,8.0,2.3,65.0,4.0,64.0,5000.0,6.6,720 x 1600 ,2.0,13.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,256.0
+910,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,61.0,3.0,32.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,11.0,1.0,Dedicated,1024.0
+911,Realme,False,False,False,Helio,Helio G35,8.0,2.3,64.0,3.0,32.0,6000.0,6.52,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,18.4,android,11.0,1.0,Dedicated,256.0
+912,Tecno,False,False,False,Helio,Helio G35,8.0,2.3,70.0,4.0,64.0,5000.0,6.6,720 x 1600 ,2.0,50.0,8.0,1.0,60.0,27.3,android,11.0,1.0,Dedicated,512.0
+913,Vivo,False,False,False,Helio,Helio,8.0,1.8719999999999999,61.8,2.0,32.0,5000.0,6.51,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,1024.0
+914,Vivo,False,False,False,Helio,Helio,8.0,2.3,61.0,2.0,32.0,5000.0,6.51,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,11.0,android,11.0,1.0,Dedicated,1024.0
+915,Motorola,False,False,False,Unisoc,Unisoc T700,8.0,1.8,71.0,4.0,64.0,5000.0,6.5,720 x 1600 ,3.0,48.0,8.0,1.0,90.0,15.2,android,11.0,1.0,Dedicated,1024.0
+916,Redmi,False,False,False,Helio,Helio G85,8.0,2.0,70.0,4.0,64.0,5000.0,6.71,720 x 1650 ,2.0,50.0,5.0,1.0,60.0,27.3,android,12.0,1.0,Dedicated,512.0
+917,Poco,False,False,False,Helio,Helio G85,8.0,2.0,70.0,4.0,64.0,5000.0,6.71,720 x 1650 ,2.0,50.0,5.0,1.0,60.0,27.3,android,12.0,1.0,Dedicated,512.0
+918,Motorola,False,False,False,Helio,Helio G37,8.0,1.8,65.0,3.0,32.0,5000.0,6.5,720 x 1600 ,3.0,16.0,8.0,1.0,90.0,18.0,android,12.0,1.0,Dedicated,1024.0
+919,Vivo,False,False,False,Helio,Helio,8.0,2.3,60.0,2.0,32.0,5000.0,6.51,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,11.0,1.0,Dedicated,512.0
+920,Micromax,False,False,False,Unisoc,Unisoc T610,8.0,1.8,68.0,6.0,64.0,5000.0,6.52,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+921,Realme,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,61.0,4.0,64.0,5000.0,6.52,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,11.0,android,11.0,1.0,Dedicated,1024.0
+922,Xiaomi,False,False,False,Helio,Helio G35,8.0,2.3,68.0,4.0,64.0,5000.0,6.53,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,14.8,android,11.0,1.0,Dedicated,512.0
+923,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,64.0,3.0,32.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,10.0,android,11.0,1.0,Dedicated,512.0
+924,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,66.0,4.0,64.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,10.0,android,10.0,1.0,Dedicated,512.0
+925,Vivo,False,False,False,Helio,Helio MT6580,4.0,1.3,69.2,1.0,16.0,1900.0,4.5,480 x 854 ,1.0,5.0,2.0,1.0,60.0,16.8,android,5.1,1.0,Dedicated,128.0
+926,Jio,False,False,False,Snapdragon,Snapdragon QM215,4.0,1.3,68.6,3.0,32.0,3000.0,5.5,720 x 1440 ,1.0,13.0,8.0,1.0,60.0,16.8,android,11.0,1.0,Dedicated,256.0
+927,Gionee,False,False,False,Helio,Helio,8.0,1.99,67.0,6.0,128.0,4000.0,6.2,720 x 1520 ,1.0,16.0,13.0,1.0,60.0,28.8,android,10.0,1.0,Dedicated,256.0
+928,Poco,False,False,False,Helio,Helio G35,8.0,2.3,68.0,4.0,64.0,5000.0,6.53,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,14.8,android,10.0,1.0,Dedicated,512.0
+929,Tecno,False,False,False,Unisoc,Unisoc T606,8.0,2.0,62.0,3.0,64.0,5000.0,6.6,720 x 1612 ,2.0,13.0,8.0,1.0,90.0,18.0,android,11.0,1.0,Dedicated,256.0
+930,Infinix,False,False,False,Helio,Helio A22,4.0,2.0,60.0,2.0,64.0,5000.0,6.6,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,13.2,android,11.0,1.0,Dedicated,512.0
+931,Poco,False,False,False,Helio,Helio A22,4.0,2.0,61.0,3.0,32.0,5000.0,6.52,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,512.0
+932,Xiaomi,False,False,False,Helio,Helio A22,4.0,2.0,60.0,2.0,32.0,5000.0,6.52,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,512.0
+933,Samsung,False,False,False,Unisoc,Unisoc T606,8.0,1.6,66.0,3.0,32.0,5000.0,6.5,720 x 1560 ,2.0,48.0,5.0,1.0,60.0,15.0,android,11.0,1.0,Dedicated,1024.0
+934,Realme,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,61.8,2.0,32.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,1024.0
+935,Gionee,False,False,False,Unisoc,Unisoc T310,4.0,2.0,63.2,3.0,32.0,4800.0,6.8,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,10.0,android,10.0,1.0,Dedicated,512.0
+936,Realme,False,False,False,Unisoc,Unisoc T610,8.0,1.8,62.0,3.0,32.0,5000.0,6.5,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,14.8,android,11.0,1.0,Dedicated,256.0
+937,Lava,False,False,False,Helio,Helio A22,4.0,2.0,73.0,3.0,32.0,4000.0,6.5,1600 x 720 ,2.0,8.0,5.0,1.0,60.0,14.0,android,12.0,1.0,Hybird,512.0
+938,Tecno,False,False,False,Unisoc,Unisoc SC7731,4.0,1.3,69.2,1.0,16.0,4000.0,6.1,720 x 1520 ,2.0,5.0,5.0,1.0,60.0,26.2,android,11.0,1.0,Dedicated,256.0
+939,Realme,False,False,False,Helio,Helio,8.0,2.0,69.2,2.0,16.0,4000.0,6.1,1560 x 720 ,2.0,13.0,5.0,1.0,60.0,26.2,android,9.0,1.0,Dedicated,256.0
+940,Micromax,False,False,False,Unisoc,Unisoc T610,8.0,1.8,66.0,4.0,64.0,5000.0,6.52,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,256.0
+941,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,61.0,2.0,32.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,10.0,android,10.0,1.0,Dedicated,512.0
+942,Infinix,False,False,False,Helio,Helio A22,4.0,2.0,60.6,2.0,32.0,5000.0,6.6,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,10.0,android,11.0,1.0,Dedicated,512.0
+943,Tecno,False,False,False,Helio,Helio A22,4.0,2.0,62.0,3.0,32.0,5000.0,6.56,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,256.0
+944,Letv,False,False,False,Unisoc,Unisoc,8.0,2.2600000000000002,68.6,4.0,32.0,4000.0,6.5,720 x 1560 ,3.0,13.0,8.0,1.0,60.0,32.9,android,11.0,0.0,Not Slot,0.0
+945,Itel,False,False,False,Unisoc,Unisoc SC7731E,4.0,1.3,66.2,2.0,32.0,4000.0,6.6,1600 x 720 ,3.0,8.0,8.0,1.0,60.0,23.3,android,10.0,1.0,Dedicated,32.0
+946,Nokia,False,False,False,Snapdragon,Snapdragon 210,4.0,1.1,71.6,0.5,4.0,1500.0,2.8,240 x 320 ,1.0,2.0,0.0,0.0,60.0,16.8,other,2.5,1.0,Not Slot,0.0
+947,Ikall,False,False,False,Unisoc,Unisoc Generic,8.0,1.6,61.0,4.0,64.0,5000.0,6.82,720 x 1560 ,1.0,20.0,13.0,1.0,60.0,16.4,android,10.0,1.0,Hybird,64.0
+948,Itel,False,False,False,Unisoc,Unisoc SC9863a,8.0,1.6,61.0,3.0,64.0,5000.0,6.6,1612 x 720 ,2.0,8.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,128.0
+949,Poco,False,False,False,Helio,Helio A22,4.0,2.0,61.4,2.0,32.0,5000.0,6.52,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,512.0
+950,Xiaomi,False,False,False,Helio,Helio G25,8.0,2.0,61.0,2.0,32.0,5000.0,6.53,720 x 1600 ,1.0,13.0,5.0,1.0,60.0,10.0,android,11.0,1.0,Dedicated,512.0
+951,Realme,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,61.0,2.0,32.0,5000.0,6.52,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,14.8,android,11.0,1.0,Dedicated,256.0
+952,Samsung,False,False,False,Unisoc,Unisoc SC9836A,4.0,1.6,61.8,2.0,32.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,11.0,android,10.0,1.0,Dedicated,1024.0
+953,Poco,False,False,False,Helio,Helio G35,8.0,2.3,65.0,3.0,32.0,5000.0,6.53,720 x 1600 ,3.0,13.0,5.0,1.0,60.0,10.0,android,10.0,1.0,Dedicated,512.0
+954,Itel,False,False,False,Unisoc,Unisoc SC7731E,4.0,1.3,68.0,1.0,16.0,5000.0,6.5,1600 x 720 ,2.0,8.0,8.0,1.0,60.0,17.8,android,9.0,0.0,Not Slot,0.0
+955,Realme,False,False,False,Helio,Helio G35,8.0,2.3,61.0,2.0,32.0,5000.0,6.5,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,14.8,android,10.0,1.0,Dedicated,256.0
+956,Realme,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,61.0,2.0,32.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,14.8,android,11.0,1.0,Dedicated,256.0
+957,Tecno,False,False,False,Helio,Helio A22,4.0,2.0,61.8,2.0,32.0,5000.0,6.56,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,11.0,android,12.0,1.0,Dedicated,1024.0
+958,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,60.0,3.0,32.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,11.0,android,11.0,1.0,Dedicated,1024.0
+959,Tecno,False,False,False,Helio,Helio A22,4.0,2.0,61.0,2.0,32.0,5000.0,6.51,720 x 1600 ,2.0,13.0,8.0,1.0,60.0,14.8,android,11.0,1.0,Dedicated,256.0
+960,Gionee,False,False,False,Unisoc,Unisoc T310,4.0,2.0,74.4,4.0,32.0,3500.0,6.26,720 x 1600 ,2.0,13.0,5.0,1.0,60.0,18.2,other,2.0,1.0,Dedicated,256.0
+961,Xiaomi,False,False,False,Helio,Helio A22,4.0,2.0,61.4,2.0,32.0,5000.0,6.52,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,10.0,android,12.0,1.0,Dedicated,512.0
+962,Letv,False,False,False,Unisoc,Unisoc T610,4.0,1.8,60.0,6.0,64.0,4000.0,6.5,720 x 1560 ,2.0,8.0,5.0,1.0,60.0,10.0,android,11.0,0.0,Not Slot,0.0
+963,Micromax,False,False,False,Unisoc,Unisoc T610,8.0,1.8,60.0,3.0,32.0,5000.0,6.52,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,14.8,android,11.0,1.0,Dedicated,256.0
+964,Itel,False,False,False,Unisoc,Unisoc SC7731E,4.0,1.3,66.2,1.0,16.0,4000.0,6.5,1600 x 720 ,3.0,8.0,8.0,1.0,60.0,23.3,android,10.0,1.0,Dedicated,32.0
+965,Itel,False,False,False,Unisoc,Unisoc SC9832E,4.0,1.4,66.8,2.0,32.0,3020.0,5.0,854 x 480 ,1.0,2.0,0.3,1.0,60.0,18.8,android,12.0,1.0,Dedicated,128.0
+966,Itel,False,False,False,Unisoc,Unisoc A55,8.0,1.6,65.0,3.0,32.0,4000.0,6.09,1520 x 720 ,2.0,8.0,5.0,1.0,60.0,19.8,android,9.0,1.0,Dedicated,128.0
+967,Itel,False,False,False,Unisoc,Unisoc SC9863a,8.0,1.6,62.8,2.0,32.0,5000.0,6.6,1612 x 720 ,2.0,8.0,5.0,1.0,60.0,18.0,android,11.0,1.0,Dedicated,128.0
+968,Letv,False,False,False,Unisoc,Unisoc T310,4.0,2.0,68.6,4.0,32.0,4000.0,6.54,720 x 1560 ,2.0,8.0,5.0,1.0,60.0,32.9,android,11.0,0.0,Not Slot,0.0
+969,Itel,False,False,False,Unisoc,Unisoc SC7731E,4.0,1.3,73.0,1.0,16.0,4000.0,6.0,720 x 1600 ,2.0,8.0,5.0,1.0,60.0,14.0,android,9.0,1.0,Dedicated,512.0
+970,Realme,False,False,False,Unisoc,Unisoc T612,8.0,1.82,61.8,2.0,32.0,5000.0,6.5,720 x 1600 ,1.0,8.0,5.0,1.0,60.0,11.0,android,11.0,1.0,Dedicated,1024.0
+971,Nokia,False,False,False,Unisoc,Unisoc SC9863A,8.0,1.6,68.6,2.0,16.0,3000.0,5.45,720 x 1440 ,1.0,5.0,5.0,1.0,60.0,16.8,android,11.0,1.0,Dedicated,256.0
+972,Samsung,False,False,False,Snapdragon,Snapdragon QM215,4.0,1.3,68.6,1.0,16.0,3000.0,5.3,720 x 1480 ,1.0,8.0,5.0,1.0,60.0,16.8,android,10.0,1.0,Dedicated,256.0
+973,Itel,False,False,False,Unisoc,Unisoc SC9832E,4.0,1.4,68.2,2.0,32.0,3020.0,5.0,854 x 480 ,1.0,2.0,0.0,0.0,60.0,20.8,android,11.0,0.0,Not Slot,0.0
+974,Jio,False,False,False,Snapdragon,Snapdragon QM215,4.0,1.3,76.6,2.0,32.0,3500.0,5.45,720 x 1440 ,1.0,13.0,8.0,1.0,60.0,17.0,android,11.0,1.0,Dedicated,512.0
+975,Jio,False,False,False,Dimensity,Dimensity Generic,4.0,1.4,72.2,2.0,64.0,2800.0,5.0,720 x 1280 ,1.0,5.0,2.0,1.0,60.0,18.4,android,8.1,1.0,Dedicated,128.0
+976,Itel,False,False,False,Unisoc,Unisoc SC9832E,4.0,1.4,71.6,1.0,8.0,2400.0,5.0,854 x 480 ,1.0,5.0,2.0,1.0,60.0,16.8,android,10.0,0.0,Not Slot,0.0
+977,Lyf,False,False,False,Snapdragon,Snapdragon 615,8.0,1.5,60.0,3.0,32.0,3500.0,5.5,1080 x 1920 ,2.0,13.0,5.0,1.0,60.0,18.8,android,5.1,1.0,Hybird,64.0
+978,Lyf,False,False,False,Snapdragon,Snapdragon MSM8939,8.0,1.5,71.6,3.0,32.0,2500.0,5.0,1080 x 1920 ,1.0,13.0,13.0,1.0,60.0,17.8,android,5.1,1.0,Hybird,64.0
+979,Realme,False,False,False,Helio,Helio,8.0,2.0,63.0,3.0,32.0,4000.0,6.1,720 x 1560 ,2.0,13.0,5.0,1.0,60.0,19.8,android,9.0,1.0,Dedicated,128.0

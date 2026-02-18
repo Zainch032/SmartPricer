@@ -1,0 +1,1174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Price Predictor</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: #0f0f1a;
+        color: #e0e0f0;
+        min-height: 100vh;
+        padding: 30px 20px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 2rem;
+        background: linear-gradient(135deg, #7c3aed, #06b6d4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 8px;
+      }
+      .subtitle {
+        text-align: center;
+        color: #888;
+        margin-bottom: 30px;
+        font-size: 0.9rem;
+      }
+      .form-container {
+        max-width: 860px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .card {
+        background: #1a1a2e;
+        border: 1px solid #2a2a4a;
+        border-radius: 16px;
+        padding: 20px;
+      }
+      .card.full-width {
+        grid-column: 1 / -1;
+      }
+      .card h2 {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: #7c3aed;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      label {
+        display: block;
+        font-size: 0.78rem;
+        color: #aaa;
+        margin-bottom: 5px;
+        margin-top: 12px;
+      }
+      label:first-of-type {
+        margin-top: 0;
+      }
+      select,
+      input[type="number"] {
+        width: 100%;
+        background: #0f0f1a;
+        border: 1px solid #2a2a4a;
+        border-radius: 10px;
+        color: #e0e0f0;
+        padding: 10px 14px;
+        font-size: 0.9rem;
+        outline: none;
+        transition: border 0.2s;
+      }
+      select:focus,
+      input:focus {
+        border-color: #7c3aed;
+      }
+      select option {
+        background: #1a1a2e;
+      }
+      .toggles {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .toggle-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .toggle-label {
+        font-size: 0.88rem;
+        color: #ccc;
+      }
+      .toggle {
+        position: relative;
+        width: 44px;
+        height: 24px;
+      }
+      .toggle input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #2a2a4a;
+        border-radius: 24px;
+        transition: 0.3s;
+      }
+      .slider:before {
+        content: "";
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        left: 3px;
+        bottom: 3px;
+        background: white;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+      input:checked + .slider {
+        background: #7c3aed;
+      }
+      input:checked + .slider:before {
+        transform: translateX(20px);
+      }
+      .proc-brands {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      .brand-pill {
+        padding: 8px 20px;
+        border-radius: 30px;
+        font-size: 0.85rem;
+        cursor: pointer;
+        border: 1px solid #2a2a4a;
+        background: #0f0f1a;
+        color: #ccc;
+        transition: all 0.2s;
+        user-select: none;
+      }
+      .brand-pill:hover {
+        border-color: #7c3aed;
+        color: #c4b5fd;
+      }
+      .brand-pill.active {
+        background: #7c3aed;
+        border-color: #7c3aed;
+        color: white;
+        font-weight: 600;
+      }
+      .proc-model-panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.35s ease;
+        background: #0f0f1a;
+        border-radius: 12px;
+      }
+      .proc-model-panel.open {
+        max-height: 220px;
+      }
+      .proc-model-inner {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        overflow-y: auto;
+        max-height: 200px;
+      }
+      .model-chip {
+        padding: 7px 14px;
+        border-radius: 20px;
+        font-size: 0.82rem;
+        cursor: pointer;
+        border: 1px solid #2a2a4a;
+        background: #1a1a2e;
+        color: #aaa;
+        transition: all 0.15s;
+        user-select: none;
+      }
+      .model-chip:hover {
+        border-color: #06b6d4;
+        color: #67e8f9;
+      }
+      .model-chip.selected {
+        background: #0e3a45;
+        border-color: #06b6d4;
+        color: #06b6d4;
+        font-weight: 600;
+      }
+      .auto-filled {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 12px;
+      }
+      .auto-filled.visible {
+        display: grid;
+      }
+      .auto-field {
+        background: #0f0f1a;
+        border: 1px dashed #2a2a4a;
+        border-radius: 10px;
+        padding: 10px 14px;
+        transition: border 0.3s;
+      }
+      .auto-field.filled {
+        border-color: #06b6d4;
+      }
+      .auto-field .af-label {
+        font-size: 0.72rem;
+        color: #555;
+        margin-bottom: 3px;
+      }
+      .auto-field .af-value {
+        font-size: 0.95rem;
+        color: #c4b5fd;
+        font-weight: 700;
+      }
+      .auto-badge {
+        font-size: 0.65rem;
+        background: #3b1f6e;
+        color: #c4b5fd;
+        padding: 2px 7px;
+        border-radius: 20px;
+        margin-left: 4px;
+      }
+      .cam-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .predict-wrap {
+        grid-column: 1 / -1;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .predict-btn {
+        background: linear-gradient(135deg, #7c3aed, #06b6d4);
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 14px 60px;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        transition: all 0.2s;
+      }
+      .predict-btn:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px #7c3aed44;
+      }
+      .predict-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+      }
+      .result-card {
+        grid-column: 1 / -1;
+        background: linear-gradient(135deg, #1e1040, #0e2a3a);
+        border: 1px solid #7c3aed;
+        border-radius: 16px;
+        padding: 28px;
+        text-align: center;
+        display: none;
+      }
+      .result-card.show {
+        display: block;
+        animation: fadeIn 0.4s ease;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      .result-label {
+        font-size: 0.8rem;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .result-price {
+        font-size: 3rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #c4b5fd, #06b6d4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 10px 0 4px;
+      }
+      .result-note {
+        font-size: 0.82rem;
+        color: #555;
+      }
+      .error-msg {
+        color: #f87171;
+        font-size: 0.85rem;
+        margin-top: 8px;
+        display: none;
+      }
+      .spinner {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border: 2px solid #ffffff44;
+        border-top-color: white;
+        border-radius: 50%;
+        animation: spin 0.6s linear infinite;
+        vertical-align: middle;
+        margin-right: 8px;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f0f1a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3b1f6e;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📱 Phone Price Predictor</h1>
+    <p class="subtitle">
+      Fill in the specs — processor details auto-fill when you select a model
+    </p>
+
+    <div class="form-container">
+      <div class="card">
+        <h2>🏷️ Brand & Basic</h2>
+        <label>Brand</label>
+        <select id="brand">
+          <option value="">Select Brand</option>
+          <option>Xiaomi</option>
+          <option>Huawei</option>
+          <option>Apple</option>
+          <option>Samsung</option>
+          <option>Royole</option>
+          <option>Sony</option>
+          <option>Oppo</option>
+          <option>Leitz</option>
+          <option>Vivo</option>
+          <option>Asus</option>
+          <option>Honor</option>
+          <option>Google</option>
+          <option>Lg</option>
+          <option>Oneplus</option>
+          <option>Tesla</option>
+          <option>Iqoo</option>
+          <option>Zte</option>
+          <option>Nubia</option>
+          <option>Motorola</option>
+          <option>Lenovo</option>
+          <option>Sharp</option>
+          <option>Tecno</option>
+          <option>Nokia</option>
+          <option>Realme</option>
+          <option>Doogee</option>
+          <option>Poco</option>
+          <option>Nothing</option>
+          <option>Infinix</option>
+          <option>Oukitel</option>
+          <option>Redmi</option>
+          <option>Lava</option>
+          <option>Cat</option>
+          <option>Cola</option>
+          <option>Blu</option>
+          <option>Jio</option>
+          <option>Leeco</option>
+          <option>Duoqin</option>
+          <option>Blackview</option>
+          <option>Tcl</option>
+          <option>Ikall</option>
+          <option>Micromax</option>
+          <option>Gionee</option>
+          <option>Letv</option>
+          <option>Itel</option>
+          <option>Lyf</option>
+        </select>
+
+        <label>RAM (GB)</label>
+        <select id="ram">
+          <option value="">Select RAM</option>
+          <option>0.5</option>
+          <option>1.0</option>
+          <option>2.0</option>
+          <option>3.0</option>
+          <option>3.6</option>
+          <option>4.0</option>
+          <option>6.0</option>
+          <option>8.0</option>
+          <option>10.4</option>
+          <option>12.0</option>
+          <option>16.0</option>
+          <option>18.0</option>
+        </select>
+
+        <label>Internal Memory (GB)</label>
+        <select id="memory">
+          <option value="">Select Storage</option>
+          <option>4.0</option>
+          <option>8.0</option>
+          <option>16.0</option>
+          <option>32.0</option>
+          <option>64.0</option>
+          <option>128.0</option>
+          <option>256.0</option>
+          <option>512.0</option>
+          <option>1024.0</option>
+        </select>
+
+        <label>Battery (mAh)</label>
+        <select id="battery">
+          <option value="">Select Battery</option>
+          <option>1500</option>
+          <option>2000</option>
+          <option>2500</option>
+          <option>3000</option>
+          <option>3500</option>
+          <option>4000</option>
+          <option>4500</option>
+          <option>5000</option>
+          <option>5500</option>
+          <option>6000</option>
+          <option>7000</option>
+          <option>8000</option>
+        </select>
+      </div>
+
+      <div class="card">
+        <h2>📡 Connectivity</h2>
+        <div class="toggles">
+          <div class="toggle-row">
+            <span class="toggle-label">5G Support</span
+            ><label class="toggle"
+              ><input type="checkbox" id="has5g" /><span class="slider"></span
+            ></label>
+          </div>
+          <div class="toggle-row">
+            <span class="toggle-label">NFC</span
+            ><label class="toggle"
+              ><input type="checkbox" id="hasNfc" /><span class="slider"></span
+            ></label>
+          </div>
+          <div class="toggle-row">
+            <span class="toggle-label">IR Blaster</span
+            ><label class="toggle"
+              ><input type="checkbox" id="hasIr" /><span class="slider"></span
+            ></label>
+          </div>
+          <div class="toggle-row">
+            <span class="toggle-label">Fast Charging</span
+            ><label class="toggle"
+              ><input
+                type="checkbox"
+                id="hasFast"
+                onchange="toggleFastW()" /><span class="slider"></span
+            ></label>
+          </div>
+          <div class="toggle-row">
+            <span class="toggle-label">Memory Card Slot</span
+            ><label class="toggle"
+              ><input
+                type="checkbox"
+                id="hasCard"
+                onchange="toggleSlot()" /><span class="slider"></span
+            ></label>
+          </div>
+        </div>
+        <div id="fastWrap" style="display: none">
+          <label style="margin-top: 18px">Fast Charge Wattage (W)</label>
+          <input
+            type="number"
+            id="fastChargeW"
+            placeholder="e.g. 67"
+            min="0"
+            max="240"
+          />
+        </div>
+        <div id="slotWrap" style="display: none">
+          <label style="margin-top: 12px">Slot Type</label>
+          <select id="slotType">
+            <option value="Dedicated">Dedicated</option>
+            <option value="Hybird">Hybrid</option>
+          </select>
+          <label>Expandable Storage (GB)</label>
+          <select id="capacityGB">
+            <option value="128">128</option>
+            <option value="256">256</option>
+            <option value="512">512</option>
+            <option value="1024">1024</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="card full-width">
+        <h2>
+          ⚙️ Processor
+          <span class="auto-badge">Core & Speed auto-fill on selection</span>
+        </h2>
+        <label>Step 1 — Pick processor brand</label>
+        <div class="proc-brands" id="procBrands"></div>
+        <label id="modelLabel" style="display: none; margin-top: 10px"
+          >Step 2 — Pick exact model</label
+        >
+        <div class="proc-model-panel" id="procModelPanel">
+          <div class="proc-model-inner" id="procModelInner"></div>
+        </div>
+        <div class="auto-filled" id="autoFilled" style="margin-top: 14px">
+          <div class="auto-field" id="coreBox">
+            <div class="af-label">Processor Core (auto-filled)</div>
+            <div class="af-value" id="autoCore">—</div>
+          </div>
+          <div class="auto-field" id="speedBox">
+            <div class="af-label">Processor Speed GHz (auto-filled)</div>
+            <div class="af-value" id="autoSpeed">—</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card full-width">
+        <h2>📸 Camera</h2>
+        <div class="cam-grid">
+          <div>
+            <label>Back Camera MP</label>
+            <select id="backMP">
+              <option value="">Select</option>
+              <option>2.0</option>
+              <option>5.0</option>
+              <option>8.0</option>
+              <option>12.0</option>
+              <option>12.2</option>
+              <option>13.0</option>
+              <option>16.0</option>
+              <option>20.0</option>
+              <option>24.0</option>
+              <option>40.0</option>
+              <option>47.2</option>
+              <option>48.0</option>
+              <option>50.0</option>
+              <option>50.3</option>
+              <option>54.0</option>
+              <option>64.0</option>
+              <option>108.0</option>
+              <option>200.0</option>
+            </select>
+          </div>
+          <div>
+            <label>No. of Back Cameras</label>
+            <select id="numBack">
+              <option value="">Select</option>
+              <option>1.0</option>
+              <option>2.0</option>
+              <option>3.0</option>
+              <option>4.0</option>
+              <option>5.0</option>
+            </select>
+          </div>
+          <div>
+            <label>Front Camera MP</label>
+            <select id="frontMP">
+              <option value="">Select</option>
+              <option>0.0</option>
+              <option>0.3</option>
+              <option>2.0</option>
+              <option>5.0</option>
+              <option>7.0</option>
+              <option>8.0</option>
+              <option>10.0</option>
+              <option>10.1</option>
+              <option>10.7</option>
+              <option>10.8</option>
+              <option>11.1</option>
+              <option>12.0</option>
+              <option>12.6</option>
+              <option>13.0</option>
+              <option>16.0</option>
+              <option>20.0</option>
+              <option>24.0</option>
+              <option>25.0</option>
+              <option>32.0</option>
+              <option>40.0</option>
+              <option>44.0</option>
+              <option>48.0</option>
+              <option>50.0</option>
+              <option>60.0</option>
+            </select>
+          </div>
+          <div>
+            <label>No. of Front Cameras</label>
+            <select id="numFront">
+              <option value="">Select</option>
+              <option>0.0</option>
+              <option>1.0</option>
+              <option>2.0</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🖥️ Display</h2>
+        <label>Screen Size (inches)</label>
+        <select id="screenSize">
+          <option value="">Select</option>
+          <option>4.7</option>
+          <option>5.0</option>
+          <option>5.4</option>
+          <option>5.5</option>
+          <option>6.0</option>
+          <option>6.1</option>
+          <option>6.2</option>
+          <option>6.3</option>
+          <option>6.4</option>
+          <option>6.5</option>
+          <option>6.6</option>
+          <option>6.7</option>
+          <option>6.8</option>
+          <option>6.9</option>
+          <option>7.0</option>
+          <option>7.2</option>
+          <option>7.6</option>
+          <option>8.0</option>
+        </select>
+        <label>Refresh Rate (Hz)</label>
+        <select id="refreshRate">
+          <option value="">Select</option>
+          <option>60.0</option>
+          <option>90.0</option>
+          <option>120.0</option>
+          <option>144.0</option>
+          <option>165.0</option>
+          <option>240.0</option>
+        </select>
+        <label>Resolution</label>
+        <select id="resolution">
+          <option value="">Select</option>
+          <option value="720&#8201;x&#8201;1280&#8201;">HD (720×1280)</option>
+          <option value="720&#8201;x&#8201;1520&#8201;">HD+ (720×1520)</option>
+          <option value="720&#8201;x&#8201;1600&#8201;">HD+ (720×1600)</option>
+          <option value="720&#8201;x&#8201;1640&#8201;">HD+ (720×1640)</option>
+          <option value="1080&#8201;x&#8201;2160&#8201;">
+            FHD (1080×2160)
+          </option>
+          <option value="1080&#8201;x&#8201;2280&#8201;">
+            FHD+ (1080×2280)
+          </option>
+          <option value="1080&#8201;x&#8201;2340&#8201;">
+            FHD+ (1080×2340)
+          </option>
+          <option value="1080&#8201;x&#8201;2400&#8201;">
+            FHD+ (1080×2400)
+          </option>
+          <option value="1080&#8201;x&#8201;2460&#8201;">
+            FHD+ (1080×2460)
+          </option>
+          <option value="1080&#8201;x&#8201;2520&#8201;">
+            FHD+ (1080×2520)
+          </option>
+          <option value="1080&#8201;x&#8201;2640&#8201;">
+            FHD+ (1080×2640)
+          </option>
+          <option value="1440&#8201;x&#8201;3040&#8201;">
+            QHD+ (1440×3040)
+          </option>
+          <option value="1440&#8201;x&#8201;3120&#8201;">
+            QHD+ (1440×3120)
+          </option>
+          <option value="1440&#8201;x&#8201;3200&#8201;">
+            QHD+ (1440×3200)
+          </option>
+          <option value="1290&#8201;x&#8201;2796&#8201;">
+            Super Retina XDR (1290×2796)
+          </option>
+          <option value="1179&#8201;x&#8201;2556&#8201;">
+            Super Retina XDR (1179×2556)
+          </option>
+          <option value="1170&#8201;x&#8201;2532&#8201;">
+            Super Retina XDR (1170×2532)
+          </option>
+          <option value="1284&#8201;x&#8201;2778&#8201;">
+            Super Retina XDR (1284×2778)
+          </option>
+        </select>
+      </div>
+
+      <div class="card">
+        <h2>🗂️ OS</h2>
+        <label>OS</label>
+        <select id="osName">
+          <option value="">Select OS</option>
+          <option value="android">Android</option>
+          <option value="ios">iOS</option>
+          <option value="other">Other</option>
+        </select>
+        <label>OS Version</label>
+        <input
+          type="number"
+          id="osVersion"
+          placeholder="e.g. 13"
+          min="1"
+          max="17"
+          step="1"
+        />
+        <label>User Rating</label>
+        <select id="rating">
+          <option value="4.0">4.0</option>
+          <option value="3.5">3.5</option>
+          <option value="4.1">4.1</option>
+          <option value="4.2">4.2</option>
+          <option value="4.3">4.3</option>
+          <option value="4.4">4.4</option>
+          <option value="4.5">4.5</option>
+        </select>
+      </div>
+
+      <div class="predict-wrap">
+        <button class="predict-btn" id="predictBtn" onclick="predict()">
+          ⚡ Predict Price
+        </button>
+        <div class="error-msg" id="errorMsg"></div>
+      </div>
+
+      <div class="result-card" id="resultCard">
+        <div class="result-label">Estimated Price</div>
+        <div class="result-price" id="resultPrice">₹ —</div>
+        
+      </div>
+    </div>
+
+    <script>
+      // ── Processor data — exact values from df["Processor_Name"].unique() ──
+      const processorData = {
+        Snapdragon: [
+          { name: "Snapdragon 210", model: "Snapdragon", core: 4, speed: 1.1 },
+          { name: "Snapdragon 215", model: "Snapdragon", core: 4, speed: 1.3 },
+          { name: "Snapdragon 425", model: "Snapdragon", core: 4, speed: 1.4 },
+          { name: "Snapdragon 439", model: "Snapdragon", core: 8, speed: 1.95 },
+          { name: "Snapdragon 450", model: "Snapdragon", core: 8, speed: 1.8 },
+          { name: "Snapdragon 460", model: "Snapdragon", core: 8, speed: 1.8 },
+          { name: "Snapdragon 480+", model: "Snapdragon", core: 8, speed: 2.2 },
+          { name: "Snapdragon 480", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 615", model: "Snapdragon", core: 8, speed: 1.7 },
+          { name: "Snapdragon 625", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 662", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 665", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 670", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 675", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 678", model: "Snapdragon", core: 8, speed: 2.2 },
+          { name: "Snapdragon 680", model: "Snapdragon", core: 8, speed: 2.4 },
+          { name: "Snapdragon 690", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 695", model: "Snapdragon", core: 8, speed: 2.2 },
+          { name: "Snapdragon 710", model: "Snapdragon", core: 8, speed: 2.2 },
+          { name: "Snapdragon 712", model: "Snapdragon", core: 8, speed: 2.3 },
+          { name: "Snapdragon 720G", model: "Snapdragon", core: 8, speed: 2.3 },
+          { name: "Snapdragon 730G", model: "Snapdragon", core: 8, speed: 2.2 },
+          { name: "Snapdragon 730", model: "Snapdragon", core: 8, speed: 2.2 },
+          { name: "Snapdragon 732G", model: "Snapdragon", core: 8, speed: 2.3 },
+          { name: "Snapdragon 750G", model: "Snapdragon", core: 8, speed: 2.2 },
+          { name: "Snapdragon 765G", model: "Snapdragon", core: 8, speed: 2.4 },
+          { name: "Snapdragon 775", model: "Snapdragon", core: 8, speed: 2.4 },
+          {
+            name: "Snapdragon 778G+",
+            model: "Snapdragon",
+            core: 8,
+            speed: 2.5,
+          },
+          { name: "Snapdragon 778G", model: "Snapdragon", core: 8, speed: 2.4 },
+          { name: "Snapdragon 782G", model: "Snapdragon", core: 8, speed: 2.7 },
+          { name: "Snapdragon 810", model: "Snapdragon", core: 8, speed: 2.0 },
+          { name: "Snapdragon 835", model: "Snapdragon", core: 8, speed: 2.45 },
+          { name: "Snapdragon 845", model: "Snapdragon", core: 8, speed: 2.8 },
+          {
+            name: "Snapdragon 855+",
+            model: "Snapdragon",
+            core: 8,
+            speed: 2.96,
+          },
+          { name: "Snapdragon 855", model: "Snapdragon", core: 8, speed: 2.88 },
+          { name: "Snapdragon 860", model: "Snapdragon", core: 8, speed: 2.96 },
+          { name: "Snapdragon 865", model: "Snapdragon", core: 8, speed: 2.84 },
+          { name: "Snapdragon 870", model: "Snapdragon", core: 8, speed: 3.2 },
+          {
+            name: "Snapdragon 888+",
+            model: "Snapdragon",
+            core: 8,
+            speed: 2.99,
+          },
+          { name: "Snapdragon 888", model: "Snapdragon", core: 8, speed: 2.84 },
+          {
+            name: "Snapdragon 4 Gen 1",
+            model: "Snapdragon",
+            core: 8,
+            speed: 2.0,
+          },
+          {
+            name: "Snapdragon 6 Gen 1",
+            model: "Snapdragon",
+            core: 8,
+            speed: 2.2,
+          },
+          {
+            name: "Snapdragon 7 Gen1",
+            model: "Snapdragon",
+            core: 8,
+            speed: 2.4,
+          },
+          {
+            name: "Snapdragon 7 Gen2",
+            model: "Snapdragon",
+            core: 8,
+            speed: 2.91,
+          },
+          {
+            name: "Snapdragon 8 Gen1",
+            model: "Snapdragon",
+            core: 8,
+            speed: 3.0,
+          },
+          {
+            name: "Snapdragon 8+ Gen1",
+            model: "Snapdragon",
+            core: 8,
+            speed: 3.2,
+          },
+          {
+            name: "Snapdragon 8 Gen2",
+            model: "Snapdragon",
+            core: 8,
+            speed: 3.2,
+          },
+          {
+            name: "Snapdragon 8+ Gen 2",
+            model: "Snapdragon",
+            core: 8,
+            speed: 3.36,
+          },
+          { name: "Sanpdragon 680", model: "Snapdragon", core: 8, speed: 2.4 },
+          {
+            name: "Snapdragon QM215",
+            model: "Snapdragon",
+            core: 4,
+            speed: 1.3,
+          },
+          {
+            name: "Snapdragon MSM8939",
+            model: "Snapdragon",
+            core: 8,
+            speed: 1.5,
+          },
+        ],
+        Dimensity: [
+          { name: "Dimensity 700 5G", model: "Dimensity", core: 8, speed: 2.2 },
+          { name: "Dimensity 700", model: "Dimensity", core: 8, speed: 2.2 },
+          { name: "Dimensity 720", model: "Dimensity", core: 8, speed: 2.0 },
+          { name: "Dimensity 800U", model: "Dimensity", core: 8, speed: 2.4 },
+          { name: "Dimensity 810 5G", model: "Dimensity", core: 8, speed: 2.4 },
+          { name: "Dimensity 810", model: "Dimensity", core: 8, speed: 2.4 },
+          { name: "Dimensity 900 5G", model: "Dimensity", core: 8, speed: 2.4 },
+          { name: "Dimensity 900", model: "Dimensity", core: 8, speed: 2.4 },
+          { name: "Dimensity 920 5G", model: "Dimensity", core: 8, speed: 2.5 },
+          { name: "Dimensity 930", model: "Dimensity", core: 8, speed: 2.2 },
+          { name: "Dimensity 1000+", model: "Dimensity", core: 8, speed: 2.6 },
+          { name: "Dimensity 1080", model: "Dimensity", core: 8, speed: 2.6 },
+          {
+            name: "Dimensity 1100 5G",
+            model: "Dimensity",
+            core: 8,
+            speed: 2.6,
+          },
+          {
+            name: "Dimensity 1200 Max",
+            model: "Dimensity",
+            core: 8,
+            speed: 3.0,
+          },
+          { name: "Dimensity 1200", model: "Dimensity", core: 8, speed: 3.0 },
+          { name: "Dimensity 1300", model: "Dimensity", core: 8, speed: 3.0 },
+          {
+            name: "Dimensity 8100 Ultra",
+            model: "Dimensity",
+            core: 8,
+            speed: 2.85,
+          },
+          {
+            name: "Dimensity 8100 Max",
+            model: "Dimensity",
+            core: 8,
+            speed: 2.85,
+          },
+          {
+            name: "Dimensity 8100-Max",
+            model: "Dimensity",
+            core: 8,
+            speed: 2.85,
+          },
+          { name: "Dimensity 8100", model: "Dimensity", core: 8, speed: 2.85 },
+          { name: "Dimensity 8200", model: "Dimensity", core: 8, speed: 3.1 },
+          { name: "Dimensity 9000", model: "Dimensity", core: 8, speed: 3.05 },
+          { name: "Dimensity 9200", model: "Dimensity", core: 8, speed: 3.05 },
+          {
+            name: "Dimensity Generic",
+            model: "Dimensity",
+            core: 8,
+            speed: 2.0,
+          },
+        ],
+        Kirin: [
+          { name: "Kirin 659", model: "Kirin", core: 8, speed: 2.36 },
+          { name: "Kirin 710", model: "Kirin", core: 8, speed: 2.2 },
+          { name: "Kirin 810", model: "Kirin", core: 8, speed: 2.27 },
+          { name: "Kirin 990", model: "Kirin", core: 8, speed: 2.86 },
+          { name: "Kirin 9000", model: "Kirin", core: 8, speed: 3.13 },
+          { name: "Kirin 9000E", model: "Kirin", core: 8, speed: 3.13 },
+        ],
+        Bionic: [
+          { name: "Bionic A13", model: "Bionic", core: 6, speed: 2.65 },
+          { name: "Bionic A14", model: "Bionic", core: 6, speed: 3.1 },
+          { name: "Bionic A15", model: "Bionic", core: 6, speed: 3.23 },
+          { name: "Bionic A16", model: "Bionic", core: 6, speed: 3.46 },
+          { name: "Bionic A17", model: "Bionic", core: 6, speed: 3.77 },
+          { name: "Bionic A", model: "Bionic", core: 6, speed: 2.5 },
+        ],
+        Exynos: [
+          { name: "Exynos 7885", model: "Exynos", core: 8, speed: 2.2 },
+          { name: "Exynos 7904", model: "Exynos", core: 8, speed: 1.8 },
+          { name: "Exynos 9611", model: "Exynos", core: 8, speed: 2.3 },
+          { name: "Exynos 9810", model: "Exynos", core: 8, speed: 2.9 },
+          { name: "Exynos 9820", model: "Exynos", core: 8, speed: 2.73 },
+          { name: "Exynos 9825", model: "Exynos", core: 8, speed: 2.73 },
+          { name: "Exynos 990", model: "Exynos", core: 8, speed: 2.73 },
+          { name: "Exynos 1200", model: "Exynos", core: 8, speed: 2.4 },
+          { name: "Exynos 1280", model: "Exynos", core: 8, speed: 2.4 },
+          { name: "Exynos 1330", model: "Exynos", core: 8, speed: 2.4 },
+          { name: "Exynos 1380", model: "Exynos", core: 8, speed: 2.4 },
+          { name: "Exynos 2100", model: "Exynos", core: 8, speed: 2.9 },
+          { name: "Exynos 2200", model: "Exynos", core: 8, speed: 2.8 },
+          { name: "Exynos 2300", model: "Exynos", core: 8, speed: 3.36 },
+          { name: "Exynos 850", model: "Exynos", core: 8, speed: 2.0 },
+          { name: "Exynos Exynos 7885", model: "Exynos", core: 8, speed: 2.2 },
+        ],
+        Tensor: [
+          { name: "Tensor", model: "Tensor", core: 8, speed: 2.8 },
+          { name: "Tensor G2", model: "Tensor", core: 8, speed: 2.85 },
+          { name: "Tensor 3", model: "Tensor", core: 8, speed: 3.0 },
+        ],
+        Helio: [
+          { name: "Helio A22", model: "Helio", core: 4, speed: 2.0 },
+          { name: "Helio A25", model: "Helio", core: 8, speed: 1.8 },
+          { name: "Helio G25", model: "Helio", core: 8, speed: 2.0 },
+          { name: "Helio G35", model: "Helio", core: 8, speed: 2.3 },
+          { name: "Helio G37", model: "Helio", core: 8, speed: 2.3 },
+          { name: "Helio G70", model: "Helio", core: 8, speed: 2.0 },
+          { name: "Helio G80", model: "Helio", core: 8, speed: 2.0 },
+          { name: "Helio G85", model: "Helio", core: 8, speed: 2.0 },
+          { name: "Helio G88", model: "Helio", core: 8, speed: 2.0 },
+          { name: "Helio G90T", model: "Helio", core: 8, speed: 2.05 },
+          { name: "Helio G95", model: "Helio", core: 8, speed: 2.05 },
+          { name: "Helio G96", model: "Helio", core: 8, speed: 2.05 },
+          { name: "Helio G99", model: "Helio", core: 8, speed: 2.2 },
+          { name: "Helio MT6580", model: "Helio", core: 4, speed: 1.3 },
+          { name: "Helio", model: "Helio", core: 8, speed: 2.0 },
+        ],
+        Unisoc: [
+          { name: "Unisoc T107", model: "Unisoc", core: 4, speed: 1.6 },
+          { name: "Unisoc T310", model: "Unisoc", core: 4, speed: 2.0 },
+          { name: "Unisoc T606", model: "Unisoc", core: 8, speed: 1.6 },
+          { name: "Unisoc T610", model: "Unisoc", core: 8, speed: 1.8 },
+          { name: "Unisoc T612", model: "Unisoc", core: 8, speed: 1.8 },
+          { name: "Unisoc T616", model: "Unisoc", core: 8, speed: 1.8 },
+          { name: "Unisoc T700", model: "Unisoc", core: 8, speed: 1.8 },
+          { name: "Unisoc T7150", model: "Unisoc", core: 8, speed: 2.0 },
+          { name: "Unisoc SC7731", model: "Unisoc", core: 4, speed: 1.3 },
+          { name: "Unisoc SC7731E", model: "Unisoc", core: 4, speed: 1.3 },
+          { name: "Unisoc SC9832E", model: "Unisoc", core: 4, speed: 1.4 },
+          { name: "Unisoc SC9836A", model: "Unisoc", core: 4, speed: 1.5 },
+          { name: "Unisoc SC9863A", model: "Unisoc", core: 8, speed: 1.6 },
+          { name: "Unisoc SC9863a", model: "Unisoc", core: 8, speed: 1.6 },
+          { name: "Unisoc A55", model: "Unisoc", core: 8, speed: 1.8 },
+          { name: "Unisoc Generic", model: "Unisoc", core: 8, speed: 1.6 },
+          { name: "Unisoc", model: "Unisoc", core: 8, speed: 1.6 },
+        ],
+        Tesla: [
+          { name: "Tesla Custom Chip", model: "Tesla", core: 8, speed: 2.0 },
+        ],
+      };
+
+      let activeBrand = null;
+      let selectedProc = null;
+
+      // Build brand pills immediately
+      function buildBrandPills() {
+        const brandsEl = document.getElementById("procBrands");
+        brandsEl.innerHTML = "";
+        Object.keys(processorData).forEach((brand) => {
+          const pill = document.createElement("div");
+          pill.className = "brand-pill";
+          pill.textContent = brand;
+          pill.onclick = () => selectBrand(brand, pill);
+          brandsEl.appendChild(pill);
+        });
+      }
+      buildBrandPills();
+
+      function selectBrand(brand, pill) {
+        if (activeBrand === brand) {
+          activeBrand = null;
+          pill.classList.remove("active");
+          closeModelPanel();
+          return;
+        }
+        document
+          .querySelectorAll(".brand-pill")
+          .forEach((p) => p.classList.remove("active"));
+        pill.classList.add("active");
+        activeBrand = brand;
+        openModelPanel(brand);
+      }
+
+      function openModelPanel(brand) {
+        const inner = document.getElementById("procModelInner");
+        inner.innerHTML = processorData[brand]
+          .map(
+            (m) =>
+              `<div class="model-chip ${selectedProc && selectedProc.name === m.name ? "selected" : ""}"
+          onclick="selectModel('${brand}','${m.name}')">${m.name}</div>`,
+          )
+          .join("");
+        document.getElementById("modelLabel").style.display = "block";
+        document.getElementById("procModelPanel").classList.add("open");
+      }
+
+      function closeModelPanel() {
+        document.getElementById("procModelPanel").classList.remove("open");
+        document.getElementById("modelLabel").style.display = "none";
+      }
+
+      function selectModel(brand, modelName) {
+        selectedProc = processorData[brand].find((m) => m.name === modelName);
+        document
+          .querySelectorAll(".model-chip")
+          .forEach((c) =>
+            c.classList.toggle("selected", c.textContent === modelName),
+          );
+        document.getElementById("autoCore").textContent =
+          selectedProc.core + " cores";
+        document.getElementById("autoSpeed").textContent =
+          selectedProc.speed + " GHz";
+        document.getElementById("coreBox").classList.add("filled");
+        document.getElementById("speedBox").classList.add("filled");
+        document.getElementById("autoFilled").classList.add("visible");
+      }
+
+      function toggleFastW() {
+        document.getElementById("fastWrap").style.display =
+          document.getElementById("hasFast").checked ? "block" : "none";
+      }
+
+      function toggleSlot() {
+        document.getElementById("slotWrap").style.display =
+          document.getElementById("hasCard").checked ? "block" : "none";
+      }
+
+      async function predict() {
+        const btn = document.getElementById("predictBtn");
+        const errEl = document.getElementById("errorMsg");
+        errEl.style.display = "none";
+
+        const payload = {
+          Brand: document.getElementById("brand").value,
+          Has_5G: document.getElementById("has5g").checked ? 1 : 0,
+          Has_NFC: document.getElementById("hasNfc").checked ? 1 : 0,
+          Has_IR_Blaster: document.getElementById("hasIr").checked ? 1 : 0,
+          Processor_Model: selectedProc ? selectedProc.model : "",
+          Processor_Core: selectedProc ? selectedProc.core : 0,
+          Processor_Speed: selectedProc ? selectedProc.speed : 0,
+          rating: parseFloat(document.getElementById("rating").value) || 4.0,
+          Ram: parseFloat(document.getElementById("ram").value) || 0,
+          Memory: parseFloat(document.getElementById("memory").value) || 0,
+          Battery: parseFloat(document.getElementById("battery").value) || 0,
+          Screen_size:
+            parseFloat(document.getElementById("screenSize").value) || 0,
+          Resolution: document.getElementById("resolution").value,
+          Num_Back_Cam:
+            parseFloat(document.getElementById("numBack").value) || 0,
+          Back_Camera_MP:
+            parseFloat(document.getElementById("backMP").value) || 0,
+          Front_CAM_MP:
+            parseFloat(document.getElementById("frontMP").value) || 0,
+          Num_Front_Cam:
+            parseFloat(document.getElementById("numFront").value) || 0,
+          Refresh_Rate:
+            parseFloat(document.getElementById("refreshRate").value) || 60,
+          Fast_Charge: document.getElementById("hasFast").checked
+            ? parseFloat(document.getElementById("fastChargeW").value) || 0
+            : 0,
+          OS_Name: document.getElementById("osName").value,
+          os_version:
+            parseFloat(document.getElementById("osVersion").value) || 0,
+          card_support: document.getElementById("hasCard").checked ? 1 : 0,
+          slot_type: document.getElementById("hasCard").checked
+            ? document.getElementById("slotType").value
+            : "Not Slot",
+          capacity_gb: document.getElementById("hasCard").checked
+            ? parseFloat(document.getElementById("capacityGB").value) || 0
+            : 0,
+        };
+
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spinner"></span> Predicting...';
+
+        try {
+          const res = await fetch("/predict", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+          if (!res.ok) {
+            const err = await res.json();
+            throw new Error(err.detail || "Server error");
+          }
+          const data = await res.json();
+          showResult(data.predicted_price);
+        } catch (err) {
+          errEl.textContent = "❌ " + err.message;
+          errEl.style.display = "block";
+        } finally {
+          btn.disabled = false;
+          btn.innerHTML = "⚡ Predict Price";
+        }
+      }
+
+      function showResult(price) {
+        const pkrRate = 3.5; // 1 INR ≈ 3.5 PKR (update if rate changes)
+        const pkrPrice = Math.round(price * pkrRate);
+        const card = document.getElementById("resultCard");
+        document.getElementById("resultPrice").textContent =
+          "₨ " + pkrPrice.toLocaleString("en-PK");
+        card.classList.add("show");
+        card.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    </script>
+  </body>
+</html>
