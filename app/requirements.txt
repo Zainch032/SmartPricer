@@ -1,7 +1,8 @@
 fastapi
-uvicorn[standard]
-pandas
-numpy
-scikit-learn
+uvicorn
 pydantic
-python-multipart
+numpy
+pandas
+scikit-learn
+xgboost
+pickle5
