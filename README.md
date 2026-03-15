@@ -6,6 +6,9 @@ A complete machine learning project that predicts smartphone prices based on tec
 
 ## 🧠 What I Did — End to End
 
+### 🔗 Live Demo
+- Hugging Face Space: [`SmartPricer` on Hugging Face](https://huggingface.co/spaces/Zainch032/Smart_Pricer)
+
 ### 1. 📊 Data Collection & Understanding
 - Collected a real-world smartphone dataset with **25+ features** covering brand, processor, camera, battery, display, OS, connectivity and storage specs
 - Used `df.info()` to check data types, null counts and memory usage
