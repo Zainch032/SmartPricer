@@ -8,7 +8,9 @@ WORKDIR /app
 COPY app/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
+# Copy app source and trained model
 COPY app/ /app/
+COPY model/model.joblib /model/model.joblib
 
 EXPOSE 7860
 

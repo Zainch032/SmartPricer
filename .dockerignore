@@ -1,0 +1,9 @@
+.git
+.gitattributes
+notebook/
+data/
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+train.py
+README.md
